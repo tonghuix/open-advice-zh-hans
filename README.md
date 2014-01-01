@@ -4,6 +4,8 @@ Open Advice
 This is the repository for the Open Advice book. You can find the LaTeX
 source of the book here.
 
+中文配置方法 <http://vistb.net/2012/05/config-latex-ch-env-in-ubuntu/>
+
 ## Building a PDF
 
 To build a pdf file out of the LaTeX source install pdflatex and run the
