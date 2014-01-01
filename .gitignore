@@ -1,0 +1,30 @@
+# artifacts
+Open-Advice.pdf
+Open-Advice.epub
+Open-Advice.mobi
+
+# projects and editors
+*.tdo
+*.toc
+*.out
+*.backup
+*.kate-swp
+*.sw?
+*.kilepr
+*~
+
+# (pdf)latex
+*.xmpi
+*.aux
+*.log
+
+# htlatex
+*.html
+*.css
+*.sty
+*.tmp
+*.4??
+*.lg
+*.xref
+*.dvi
+*.idv

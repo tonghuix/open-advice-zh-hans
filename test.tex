@@ -1,0 +1,98 @@
+ss[12pt,a4paper]{article}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{titlesec}
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+
+\titleformat{\section}{\Large\xbsong}{\thesection}{1em}{}
+
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+\newfontfamily\song{Simsun (Founder Extended)}
+\newfontfamily\bwei{FZBeiWeiKaiShu-S19S}
+\newfontfamily\zbhei{FZZhanBiHei-M22T}
+\newfontfamily\xzt{FZXiaoZhuanTi-S13T}
+\newfontfamily\xbsong{FZXiaoBiaoSong-B05}
+\newfontfamily\dbsong{FZDaBiaoSong-B06}
+\newfontfamily\gulif{FZGuLi-S12T}
+\newfontfamily\gulij{FZGuLi-S12S}
+\newfontfamily\kai{FZKai-Z03}
+\newfontfamily\hei{FZHei-B01}
+\newfontfamily\whei{WenQuanYi Zen Hei}
+\newfontfamily\fsong{FZFangSong-Z02}
+\newfontfamily\lanting{FZLanTingSong}
+\newfontfamily\boya{FZBoYaSong}
+\newfontfamily\lishu{FZLiShu-S01}
+\newfontfamily\lishuII{FZLiShu II-S06}
+\newfontfamily\yao{FZYaoTi-M06}
+\newfontfamily\zyuan{FZZhunYuan-M02}
+\newfontfamily\xhei{FZXiHei I-Z08}
+\newfontfamily\xkai{FZXingKai-S04}
+\newfontfamily\ssong{FZShuSong-Z01}
+\newfontfamily\bsong{FZBaoSong-Z04}
+\newfontfamily\nbsong{FZNew BaoSong-Z12}
+\newfontfamily\caiyun{FZCaiYun-M09}
+\newfontfamily\hanj{FZHanJian-R-GB}
+\newfontfamily\songI{FZSongYi-Z13}
+\newfontfamily\hcao{FZHuangCao-S09}
+\newfontfamily\wbei{FZWeiBei-S03}
+\newfontfamily\huali{FZHuaLi-M14}
+\setmainfont{FZLanTingSong}
+
+\renewcommand{\baselinestretch}{1.25}
+
+\begin{document}.
+
+\title{\whei XeTeX使用小结}
+\author{\fsong 何勃亮}
+\date{\kai2009年6月21日}
+
+\maketitle
+
+\section{简介}
+以前使用CJK进行中文的排版，需要自己生成字体库，近日，出现了XeTeX，可以比较好的解决中文字体问题，不需要额外
+生成LaTeX字体库，直接使用计算机系统里的字体。
+
+\section{字体列表}
+本文使用了大量本机自带的字体。
+
+
+\begin{table}[htbp]
+\caption{字体列表}
+
+\centering
+\begin{tabular}{|l|c|r|}
+\hline
+\hei 字体 & \hei 命令 & \hei 字体效果 \\
+\hline
+\kai 宋体 & \verb+\song+ & \song 宋体 \\
+\kai 楷体 & \verb+\kai+ & \kai 楷体 \\
+\kai 黑体 & \verb+\hei+ & \hei 黑体 \\
+\kai 仿宋体 & \verb+\fsong+ & \fsong 仿宋体 \\
+\kai 文泉驿黑体 & \verb+\whei+ & \whei 文泉驿黑体 \\
+\kai 书宋体 & \verb+\ssong+ & \ssong 书宋体 \\
+\kai 报宋体 & \verb+\bsong+ & \bsong 报宋体 \\
+\kai 新报宋体 & \verb+\nbsong+ & \nbsong 新报宋体 \\
+\kai 兰亭宋体 & \verb+\lanting+ & \lanting 兰亭宋体 \\
+\kai 博雅宋体 & \verb+\boya+ & \boya 博雅宋体 \\
+\kai 宋体一 & \verb+\songI+ & \songI 宋体一 \\
+\kai 隶书 & \verb+\lishu+ & \lishu 隶书 \\
+\kai 隶书二 & \verb+\lishuII+ & \lishuII 隶书二 \\
+\kai 古隶简体 & \verb+\gulij+ & \gulij 古隶简体 \\
+\kai 古隶繁体 & \verb+\gulif+ & \gulif 古隶繁体 \\
+\kai 华隶书 & \verb+\huali+ & \huali 华隶书 \\
+\kai 小标宋 & \verb+\xbsong+ & \xbsong 小标宋 \\
+\kai 大标宋 & \verb+\dbsong+ & \dbsong 大标宋 \\
+\kai 小篆体 & \verb+\xzt+ & \xzt 小篆体 \\
+\kai 姚体 & \verb+\yao+ & \yao 姚体 \\
+\kai 准圆 & \verb+\zyuan+ & \zyuan 准圆 \\
+\kai 细黑一 & \verb+\xhei+ & \xhei 细黑一 \\
+\kai 行楷书 & \verb+\xkai+ & \xkai 行楷书 \\
+\kai 彩云体 & \verb+\caiyun+ & \caiyun 彩云体 \\
+\kai 汉简书 & \verb+\hanj+ & \hanj 汉简书 \\
+\kai 魏碑体 & \verb+\wbei+ & \wbei 魏碑体 \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
