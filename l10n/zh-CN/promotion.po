@@ -1,0 +1,664 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 16.promotion\n"
+"POT-Creation-Date: 2014-01-06 14:50+0800\n"
+"PO-Revision-Date: 2014-01-06 18:35+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: promotion/StuartJarvis.tex:2
+msgid "Promotion"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:2
+msgid ""
+"\\chapterwithauthor{Stuart Jarvis}{Finding Your Feet in a Free Software "
+"Promotion Team}"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:12
+msgid ""
+"\\authorbio{Stuart Jarvis began working with the KDE Promotion Team in 2008 "
+"by writing articles for KDE's news website, KDE.News. He learned the hard "
+"way how to get things done in a free software community and got more "
+"involved with promotion team activities such as writing KDE's release "
+"announcements and getting articles about KDE software into the Linux press. "
+"He now sits on KDE's Marketing Working Group, helping to set the direction "
+"of KDE's promotion and marketing activities and helping new contributors to "
+"find their feet. He is also now part of the editorial team for KDE.News, "
+"where his involvement with KDE first began.}"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:15
+msgid ""
+"\\noindent{}``He who codes, decides'' is the mantra of free software "
+"development.  But what if there is no code? Or the he is a she?"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:20
+msgid ""
+"Joining the promotion and marketing team of your favorite free software "
+"project presents some special challenges. For new coders, most projects have "
+"code review systems, maintainers and pre-releases of software that all help "
+"to spot errors in code, making contributing your first patches less scary."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:26
+msgid ""
+"Promotion can require your work to be visible to the public, with minimal "
+"review, almost immediately. The non-hierarchical nature of free software "
+"communities means there often is not a single person you can turn to who "
+"will tell you whether your ideas are right and take some of the "
+"responsibility on your behalf."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/StuartJarvis.tex:28
+msgid "Getting consensus versus getting it done"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:36
+msgid ""
+"I first started contributing to KDE by writing articles for the official "
+"news site, KDE.News. I had written for news outlets before, but always had a "
+"named person to whom I would send a draft, receive feedback and then make "
+"changes as required. In the KDE promotion team there was no single person or "
+"group of people ``in charge''. I had to try and gauge the responses I got to "
+"draft articles and decide whether I had all the feedback I needed and the "
+"article was ready for publication."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:41
+msgid ""
+"With guidance from more experienced contributors, I eventually learned how "
+"to propose something and get it published within a few days if there were no "
+"major objections. The approach can be used by any contributor to a free "
+"Software Promotion team, new or old alike."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:49
+msgid ""
+"First, work out how you would do something, whether it be writing an "
+"article, changing a website text or giving a talk at your local school. Make "
+"a plan or write the article or the new text. Send your ideas for review on "
+"the promotion team mailing list of your organization. Importantly, do not "
+"ask people what they think -- you can wait for days or weeks and not get "
+"definite answers. Instead, state that you will publish or submit your text "
+"or execute your plan by a set date in the future, pending any objections in "
+"the meantime."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:55
+msgid ""
+"When setting a deadline for comments, think about how long it will take "
+"everyone active in the team to check email and consider your proposal. "
+"Twenty-four hours is likely the absolute minimum for a simple yes or no "
+"answer to a straightforward question. For something that requires reading or "
+"research, you should allow several days."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:60
+msgid ""
+"If there are no big objections within the time limit you set, you can just "
+"go ahead. If there are big problems with your plan, someone will tell you. "
+"Things actually get done, you do not get frustrated with a lack of progress "
+"and you get a reputation for completing tasks successfully."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/StuartJarvis.tex:62
+msgid "Ultimately, it is your decision"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:70
+msgid ""
+"Free software communities can easily become discussion groups. Everyone has "
+"an opinion. If you are not careful, discussions can become large, fade away "
+"as people lose interest and finish without reaching any strong conclusions. "
+"That can be hard enough to deal with when you have been around the community "
+"for a while and have the experience to make your own decisions and your own "
+"views on whose opinions you should listen to. When you are just starting "
+"out, it can be very confusing."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:77
+msgid ""
+"If you want your own task to succeed, you may have to make decisions between "
+"competing view points. You can wrap up the discussion by providing a summary "
+"of the main points made and stating your opinion on them. Try not to leave "
+"any open questions unless you want further discussion -- just state your "
+"conclusions and what you are going to do. As long as you are reasonable, "
+"people are likely to respect you even if they disagree."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/StuartJarvis.tex:79
+msgid "Be proactive -- do not wait to be asked"
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:84
+msgid ""
+"Your first contact with the promotion team you want to join may well be by "
+"sending an email to their mailing list offering your skills. I thought I "
+"could list things I was good at and expect people to suggest things for me "
+"to do.  Normally, it does not work quite like that."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:90
+msgid ""
+"Most communities are short of volunteers and really do need your skills.  "
+"However, because they lack volunteers, they can also lack time to provide "
+"good guidance and mentoring. If there is a specific short-term project you "
+"would like to work on, say so. It is much easier for someone in the project "
+"to simply say ``go ahead'' than to try and come up with a project to match "
+"your skills."
+msgstr ""
+
+#. type: Plain text
+#: promotion/StuartJarvis.tex:99
+msgid ""
+"Even when you have worked on a few projects and proven your skills, you are "
+"unlikely to often be approached personally with tasks. Those coordinating "
+"the marketing team will not know your personal circumstances and so might "
+"not feel comfortable asking you to do something specific in your own time, "
+"for free. An ideal community will regularly post -- either on a mailing list "
+"or a web page -- tasks that volunteers can pick up. If that does not happen, "
+"find your own things to do and tell the mailing list that you are doing "
+"them. People will notice and it raises the chance that you will be directly "
+"approached in the future."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:2
+msgid ""
+"If you are proactive then you can quickly find that you are one of the "
+"experienced people in the community that new people look to for advice and "
+"jobs to work on. Try and remember what it was like when you started and make "
+"their lives as new contributors as easy as possible.  \\clearpage "
+"\\clearpage \\chapterwithauthor{Jos Poortvliet}{Big Plans Don't Work}"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:8
+msgid ""
+"\\authorbio{Jos Poortvliet works as openSUSE community manager for SUSE "
+"Linux.  Before that he was active in the international KDE community as team "
+"lead for the marketing team. In his ``offline life'' he has had jobs at a "
+"variety of companies as Business Consultant. His favorite pastime is "
+"experimenting in the kitchen, trying to come up with something edible.}"
+msgstr ""
+
+#. type: quote
+#: promotion/JosPoortvliet.tex:12
+msgid ""
+"``It is better to take many small steps in the right direction than to make "
+"a great leap forward only to stumble backward.'' -- Old Chinese proverb"
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:24
+msgid "A great idea\\dots"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:24
+msgid ""
+"Once upon a time in the marketing team of a Free Software project, someone "
+"came up with a great idea to grow the project. A program would be set up to "
+"get IT students to learn about the project and join in. Universities would "
+"be contacted and someone would talk to them to get them interested. "
+"Ambassadors would then go to those universities and give a course there, "
+"coaching students in their first step into the world of Free Software. Once "
+"they joined online, they would be mentored on simple tasks and finally "
+"become full-fledged contributors! Of course, universities would love the "
+"program, and with some luck start to participate more actively, giving their "
+"students assignments which result in code being written for the project, and "
+"much more."
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:37
+msgid "\\dots\\ which didn't work\\dots"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:37
+msgid ""
+"I have seen the idea from the fictitious story above in many forms in many "
+"different communities and projects. It is a great idea and could be very "
+"powerful! We all know you have to start early -- our proprietary competition "
+"is pretty darn good at this. We also know we have arguments enough to "
+"convince universities and students to participate -- FOSS is the future, it "
+"provides great skill development opportunities, skills in Linux programming "
+"or administration are in higher demand than another Java or .NET developer "
+"or Windows sysadmin and most importantly: it is more fun. Somehow, however, "
+"if you go to universities, you do not see many posters inviting you to join "
+"Free Software projects. Most professors have never heard of it. What went "
+"wrong? Let me continue the story."
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:48
+msgid "\\dots\\ not because lack of effort\\dots"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:48
+msgid ""
+"The team had a long discussion about it. First brainstorm style -- many "
+"ideas on how to realize the idea came in. The team leader collected the work "
+"and put it on the wiki. A plan was made with a time line and the team leader "
+"appointed people responsible for certain parts. Some started writing course "
+"materials, others looked up university contact information and put it in a "
+"list. They asked frequently for input and ideas on the mailing list and got "
+"plenty of responses for further course material, which the leader added to "
+"the list of things to write. It all had to be done in the free time of the "
+"volunteers, but you could always count on the leader to remind volunteers of "
+"the schedule."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:60
+msgid ""
+"After a few months a structure was visible and many pages in the wiki were "
+"created. Meanwhile, however, the number of people involved decreased from "
+"the initial discussion with over 30 to about 5 still soldiering on. The "
+"leader decided to revise the road map with proposed deadlines and after a "
+"few calls on the mailing list 10 new volunteers committed to a variety of "
+"tasks. The pace picked up a bit again. Quite a bit of what had been done "
+"before had to be updated and there were other adjustments needed. "
+"Unfortunately, things kept slipping and the number of people doing things "
+"kept decreasing. Monthly sprints were introduced which did indeed result in "
+"some more work being finished. But there was simply too much to do. After "
+"about a year, the last people gave up. A stale wiki page and some outdated "
+"materials are all that is left\\dots"
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:67
+msgid "\\dots\\ but because it was too ambitious."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:67
+msgid ""
+"So why did it not work? The team did everything according to the best "
+"project management practices you will find on the web\\dots\\ brainstorming, "
+"then creating a plan, time lines, clear goals and responsibilities\\dots\\ "
+"They did the right volunteer things: ask people, engage them, give everyone "
+"an opportunity to voice his/her opinion. It should have worked!"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:72
+msgid ""
+"It did not, because of a simple reason: it was too ambitious. It is a "
+"trend.  Amazing ideas receive lots of comments, get written down in great "
+"plans which result in incomplete wiki pages leading to too little "
+"implementation finally fading into nothingness."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:83
+msgid ""
+"Leaders have to recognize that how a team works in FOSS is not the same as "
+"in a structured, managed environment like a company. People tend to be "
+"around when there is something exciting, like a big release, and then "
+"disappear until the next exciting thing. Creating a community team should "
+"never assume that the people will stay fully committed the entire length of "
+"time. You have to factor in that they will be in for a while and then "
+"disappear for longer periods and then come back. The leaving and joining "
+"creates a lot of overhead so that little gets done. Yes, we can lead people, "
+"but we cannot manage people, and once you learn to give up the management "
+"aspect, you can focus more on things you need to do in the immediate short "
+"term."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:90
+msgid ""
+"So instead of planning big things, find something small, doable and useful "
+"in itself. Not a wiki page with a plan, but the first step of what you aim "
+"for. And then, lead by doing. Make a rough first draft of an article. Make a "
+"first version of a folder. Copy-paste from whatever exists, or improve "
+"something which was already available. Then present the result, drafty as it "
+"is, to the team and ask if someone wants to make it better. Do something "
+"small and it will work."
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:96
+msgid "Don't plan, just do\\dots"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:96
+msgid ""
+"So how do you do something as big as the university student plan? You don't! "
+"At least, not directly. Discussing this with the whole team, planning -- it "
+"will surely make for a fun discussion which can last weeks. But it will not "
+"get you far. Instead, keep the plan to yourself. Seriously."
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:110
+msgid ""
+"I am not saying that you should not talk about it -- you can. Share the "
+"ambition with whoever is interested. And it is OK if they give suggestions. "
+"But do not rely on it, do not make plans which go much further than the "
+"first 1-2 steps.  Instead, execute. Build on what is there. Send a draft of "
+"a new or improved flyer to the mailing list. Ask someone who gave a course "
+"on your project to share the material and improve it a bit. Those whose work "
+"you build on might help you out! The people you spoke with about the plan "
+"who share your vision might help you too. This way, you will frequently "
+"finish something -- a flyer, an improved website, a presentation to be used. "
+"And people can, slowly, start using it. Ambassadors can go to their local "
+"universities, using a few of the things you have already created. To do what "
+"they do, they surely have to create some missing materials -- which can go "
+"on the wiki as well. And you make progress."
+msgstr ""
+
+#. type: subsection{#2}
+#: promotion/JosPoortvliet.tex:118
+msgid "\\dots\\ and get your pie in the sky!"
+msgstr ""
+
+#. type: Plain text
+#: promotion/JosPoortvliet.tex:118
+msgid ""
+"In community marketing, strategy is not on the wiki. It is not in a plan nor "
+"a time line. Neither is it discussed every week with the whole team. It is "
+"part of a vision which has grown over time. It is carried by a few central "
+"people and inspires the short-term plans and objectives. And it is shared by "
+"the team. But it has no time line and it can not fail. It is flexible and "
+"does not depend on anything or anyone in particular. And it will always be a "
+"pie in the sky\\dots"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:2
+msgid ""
+"So if you want to lead in a Free Software community marketing effort, keep "
+"that big picture a big picture. Do not plan too much, but get things done! "
+"\\clearpage \\clearpage \\chapterwithauthor{Sally Khudairi}{Who are You, "
+"What are You Selling, and Why Should I Care?}"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:10
+msgid ""
+"\\authorbio{Active in the Web since 1993, Sally Khudairi is the publicist "
+"behind some of the industry's most prominent standards and organizations. "
+"The former deputy to Sir Tim Berners-Lee and long-time champion of "
+"collaborative innovation, she helped launch The Apache Software Foundation "
+"in 1999, and was elected its first female and non-technical member. Sally is "
+"Vice President of Marketing and Publicity for The Apache Software "
+"Foundation, and Chief Executive of luxury brand communications consultancy "
+"HALO Worldwide.}"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:25
+msgid ""
+"\\noindent{}Everyone is a marketer. From the CEO to the superstar "
+"salesperson to the guy in the mailroom, everyone is a representative of your "
+"company. Technologies and tactics have changed over the years but good "
+"communications remain paramount. At the end of the day, everyone is selling "
+"something, and it is an interesting balance in publicity, as who and what "
+"you are and what you sell are often enmeshed. When people tell me that they "
+"do not know who I am, I ask if they have heard of W3C, Apache, or Creative "
+"Commons. The typical reply is ``of course'', which assures me that I am "
+"doing my job. If you know who and what \\textit{they} are, things are good. "
+"It is about the product, not the publicist, after all. I never set out to be "
+"in this space: cutting my communications teeth during the nascent web years "
+"was not easy, but I am grateful to have had the opportunity to observe "
+"others and dodge quite a few bullets. A sharp ramp-up and some very highly-"
+"visible projects later, what advice would I share with a budding PR bunny, "
+"seasoned media flack, or technologist daring to ride the promotions bucking "
+"bronco?"
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:41
+msgid "Never forget to declare yourself"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:41
+msgid ""
+"In selling your story to the press, remember that the media, too, have "
+"something to sell. Sure, at the top level the role of a journalist is to "
+"tell a compelling story (truthfully or not, factually or not, ethically or "
+"not, is another issue).  From attracting readership to securing "
+"subscriptions to promoting ad space, they too are selling something, and "
+"your job is to help them do their job. The reality is that some folks may "
+"not have heard of you, even if you have been around for a long time. Or even "
+"if they have, they may not know who you are exactly. Be clear with what it "
+"is that you have to offer. What is the press hook -- what is the news? Be "
+"sure that the news is \\textit{really} news. Be direct and get to the point "
+"quickly. You have got to be prepared to answer the questions: ``So what?'' "
+"``Why should I care?'' ``What is in it for me?'', and that means having to "
+"ask questions of yourself and your product. People buy ideas, not products, "
+"so promoting the benefits of what you are pitching will help improve your "
+"chances of securing coverage.  Spin aside, what are you really selling?"
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:53
+msgid "Never on a Friday"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:53
+msgid ""
+"The worst day to launch a new website, issue a press release, or brief the "
+"media is on a Friday. The chance that something wrong will happen with "
+"nobody available to deal with the fallout is greater than you can imagine. A "
+"poignant reminder of this happened to me early in my career when I launched "
+"the new W3C homepage on a Friday evening, left the office and boarded a "
+"plane for Paris.  Coming from the world of commercial web publishing, using "
+"a proprietary tag was not an issue whatsoever as long as it got the job "
+"done. Doing so on the website of an interoperability-all-the-way "
+"organization on the other hand was Not A Good Thing. Within minutes dozens "
+"of messages were pouring in, wondering how the \\textless now-deprecated-"
+"markup\\textgreater -tag got on our site. And no, it was not \\textless blink"
+"\\textgreater \\dots"
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:67
+msgid "Never think that it doesn't matter"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:67
+msgid ""
+"Credibility is everything. Despite being overworked, overcommitted or "
+"overextended, you can not un-strike a bell. Try to deliver as much as you "
+"can to the best of your ability and ask for help if you can. Some deadlines "
+"have to be adjusted, and many editors can accommodate shift in schedule but "
+"it likely will not matter (as much) once the story/fire has gone out if you "
+"are unable to follow through.  Like art, standards development, and "
+"copywriting, the process can go on ad nauseam. Whilst creativity can not be "
+"time-managed, hard deadlines force a line to be drawn at some point. But you "
+"have got to care about the details. Stop.  Proof-read and check all links. "
+"Make sure it maps properly to the overall campaign/brand strategy. Lather-"
+"rinse-repeat is part of the greater communications gestalt, and the work "
+"will keep piling up. Sort it out and protect your reputation."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:84
+msgid "Do go at it alone"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:84
+msgid ""
+"It is important to trust your instincts, particularly when doing something "
+"separate from the norm. In the early days of that newfangled web thaang, "
+"everyone was seemingly tacking on the usual branding/PR/marketing tactics to "
+"a brochure-ware Website. Then everyone was ``following the leader'' (leader "
+"= ``whoever did it first'' in many instances). Trends are one thing, "
+"industry expectations and requirements are another: ``that is how everybody "
+"does it'' does not mean that it is right for you, your project or community. "
+"My career in communications began when I fired our retained agency and "
+"brought everything in-house. We were one of the earliest organizations to "
+"use a URL in a corporate boilerplate, and were the first to use a URL as the "
+"originating location on a press release dateline despite news wire agencies "
+"telling it was non-conformant and against policy. Stand confidently in your "
+"knowledge. Go against the grain and challenge the rules responsibly. "
+"Individuate. It is OK to be a dissenter as long as you can back your ideas "
+"up."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:105
+msgid "Do provide perspective"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:105
+msgid ""
+"Many of the technologies I am involved with wind up in products 3-5 years "
+"down the road. This means that, in many instances, it is hard to establish "
+"some sort of relationship to a comparable product. It is critical that you "
+"explain your position clearly with as little jargon as possible. Most non-"
+"developer journalists/analysts I deal with do not follow the day-to-day "
+"activities of a certain community or know the technical ins-and-outs of why "
+"one feature is better than another, no matter how much of a no-brainer it is "
+"to you. The saying of ``sell the sizzle, not the steak'' is more relevant "
+"today than ever.  Sizzle. Steak. There is always a split on this when I "
+"teach media training: provide too much steak or too much sizzle and your "
+"campaign could fail.  Perception is key and the cause of a lot of conflict: "
+"All Sizzle = ``hype + hyperbole'' = ``oh, you PR types''. All Steak = ``0s "
+"and 1s'' = ``oh you geek types''.  You need to understand and be able to "
+"clearly explain the painpoint that your product solves. Knowing how to "
+"better present the problem allows you to better explain the solution. "
+"Context, anecdotes, and success stories give the press a way to make their "
+"readers care. You have got to know the answer to the question ``What is in "
+"it for me?'', because that is what incents journalists to delve deeper into "
+"your story, which, in turn, gets readers to learn more about you. Sizzle "
+"answers ``What’s in it for me?'', and is therefore the hook. Steak is "
+"\\textit{how} you get there."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:132
+msgid "Do queue up your spokespeople"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:132
+msgid ""
+"Always have someone available to talk to the press. Yes, it can be you, but "
+"know that there will be a time that although you have a well-planned story "
+"to tell, you may not be available to tell it. Who else do you work with? Who "
+"knows you? Who endorses you? Defining those individuals and making a message "
+"map that clarifies who says what helps alleviate an awful lot of potential "
+"headaches. I usually act as the ``backgrounder'' spokesperson so I can spend "
+"time with a reporter to find out what specifically are they looking for and "
+"how can we best provide them with relevant information. I explain how things "
+"work, mostly process-oriented; this puts my ``actual'' spokespeople in a "
+"better position to say what they need, and minimize the risk of having their "
+"participation getting lost elsewhere. Getting the right people ready is just "
+"as important as making them available. In my media training classes, I "
+"include some ``Yikes!'' slides that highlight particularly interesting "
+"lessons learned over the years. For example, we experienced spokesperson "
+"mayhem in the early days of the Apache Incubator, where 15 people responded "
+"to a press query in 48 hours \\dots\\ lots of opinions, but who was the "
+"``right'' one to quote? Do not leave it to the press to decide! Another oft-"
+"shared ``Yikes!'' scenario involved a global launch party with hundreds of "
+"guests, press everywhere, DJs spinning, music blaring, cocktails flowing, "
+"and the event running very late into the night, with rumored spin-off "
+"afterparties. Very early the following morning the press queries came in "
+"(yes, of course I will accept a phone call from the Financial Times at 4AM "
+"PT!). I pitched excitedly. However, it turned out that we had no "
+"spokespeople available: Chairman on a plane to Japan; Director's mobile "
+"phone was off (with reason, apparently); Board members unavailable; staff "
+"unprepared. Dozens of opportunities missed. Remember: when the press release "
+"goes out on the wire, the work has just begun."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:135
+msgid "Don't be surprised to take it from all sides"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:135
+msgid "Everyone has an opinion. And they will likely give it to you."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:147
+msgid "Don't overcomplicate things"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:147
+msgid ""
+"If you think you have got too much to tell, you probably do. Attention spans "
+"are not what they were way back when; distraction/failure is just a click "
+"away.  Remember that you can always work in steps. Break up your story if "
+"needed. Cut a lengthy press release and use supporting documentation such as "
+"technical fact sheets and testimonial pages instead. The chunking principle "
+"(``5 plus or minus two'') is something I continue to utilize again and "
+"again. Create your own message release cycle, and reinforce your presence "
+"regularly. Bring a FAQ; if there is a question that needs to be asked and is "
+"not there, find the opportunity to bridge your message. Repetition breeds "
+"familiarity. Progressively reinforcing your call to action is goodness."
+msgstr ""
+
+#. type: section{#2}
+#: promotion/SallyKhudairi.tex:156
+msgid "Don't touch it for 24 hours"
+msgstr ""
+
+#. type: Plain text
+#: promotion/SallyKhudairi.tex:156
+msgid ""
+"Sometimes you need to walk away. From a project, from an argument, from work "
+"altogether. Give yourself a break and try to pace yourself; allow a day for "
+"things to settle down and for you to get a chance to breathe. Whilst that is "
+"usually not possible in a deadline-driven industry, it is something to aim "
+"for.  The mad rush, non-stop emails, and continuous tweets often trigger "
+"reactions for emergencies that do not exist. Put the project down, clear "
+"your head, and come back with a fresh perspective. Step aside and regain "
+"your life."
+msgstr ""
+
+#. type: section{#2}
+#: promotion.tex:4
+msgid "Expect greatness"
+msgstr ""
+
+#. type: Plain text
+#: promotion.tex:4
+msgid "Keep your standards high and know your worth."
+msgstr ""

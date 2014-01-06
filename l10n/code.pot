@@ -1,0 +1,1050 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: part{#2}
+#: ./code/ThiagoMacieira.tex
+#: :2
+msgid "Code"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :2
+msgid "\\chapterwithauthor{Thiago Macieira}{The Art of Problem Solving}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :9
+msgid ""
+"\\authorbio{Thiago Macieira holds a double degree in Engineering and an MBA, "
+"but his involvement in Open Source predates those, getting close to 15 years "
+"now. An active participant in the KDE, Qt and MeeGo communities, he's been a "
+"software engineer and product manager for Qt, giving presentations and "
+"listening to people. These days, Thiago lives in Oslo, Norway and when he's "
+"not working on Qt, he tries (with limited success) to improve his skills at "
+"StarCraft 2.}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :17
+msgid ""
+"\\noindent{}Problems are a routine we are faced with almost every day of our "
+"lives and solving them is so recurrent we often do not realize we are doing "
+"it. They may be situations as simple as figuring out the best path to get to "
+"a destination or how to set the items in the fridge so they fit. Only when "
+"we fail to solve them immediately do we take notice, since we have to stop "
+"and think about them. The professional life is no different and solving "
+"professional problems becomes part of the job description."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :27
+msgid ""
+"Problem solving was the topic of my inaugural class when I started my "
+"engineering degree. In that overcrowded amphitheatre last century, our "
+"professor explained to roughly 700 freshmen how engineers are problem "
+"solvers and our professional lives would be moving from one problem to be "
+"solved to another.  Some problems would be small and we would solve them in "
+"no time; some others would be so big we would need to have a project setting "
+"and a team to crack them - but most would fall in-between. He then proceeded "
+"to give examples on how the mentality of ``problem solver'' helped him in "
+"his professional and personal life, including one unexpected live example "
+"when the projector failed on us."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :34
+msgid ""
+"The ability to solve problems is a skill we can hone with practice and some "
+"ground work. Practice is something one must acquire only through experience, "
+"by trial and failure, therefore it is not something that a book could "
+"teach.  Getting started in solving problems, however, is something one can "
+"learn. If experience is the toolbox we carry when facing new issues, the "
+"techniques of problem solving are the instructions on how to use the tools "
+"in the toolbox."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/ThiagoMacieira.tex
+#: :36
+msgid "Phrasing the question correctly"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :42
+msgid ""
+"The question we are trying to answer is the direction we are going to go "
+"when trying to solve the problem. Ask the wrong question and the answers may "
+"be irrelevant, invalid or just plainly wrong. Consequently, asking the "
+"correct question is paramount. Moreover, asking the correct question "
+"correctly is important, since it provides clues as to what we are seeking."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :47
+msgid ""
+"The most useless problem statement that one can face is ``it doesn’t work'', "
+"yet we seem to get it far too often. It is a true statement, as evidently "
+"something is off. Nevertheless, the phrasing does not provide any clue as to "
+"where to start looking for answers."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :55
+msgid ""
+"Bug-tracking systems often request that the bug reporter describe the "
+"actions taken that led up to the problem being seen, the description of what "
+"happened (that is, the symptom) and a description of what was expected to "
+"happen. The comparison between the symptom and the expected behavior is a "
+"good source for the question to be asked: why did this happen, why did this "
+"other behavior not happen? While this is not the only way for creating the "
+"question, applying this technique to problems may certainly help."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :58
+msgid ""
+"Phrasing the problem and the question correctly, in all its details, is also "
+"a way to further describe the problem statement. First, we must realize that "
+"the problem very likely does not lie where we are expecting it to be -- if "
+"it did, we would have probably solved the problem by now. Explaining all the "
+"details of the problem at hand provides the help-givers with more "
+"information to work with. In addition, even if counter-intuitively, the act "
+"of describing the problem in its entirety often leads to finding the "
+"solution, so much so that many development groups require ``stuck'' "
+"developers to perform this task, either by discussing it with a colleague or "
+"talking to a ``naïve'' entity, like a rubber duck or Mr. Potato-Head."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :67
+msgid ""
+"In addition, one must return to the question every now and then, so as to "
+"not lose sight of what the goal is. While executing activities to solve the "
+"problem, care must be taken not to concentrate exclusively on a particular "
+"piece of the problem, forgetting the overall objective. For the same reason, "
+"it is necessary to re-examine the initial question when a possible solution "
+"is found, to ensure it does solve the entire problem. In turn, this also "
+"shows the necessity of asking the right question, stating the complete "
+"problem: without the full question, the solution may be equally incomplete."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/ThiagoMacieira.tex
+#: :69
+msgid "\\textit{Divide et conquera}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :74
+msgid ""
+"Experience in helping others trying to solve their problems online has shown "
+"me that in general people treat their issues as monolithic, indivisible "
+"stumbling blocks that must be dealt with as a whole. As such, a large "
+"problem poses a very difficult question to be answered in its entirety."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :84
+msgid ""
+"In truth, the vast majority of those issues can be further broken down into "
+"smaller problems, each of which are easier to deal with and determine if "
+"they are the root cause of the problem, not to mention the possibility of "
+"there being multiple sources for the symptom experienced. Repeating this "
+"operation just a couple of times will yield much smaller problems to tackle "
+"and, therefore, quicker solutions. However, the more divisions we are forced "
+"to make, the more we are required to know about the operating internals of "
+"the system at hand. In reality, the problem solver will only break down as "
+"far as his knowledge of the subject will permit and then work on the issue "
+"from there."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :95
+msgid ""
+"For software development, the subsystems being used are often good hints at "
+"where to break up the problem. For example, if the problem involves a TCP/IP "
+"transmission of data, two possible divisions are the sender and the "
+"receiver: it is of no use to look for the problem on the receiver’s end if "
+"the sender is not transmitting the data properly. Similarly, a graphical "
+"application that is not showing the data that it is fetching from a database "
+"has a clear division: it would be a good idea to verify that the database "
+"access works before investigating why it is not displayed "
+"properly. Alternatively, one could feed dummy data to the display functions "
+"and then verify that said data does get displayed properly."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :103
+msgid ""
+"Even when the groupings are not clear, dividing the problem can still help "
+"shed light on the issue. In fact, almost every division is helpful, as it "
+"reduces the amount of code to be inspected, and with it the complexity to be "
+"dealt with. At an extreme, simply dividing the code in two and searching for "
+"the problem in one half may be of use. This technique, called bisecting, is "
+"recommended if the divisions created from the subsystems and interfaces have "
+"not yet revealed a solution."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :110
+msgid ""
+"The end-product of a sequence of proper divisions is a small, self-contained "
+"example showing the problem. At this stage, one of three options is usually "
+"right: the problem can be identified and located; the code is actually "
+"correct and the expectations were wrong; or a bug was found on the lower "
+"layer of code.  An advantage of the process is that it also produces a "
+"test-case to be sent in a bug report, should a bug turn out to be the cause."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/ThiagoMacieira.tex
+#: :112
+msgid "Boundary conditions"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :121
+msgid ""
+"An issue similar to dividing the problem is that of the boundary "
+"conditions. In mathematics and physics, boundary conditions are the set of "
+"values for the variables that determine the region of validity of the "
+"equations being solved.  For software, boundary conditions are the set of "
+"conditions that must be met for the code to perform properly. Usually, the "
+"boundary conditions are far from simple: unlike mathematics and physics, the "
+"variables in software systems are far too many, which means that the "
+"boundary conditions for them are equally manyfold."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :131
+msgid ""
+"In software systems, the boundary conditions are often referred to as "
+"``preconditions'', which are conditions that must be met before a certain "
+"action is allowed. Verifying that the preconditions have been met is a good "
+"exercise in the searching for an answer, for a violation of the "
+"preconditions is definitely a problem that needs solving -- even if it is "
+"not the root cause of the original problem. Examples of preconditions can be "
+"as simple as the fact that a pointer must be valid before it can be "
+"dereferenced or that an object must not have been disposed of before it can "
+"be used. Complex preconditions are very likely to be documented for the "
+"software being used."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :140
+msgid ""
+"Another interesting group of boundary conditions is characterized, "
+"interestingly, by what is not permitted: the undefined behavior. This type "
+"of boundary conditions is very common when dealing with specifications, "
+"which try to be very explicit in how software should behave. A good example "
+"of this are the compilers and language definitions. Strictly speaking, "
+"dereferencing a null pointer is an undefined behavior: the most common "
+"consequence is a processor exception being trapped and the program "
+"terminating, but other behaviors are permitted too, including working "
+"perfectly."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/ThiagoMacieira.tex
+#: :142
+msgid "The right tool for the right job"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :147
+msgid ""
+"If engineers are problem-solvers, the engineer’s motto is ``use the right "
+"tool for the right job''. It may seem obvious, as no one is expected to use "
+"a hammer to solve an electronic problem. Nonetheless, cases of using the "
+"wrong tool are quite common, often due to ignorance of the existence of a "
+"better tool."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :156
+msgid ""
+"Some of these tools are the bread-and-butter of software development, like "
+"the compiler and the debugger. Inability to use these tools is unforgivable: "
+"the professional who finds himself in an environment with new or unknown "
+"tools, such as when switching positions or jobs, must dedicate some time to "
+"learning them, becoming familiar with their functionalities and "
+"limitations. For example, if a program crashes, being able to determine the "
+"location of the crash as well as variables being accessed in that section of "
+"the code may help determine the root cause and thus point to the solution."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :168
+msgid ""
+"Some other tools are more advanced, belong to a niche, are not very widely "
+"known, or are available only under cost or conditions which cannot be met by "
+"the engineer. Yet they can be incredibly useful in helping elucidate "
+"problems. Such tools may be static code checker tools, thread checkers, "
+"memory debuggers, hardware event loggers, etc. For instance, development "
+"hardware often contains a way to control it via a special interface like "
+"JTAG or dump all instructions executed and processor state, but this "
+"requires having special hardware and tools, which are not readily available "
+"and usually cost more than volume, consumer devices. A different example is "
+"the valgrind suite of tools, which include thread checkers and memory "
+"debuggers and is readily available for free, but are part of the advanced, "
+"niche tools and are not taught at schools."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :175
+msgid ""
+"Knowing the contents of one’s toolbox is a powerful knowledge. Using a "
+"specialized tool to search for a problem will likely yield a result quicker, "
+"be it positive, confirming the problem, or negative, which in turn leads the "
+"search elsewhere. Moreover, it is important to know how to use these tools, "
+"which justifies spending time reading the documentation, in training or "
+"simply experimenting with them with known problems to understand how to "
+"proceed."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/ThiagoMacieira.tex
+#: :177 ./code/KaiBlin.tex
+#: :148
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :182
+msgid ""
+"Solving problems is an art available to all. Like other arts, some people "
+"may have such a skill that it may seem that they were born with the "
+"ability. But in reality, with enough experience and practice, solving "
+"problems becomes an unconscious activity."
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :190
+msgid ""
+"When faced with a problem that is not easy to solve, one should sit back and "
+"take a clear look at the entirety of the problem. What is the problem we "
+"have? Can we phrase the question that we need an answer for? Once we know "
+"what we are looking for, we can start searching for where it may be "
+"located. Can we break it down into smaller, more manageable pieces? What are "
+"the best tools to be used for each piece? Have we verified that we are using "
+"the functionalities and services correctly?"
+msgstr ""
+
+#. type: Plain text
+#: ./code/ThiagoMacieira.tex
+#: :196
+msgid ""
+"After solving many problems, we start to see patterns. It will become easier "
+"to detect subtle hints from the symptoms and direct the searching towards "
+"the actual problem. An experienced problem-solver may not even realize this "
+"action is taking place. That is an indication that the experience and "
+"behavior has set in so well that no conscious effort is required to access "
+"those skills."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :2
+msgid ""
+"Yet there are always some problems in life that will be hard to solve, "
+"ranging from professional to existential, philosophical or even those which "
+"are caused by pure curiosity. Then again, it is the challenge that drives "
+"us, the need to understand more. Life would be pretty tedious otherwise.  "
+"\\clearpage \\clearpage \\chapterwithauthor{Henri Bergius}{Cross-Project "
+"Collaboration}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :9
+msgid ""
+"\\authorbio{Henri Bergius is the founder of Midgard, a free software content "
+"repository. He has also been involved for a long time in making Linux "
+"desktops location-aware, and in the Maemo and MeeGo communities. He runs a "
+"small consultancy called Nemein, hacks in CoffeeScript and PHP, and spends "
+"much of his free time motorcycling through remote parts of the Eurasian "
+"continent. He lives in the cold Nordic city of Helsinki, Finland.}"
+msgstr ""
+
+#. type: quote
+#: ./code/HenriBergius.tex
+#: :16
+msgid ""
+"There may be a whole new system where you're defined more and more by who "
+"you are and not by what you own, by what you've created and shared, and what "
+"other people have then built on” -- Former Xerox PARC director John Seely "
+"Brown in An Optimist's Tour of the Future (Mark Stevenson, 2010)"
+msgstr ""
+
+#. type: section{#2}
+#: ./code/HenriBergius.tex
+#: :18
+msgid "On projects and communities"
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :22
+msgid ""
+"Much of the free software world is split into tribes gathered around "
+"something called projects. There are major projects like GNOME, KDE or "
+"Drupal, and lots of smaller projects revolving around a single application "
+"or a library."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :24
+msgid "Actually, calling them projects is kind of silly."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :29
+msgid ""
+"In my mind, a project is a plan of effort towards an achievable aim, with a "
+"schedule that has start and end dates. So, for example GNOME 3.1 would be a "
+"project, but GNOME as whole is not. It is a community of individuals "
+"maintaining and creating a body of software through various smaller efforts, "
+"or projects."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :35
+msgid ""
+"Enough with pedantry. The problem with the concept of projects is that they "
+"end up keeping people apart, creating insular communities that often are "
+"reluctant or unable to collaborate with ``the competition''. But in the end, "
+"all of these communities consist of individuals who write free software, and "
+"it is their choice whether this software can be used in different "
+"environments or not."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :39
+msgid ""
+"In the end we all want the software we created to be used by others. And "
+"even better, we want others to join in our efforts and build cool stuff on "
+"what we have created. That is, after all, what is in the heart of free "
+"software."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :43
+msgid ""
+"So why do we enact these walls around ourselves? Keeping an insulated "
+"community just fosters an us-versus-them mentality. The incompatibilities of "
+"different programming languages already do so much to keep us apart, why add "
+"to that?"
+msgstr ""
+
+#. type: section{#2}
+#: ./code/HenriBergius.tex
+#: :45
+msgid "The Midgard lesson"
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :50
+msgid ""
+"What I wish I had known when I started, in those optimistic dot-com days of "
+"the late 90s, is that in reality software efforts do not need to be "
+"isolated. With a bit of care we can share our software and ideas across "
+"communities, making both the communities and our software stronger and "
+"better."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :56
+msgid ""
+"When I started my free software career, it was a time of big "
+"projects. Netscape was open-sourced, the Apache Software Foundation was "
+"getting a form, and venture-funded efforts were going on everywhere. It felt "
+"like a norm to try and build your own community. This was the sure path to "
+"fame, fortune and building cool stuff."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :62
+msgid ""
+"So what we did was build our own web framework. Back then there were not "
+"that many of them, especially for the fledgling PHP language. PHP was not "
+"even the first choice for us, only picked after a long debate about using "
+"Scheme which our lead developer preferred. But PHP was gaining popularity, "
+"becoming the programming language of the web. And web was what we wanted to "
+"build."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :66
+msgid ""
+"At first, things looked very promising. Lots of developers flocked into our "
+"community and started contributing. There were even companies founded around "
+"Midgard. And the framework became more featureful, and more tighly coupled."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :70
+msgid ""
+"In hindsight, this was the mistake we made. We positioned Midgard to be "
+"something apart from PHP itself. Something that you would install "
+"separately, and build whole websites on top of. It was either our way or the "
+"highway."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :75
+msgid ""
+"With Midgard you would have to use our content repository interfaces for "
+"everything, as well as our user management and permissions model. You would "
+"have to use our templating system, and store much of your code into the "
+"repository instead of a file system."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :79
+msgid ""
+"This obviously did not sit too well with the wider PHP community. Our ideas "
+"were strange to them, and Midgard at the time was even distributed as a huge "
+"patch to the codebase, as PHP3 did not have loadable modules."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :84
+msgid ""
+"Many years have passed, and PHP’s popularity has waxed and waned. At the "
+"same time the Midgard community has been quite constant -- a small, tightly "
+"knit group making progress in the long run, but apart from the wider PHP "
+"world."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :90
+msgid ""
+"We always wondered why we found it so hard to interact with the PHP "
+"world. Even some communities doing something completely different, like the "
+"GNOME desktop, seemed easier to approach. Only recently, after years of "
+"isolation, we realized the problem. In a nutshell: frameworks keep us apart, "
+"while libraries allow us to share our code and experiences."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/HenriBergius.tex
+#: :92
+msgid "On libraries and frameworks"
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :98
+msgid ""
+"In the end, software is about automation, about building tools that people "
+"can use for solving problems or connecting with each other. With software, "
+"these tools have many layers in them. There are low-level services like an "
+"operating system, then there are libraries, frameworks and toolkits, and "
+"then there are actual applications."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :101
+msgid ""
+"Applications are always written for some particular usecase, and so between "
+"them there are very few opportunities for sharing code."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :108
+msgid ""
+"The much more appealing opportunity is on the libraries and frameworks "
+"level. A framework, if generic enough, can usually be utilized for building "
+"different sorts of software. And a library can be used to bring a particular "
+"piece of logic or connectivity anywhere. In my view, this is the layer where "
+"most programming should happen, with specific applications being just "
+"something that connects various libraries into a framework that then runs "
+"the actual app."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :113
+msgid ""
+"What is a library and what is a framework? People often use these terms "
+"interchangeably, but there is a useful rule of thumb to know which is which: "
+"a library is something that your code calls, while a framework is something "
+"that calls your code."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :118
+msgid ""
+"If you want your code to be used and improved upon, the best way to go about "
+"it is to maximize the number of potential users and contributors. With free "
+"software, this works by ensuring your code can be adapted to multiple "
+"different situations and environments."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :120
+msgid "In the end, what you want to do is to build a library. Libraries are cool."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/HenriBergius.tex
+#: :122
+msgid "How to make collaboration work"
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :126
+msgid ""
+"The hardest part is to get over the barrier of them-versus-us. The "
+"developers of the other community are hackers building free software, just "
+"like you. So just get over the question and start talking with them."
+msgstr ""
+
+#. type: Plain text
+#: ./code/HenriBergius.tex
+#: :130
+msgid ""
+"After you have the discussion going, here are some points that I have found "
+"important when actually implementing common ideas or libraries across "
+"project boundaries:"
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Use permissive licensing and try to avoid copyright assignments or other "
+"requirements potential users would find onerous."
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Host the project on neutral ground. For web projects, Apache is quite a good "
+"home. For desktop projects, Freedesktop is probably the best option."
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Use technologies that do not impose too many constraints. Libraries should "
+"be quite low-level, or provide D-Bus APIs that can be used with any system."
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Avoid framework-specific dependencies. For example, KDE has found GeoClue "
+"hard to adopt because it uses GNOME-specific settings interfaces."
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Meet the other guys. If you are from the GNOME project, go to aKademy and "
+"give a talk, and if you are a KDE developer, go and talk at GUADEC. After "
+"you have shared a beer or two collaboration over IRC happens much more "
+"naturally."
+msgstr ""
+
+#. type: itemize
+#: ./code/HenriBergius.tex
+#: :146
+msgid ""
+"Finally, accept that not everybody will use your implementation. But if they "
+"at least implement the same ideas, then collaboration is still possible."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :2
+msgid ""
+"Good luck with breaking down the project boundaries! In most cases it works "
+"if your ideas are good and presented with an open mind.  But even if you do "
+"not find a common ground, as long as your implementation solves the use case "
+"for you it has not been in vain. After all, delivering software, and "
+"delivering great user experience is what counts.  \\clearpage \\clearpage "
+"\\chapterwithauthor{Kai Blin}{Writing Patches}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :11
+msgid ""
+"\\authorbio{Kai Blin is a computational biologist searching for antibiotics "
+"in his day job, both at the computer and in the lab. He feels very happy "
+"that he gets to release the software developed at work under Open Source "
+"licenses.  Living in the lovely southern German town of T\\\"ubingen, Kai "
+"spends some of his evenings at the computer, programming for the Samba "
+"project. Most of his remaining spare time is spent at the theatre, where Kai "
+"is active both on stage as well as building props, stage and handling other "
+"techie things backstage.}"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :17
+msgid ""
+"\\noindent{}Writing patches and submitting them often is the first real "
+"interaction you can have with an Open Source project. They are the first "
+"impression you give to the developers there. Getting your first patches "
+"``right'', however that is judged by the particular project you are "
+"contributing to, will make your life much easier."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :22
+msgid ""
+"The exact rules on what the patch should look like, how you need to send it "
+"to the project and all the other details will probably vary with every "
+"project you want to contribute to. I have found that few general rules hold "
+"pretty much all the time, and that is what this essay is about."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/KaiBlin.tex
+#: :24
+msgid "How to get things wrong"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :33
+msgid ""
+"This book is about ``things we wish we had known when we got started'', so "
+"let me get started with the story of my first patches. I first got involved "
+"in real coding during the Google Summer of Code\\texttrademark ~2005. The "
+"Wine project had accepted me to implement NTLM crypto based on some "
+"Samba-related tool. Wine is a single-committer project, meaning that only "
+"the lead developer, Alexandre Julliard, has commit access to the main "
+"repository. Back in 2005, Wine still was using CVS as its version "
+"control. When the project started and I got the email that I was accepted, I "
+"got hold of my mentor on IRC and got to work."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :44
+msgid ""
+"Coding away happily, I got the first features implemented. I produced a "
+"patch for my mentor to review. In the olden CVS days, you had to provide all "
+"the diff options manually, but I had read up on that part.  "
+"\\mbox{\\texttt{cvs diff -N -u > ntlm.patch}} and I had the file I could "
+"send to my mentor. Actually this is one thing I did get right, and the first "
+"thing you should consider when you prepare a patch. The normal output from "
+"the diff command might be easier to read for a computer, but I never met a "
+"human who actually preferred the normal output over the unified diff "
+"output. Switched on by the \\texttt{-u} flag, this makes diff use the "
+"\\texttt{$+++$} and \\texttt{$---$} notation."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :47
+msgid ""
+"For example, the following diff is the result of teaching the Python "
+"``Hello, world!'' example program to greet the world in Swedish."
+msgstr ""
+
+#. type: verbatim
+#: ./code/KaiBlin.tex
+#: :56
+#, no-wrap
+msgid ""
+"diff --git a/hello.py b/hello.py\n"
+"index 59dbef8..6334aa2 100644\n"
+"--- a/hello.py\n"
+"+++ b/hello.py\n"
+"@@ -1,4 +1,4 @@\n"
+" #!/usr/bin/env python\n"
+" # vim: set fileencoding=utf-8\n"
+"\n"
+msgstr ""
+
+#. type: verbatim
+#: ./code/KaiBlin.tex
+#: :59
+#, no-wrap
+msgid ""
+"-print \"Hello, world!\"\n"
+"+print \"Hallå, världen!\""
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :64
+msgid ""
+"The line starting with \\texttt{-} is the line being removed, the one "
+"starting with \\texttt{+} is the one being added. The other lines are "
+"helping the \\texttt{patch} tool to do its job."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :74
+msgid ""
+"My newly created unified diff was sent to my mentor, who gave me a review "
+"and lots of things I could change. I fixed that stuff, and sent him a new "
+"diff shortly after. The code--review cycle continued for the whole duration "
+"of GSoC, with my patch growing and growing. When the pencils down date "
+"arrived, I had a huge monster patch with all my changes in there. Naturally "
+"I had a really hard time getting that patch reviewed, let alone "
+"committed. In the end, Alexandre refused to look at the patch further before "
+"I split it up. Wine policy requires that patches are small logical steps "
+"adding functionality. Each patch needs to do something useful \\emph{and} "
+"compile."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :84
+msgid ""
+"Now, splitting an existing huge patch up in pieces that individually make "
+"sense \\emph{and} compile is a lot of work. It was even more work because "
+"the only way I knew this could be done was to write a small patch, create "
+"the diff, get that committed, update my local checkout and then write the "
+"next small patch. Shortly after I started sending my first small patches, "
+"Wine went into a one month feature freeze leading up to the 0.9.0 beta "
+"release. I was sitting on my next patch for a month before I could continue, "
+"and I eventually got my last patch in in November. I was totally frustrated "
+"with the whole experience and decided I did not want to deal with the Wine "
+"community anymore."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :92
+msgid ""
+"My frustration held up until people who were actually using my code were "
+"starting to ask questions about it in February 2006. My code was actually "
+"useful! They wanted more features as well. When Google went on to announce "
+"it would be doing GSoC again in 2006, my plans for the summer were "
+"clear. Now that Wine had switched to git in December 2005, I knew I would "
+"not be held up by possible code freezes, as I finally could create all my "
+"small patches locally.  Life was good."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :96
+msgid ""
+"It wasn't until I stumbled over a git frontend (called porcelain in "
+"git-speak)  that emulated the ``quilt'' behavior that I learned that there "
+"were tools that could have made my life easier even in 2005."
+msgstr ""
+
+#. type: section{#2}
+#: ./code/KaiBlin.tex
+#: :98
+msgid "How NOT to get things wrong"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :101
+msgid ""
+"After my tale of how I managed to get things wrong with regard to sending "
+"patches, let me continue with a few tips to avoid the pitfalls."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :103
+msgid "Patch submission guidelines"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :107
+msgid ""
+"The first tip I have is to read up on any patch submission guidelines the "
+"project you want to contribute to might have. Those should actually be "
+"consulted before you start coding, along with any coding style guidelines "
+"the project has."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :109
+msgid "Unified diffs"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :115
+msgid ""
+"Even if not covered in the patch submission guidelines explicitly, you "
+"really, really want to send unified diff output. I have yet to meet a "
+"project that prefers the non-unified output of diff. Unified diffs make "
+"reviewing the patch so much easier. It is no accident that most modern "
+"version control programs automatically use that format in their diff "
+"command."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :117
+msgid "Use distributed version control"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :126
+msgid ""
+"Speaking of modern version control, you will want to use a DVCS to work on "
+"the code locally. Git or Mercurial are the most popular choices there, "
+"Bazaar might be worth a look as well. Even if the project you want to "
+"contribute to still uses a centralized version control, being able to commit "
+"your changes iteratively is a great thing. All of the mentioned distributed "
+"version control tools should be able to import commits from SVN or CVS. You "
+"could go and learn quilt, but seriously, the future is in the field of "
+"distributed version control."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :128
+msgid "Small patches, doing one thing at a time"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :134
+msgid ""
+"When I have to review patches, patches that are too big or that try to do "
+"many things at once are really annoying to deal with. Patches doing only one "
+"thing at a time are easier to review. Eventually, they will make your life "
+"easier when you finally need to debug the mistakes both the author and the "
+"reviewer of the patch missed."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :136
+msgid "Track your patch"
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :146
+msgid ""
+"After you have submitted your patch, keep an eye on the communication "
+"channels of the project and on your patch. If you have not gotten any "
+"feedback for a week, you should politely ask for feedback. Depending how the "
+"project handles patch submissions, a patch might get lost in the noise. Do "
+"not expect to get your patch committed in the first iteration. It usually "
+"takes a couple of tries to get used to the style of a new project. As a "
+"first-time contributor, nobody will blame you for this, provided you get "
+"most of the things right. Just make sure that you fix all of the things the "
+"developers indicated and send a second version of the patch."
+msgstr ""
+
+#. type: Plain text
+#: ./code/KaiBlin.tex
+#: :153
+msgid ""
+"Writing good patches is not hard. There are a couple of things to consider, "
+"but after writing a couple of them you should be on top of those. A modern "
+"(distributed) version control system and the workflow you get using it "
+"actually take care of most of the things I mentioned."
+msgstr ""
+
+#. type: subsection{#2}
+#: ./code/KaiBlin.tex
+#: :155
+msgid "If you remember nothing else, remember this\\ldots"
+msgstr ""
+
+#. type: itemize
+#: ./code/KaiBlin.tex
+#: :162
+msgid "Use a distributed version control system to manage your patches"
+msgstr ""
+
+#. type: itemize
+#: ./code/KaiBlin.tex
+#: :162
+msgid "Write patches changing code in small, self-contained steps"
+msgstr ""
+
+#. type: itemize
+#: ./code/KaiBlin.tex
+#: :162
+msgid "Follow the existing coding conventions"
+msgstr ""
+
+#. type: itemize
+#: ./code/KaiBlin.tex
+#: :162
+msgid "Respond to comments on your patch promptly"
+msgstr ""
+
+#. type: Plain text
+#: code.tex:4
+msgid ""
+"The above guidelines should help you to do most if not all things right when "
+"submitting your first patches. Happy coding."
+msgstr ""

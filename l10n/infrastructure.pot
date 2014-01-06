@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:49+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: part{#2}
+#: ./infrastructure/JeffMitchell.tex
+#: :2
+msgid "Infrastructure"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :2
+msgid "\\chapterwithauthor{Jeff Mitchell}{Love the Unknown}"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :10
+msgid ""
+"\\authorbio{Jeff Mitchell spends his working days dabbling in all sorts of "
+"computer and networking technologies, his off-time dabbling in all sorts of "
+"FOSS projects and most enjoys a confluence of both. After serving as a "
+"system administrator in a professional capacity between 1999-2005, he has "
+"since kept his skills sharp by performing volunteer work for various "
+"workplace and FOSS projects. These days, most of his FOSS time is spent as a "
+"sysadmin for KDE and a core developer of Tomahawk Player. Jeff currently "
+"lives in Boston, USA.}"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :33
+msgid ""
+"\\noindent{}Recently I was part of a group interviewing a potential new "
+"sysadmin at work. We had gone through a few dozen resumes and had finally "
+"brought our first candidate in for an interview. The candidate -- let’s call "
+"him John -- had experience with smaller, lab-style computer clusters as well "
+"as larger data center operations. At first, things were proceeding apace, "
+"except that he had an odd answer to a few of our questions: ``I’m a "
+"sysadmin.'' The meaning of that statement was not immediately clear to us, "
+"until the following exchange occurred:"
+msgstr ""
+
+#. type: quote
+#: ./infrastructure/JeffMitchell.tex
+#: :33
+msgid ""
+"\\textbf{Me}: So you’ve said that you don’t have Cisco IOS experience, but "
+"what about networking in general?\\newline \\textbf{John}: Well, I’m a "
+"sysadmin.\\newline \\textbf{Me}: Right, but -- how about networking "
+"concepts? Routing protocols like BGP or OSPF, VLANs, bridges \\dots "
+"\\newline \\textbf{John, exasperated}: I’m a \\emph{sysadmin}."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :33
+msgid ""
+"That was when we understood what he was saying. John had not been telling us "
+"that he knew of the various things we were asking about because he was a "
+"sysadmin; he was telling us that because he was a sysadmin he did "
+"\\emph{not} know about those things.  John was a \\emph{systems} "
+"administrator; claiming such was his hand-waving way of indicating that "
+"those tasks belonged to network administrators.  Probably unsurprisingly, "
+"John did not get the job."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :41
+msgid ""
+"For many open source projects, specialization is a curse, not a blessing.  "
+"Whether a project falls into one category or the other often depends on the "
+"size of the development team; specialization to the degree of single points "
+"of failure can mean serious disruption to a project in the event of a "
+"developer leaving, whether on good, bad or unfortunate terms. It is no "
+"different for open source project sysadmins, although the general scarcity "
+"of these seems to allow projects to adopt sometimes dangerous tolerances."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :47
+msgid ""
+"The most egregious example I have seen involved one particular project whose "
+"documentation site (including all of their installation and configuration "
+"documentation) was down for over a month. The reason: the server had "
+"crashed, and the only person with access to that server was sailing around "
+"on a ``pirate ship'' with members of Sweden’s Pirate Party. That really "
+"happened."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :61
+msgid ""
+"However, not all single points of failure are due to absentee system "
+"administrators; some are artificial. One large project’s system "
+"administration access rights decisions were handled by a single lead "
+"administrator, who not only reserved some access rights solely for himself "
+"(you guessed it: yes, he did disappear for a while and yes, that did cause "
+"problems) but made decisions about how access rights should be given out "
+"based on whether he himself trusted the candidate.  ``Trust'' in this case "
+"was based on one thing; it was not based on how many community members "
+"vouched for that person, how long that person had been an active and trusted "
+"contributor to that project, or even how long he had known that individual "
+"as a part of that project. Rather, it was based on how well he personally "
+"knew someone, by which he meant how well he knew that individual \\emph{in "
+"person}. Imagine how well that scales to a distributed global team of system "
+"administrators."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :76
+msgid ""
+"Of course, this example only goes to show that it is very difficult for open "
+"source sysadmins to walk the line between security and capability. Large "
+"corporations can afford redundant staff, even when those staff are segmented "
+"into different responsibilities or security domains. Redundancy is "
+"important, but what if the only current option for redundant system "
+"administration is taking the first guy that randomly pops into your IRC "
+"channel and volunteers to help? How can you reasonably trust that person, "
+"their skills, or their motives? Unfortunately, only the project’s "
+"contributors, or some subset of them, can determine when the right person "
+"has come along, using the same Web of Trust model that underpins much of the "
+"rest of the open source world. The universe of open source projects, their "
+"needs, and those willing to contribute to any particular project is "
+"blissfully diverse; as a result, human dynamics, trust, intuition and how to "
+"apply these concepts to any particular open source project are broad topics "
+"that are far out of scope of this short essay."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :90
+msgid ""
+"One key thing has made walking that security/capability line far easier, "
+"however: the rise of distributed version control systems, or DVCSes.  In the "
+"past, access control was paramount because the heart of any open source "
+"project -- its source code -- was centralized. I realize that many out there "
+"will now be thinking ``Jeff, you should know better than that; the heart of "
+"a project is its community, not its code!'' My response is simple: community "
+"members come and go, but if someone accidentally runs ``rm -rf'' on the "
+"entire centralized VCS tree of your project and you lack backups, how many "
+"of those community members are going to be willing to stick around and help "
+"recreate everything from scratch? (This is actually based on a real example, "
+"where a drunk community member angry at some code he was debugging ran an "
+"``rm -rf'' on his entire checkout, \\emph{intending} to destroy all code in "
+"the project. Fortunately, he was not a sysadmin with access to the central "
+"repository, and too drunk to remember his copy was simply a checkout.)"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :98
+msgid ""
+"A project’s code is its heart; its community members are its "
+"lifeblood. Without either, you are going to have a hard time keeping a "
+"project alive. With a centralized VCS, if you did not have the foresight to "
+"set up regular backups, maybe you could get lucky and be able to cobble "
+"together the entire source tree from checkouts that different people had of "
+"different parts of the tree, but for most projects the history of the code "
+"is as important as the current code itself, and you will still have lost all "
+"of it."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :116
+msgid ""
+"That is no longer the case. When every local clone has all of the history "
+"for a project and nightly backups can be performed by having a cron job run "
+"something as simple as ``git pull'', the centralized repository is now just "
+"a coordination tool. This takes its status down a few notches. It still has "
+"to be protected against threats both internal and external: unpatched "
+"systems are still vulnerable to known exploits, a malicious sysadmin can "
+"still wreak havoc, an ineffective authentication system can allow malicious "
+"code into your codebase, and an accidental ``rm -rf'' of the centralized "
+"repository can still cause loss of developer time. But these challenges can "
+"be overcome, and in the day and age of cheap VPS and data center hosting, "
+"absentee sysadmins can be overcome too. (Better make sure you have redundant "
+"access to DNS, though! Oh, and, put your websites in a DVCS repository too, "
+"and make branches for local modifications. You will thank me later.)  So, "
+"DVCSes give your project redundant hearts nearly for free, which is a great "
+"way to help open source sysadmins sleep at night and makes us all feel a "
+"little bit more like Time Lords. It also means if you are not on a DVCS, "
+"stop reading this very moment and go switch to one. It is not just about "
+"workflows and tools. If you care about the safety of your code and your "
+"project, you will switch."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :129
+msgid ""
+"Source code redundancy is a must, and in general the greater amount of "
+"redundancy you can manage, the more robust your systems. It may also seem "
+"obvious that you want sysadmin redundancy; what you may not find obvious is "
+"that redundant sysadmins are not as important as redundant skillsets. John, "
+"the systems administrator, worked in data centers and companies with "
+"redundant sysadmins but rigid, defined skillsets. While that worked for "
+"large companies that could pay to acquire new sysadmins with particular "
+"skillsets on-demand, most open source projects do not have that luxury. You "
+"have to make do with what you can get. This of course means that an "
+"alternative (and sometimes the only alternative) to finding redundant system "
+"administrators is spreading the load, having other project members each pick "
+"up a skill or two until redundancy is achieved."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :139
+msgid ""
+"It is really no different from the developer or artwork side of a project; "
+"if half of your application is written in C++ and half is written in Python, "
+"and only one developer knows Python, a departure from the project by that "
+"developer will cause massive short-term problems and could cause serious "
+"long-term problems as well. Encouraging developers to branch out and become "
+"familiar with more languages, paradigms, libraries, and so on means that "
+"each of your developers becomes more valuable, which should not come as a "
+"shock; acquiring new skillsets is a byproduct of further education, and more "
+"educated personnel are more valuable. (This also makes their CV more "
+"valuable, which should provide a good driving force.)"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/JeffMitchell.tex
+#: :147
+msgid ""
+"Most open source developers that I know find it a challenge and a pleasure "
+"to keep testing new waters, as that is the behavior that led them to open "
+"source development in the first place. Similarly, open source system "
+"administrators are in scarce supply, and can not afford to get stuck in a "
+"rut. New technologies relevant to the sysadmin are always emerging, and "
+"there are often ways to use existing or older technologies in novel ways to "
+"enhance infrastructure or improve efficiency."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :2
+msgid ""
+"John was not a good candidate because he brought little value; he brought "
+"little value because he had never pushed outside of his defined role. Open "
+"source sysadmins falling into that trap do not just hurt the project they "
+"are currently involved with, they reduce their value to other projects using "
+"different infrastructure technologies that could desperately use a hand; "
+"this decreases the overall capability of the open source community. To the "
+"successful open source administrator, there is no such thing as a comfort "
+"zone.  \\clearpage \\clearpage \\chapterwithauthor{Austin Appel}{Backups to "
+"Maintain Sanity}"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :8
+msgid ""
+"\\authorbio{Austin ``scorche'' Appel is an information security professional "
+"who spends his time breaking into things previously thought secure (with "
+"permission, of course). He is often seen around security/hacker conferences "
+"teaching people how to pick locks. In the open source world, he does a host "
+"of things for the Rockbox project and previously volunteered for the One "
+"Laptop Per Child project.}"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :16
+msgid ""
+"\\noindent{}Backups are good. Backups are great. A competent admin always "
+"keeps current backups.  This much can be gathered from any manual on server "
+"administration.  The problem is that backups are only really used when "
+"absolutely necessary.  If something drastic happens to the server or its "
+"data and one is forced to fall back on something, the backups will come to "
+"the rescue in the moment of most dire need. However, this should never "
+"happen, right? At any other time, what does having backups do for you and "
+"your server environment?"
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :22
+msgid ""
+"Before going further, it is important to note that the advice espoused is "
+"for the smaller open source project server administrators out there -- the "
+"silent majority. If you maintain services that would cause a large amount of "
+"frustration, and even perhaps harm if they experienced any downtime, please "
+"take this with a very small grain of salt."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :39
+msgid ""
+"For the rest of us who work with countless smaller projects with limited "
+"resources, we rarely have a separate test and production server. In fact, "
+"with all of the many services that an open source project typically needs to "
+"maintain (version control, web services, mailing lists, forums, build bots, "
+"databases, bug/feature trackers, etc.), separate testing environments are "
+"often the stuff we can only dream about. Unfortunately, the typical approach "
+"to system administration is to tread lightly and only upgrade the systems "
+"when absolutely necessary, to avoid risking dependency issues, broken code, "
+"or any of the other million things that could go wrong. The reason you are "
+"nervous is not because you may be inexperienced. It is important to know "
+"that you are not alone in this. Whether or not we admit it to others, many "
+"of us have been (and likely still are) in this position. The sad fact is "
+"that this inaction -- stemming from the fear of breaking a ``working'' "
+"system -- often leads to running services which are often several versions "
+"behind the curve, and come with a host of potentially serious security "
+"vulnerabilities. Rest assured that this is not the only way to play the game "
+"though."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :51
+msgid ""
+"People tend to play a game differently when they have infinite lives as "
+"compared to needing to start over from the start as soon as one mistake is "
+"made. Why should server administration be any different? Approaching the "
+"concept of backups with an offensive mindset can change your whole view of "
+"administrating systems. Instead of living in fear from a complete "
+"dist-upgrade (or equivalent command for yum, pacman, etc.), when armed with "
+"backups, one is free to update the packages on a server secure in the "
+"knowledge that the changes can always be rolled back if things turn "
+"sour. The key to getting over this is all about a state-of-mind. There is no "
+"reason to fear as long as you have your safety net of backed-up files "
+"beneath you as you jump. After all, system administration is constantly a "
+"learning experience."
+msgstr ""
+
+#. type: Plain text
+#: ./infrastructure/AustinAppel.tex
+#: :68
+msgid ""
+"Of course, if you do not validate your backups, relying on backups in this "
+"way becomes a very dangerous game.  Fortunately, experienced system "
+"administrators know that the commandment ``keep current backups'' is always "
+"followed by ``validate your backups.'' Again, this is another mantra that "
+"people like to recite.  What does not fit as elegantly into a catchy mantra "
+"is how quickly and easily validating backups can be accomplished. The best "
+"way to tell that a backup works is, of course, to restore it (preferably on "
+"an identical system not currently active). But again, in the absence of such "
+"luxuries, a bit more creativity is required. This is where (at least for "
+"files) checksums can help you determine the integrity of your backed-up "
+"files. In rsync, for example, the default method it uses to determine which "
+"files have been modified is to check the time of last modification and size "
+"of the file.  However, by using the “-c” option, rsync will use a 128-bit "
+"MD4 checksum to determine whether files have changed or not.  While this may "
+"not always be the best idea to do every time in all situations due to likely "
+"taking much longer than a normal rsync and increased io usage, this ensures "
+"that the files are intact."
+msgstr ""
+
+#. type: Plain text
+#: infrastructure.tex:3
+msgid ""
+"The role of system administrator can be a stressful one at times.  However, "
+"there is no need to make it more so than it needs to be.  With the proper "
+"frame of mind, some ostensibly single-purpose defense-seeming tasks can be "
+"used as valuable tools to allow you to nimbly move forward with your sanity "
+"intact with the speed appreciated by all open source projects."
+msgstr ""

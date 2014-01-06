@@ -1,0 +1,774 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: part{#2}
+#: ./qualityassurance/AraPulido.tex
+#: :2
+msgid "Quality Assurance"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :2
+msgid ""
+"\\chapterwithauthor{Ara Pulido}{Given Enough Eyeballs, Not All Bugs are "
+"Shallow}"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :8
+msgid ""
+"\\authorbio{Ara Pulido is a testing engineer working for Canonical, first as "
+"part of the Ubuntu QA team, and now as part of the Hardware Certification "
+"team. Although she started her career as a developer, she quickly found out "
+"that what she really liked was testing the software. She is very interested "
+"in new testing techniques and tries to apply her knowledge to make Ubuntu "
+"better.}"
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/AraPulido.tex
+#: :10
+msgid "Dogfooding Is Not Enough"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :17
+msgid ""
+"I have been involved with Free Software since my early days at university in "
+"Granada. There, with some friends, we founded the local Linux User Group and "
+"organized several activities to promote Free Software. But, since I left "
+"university, and until I started working at Canonical, my professional career "
+"had been in the proprietary software industry, first as a developer and "
+"after that as a tester."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :23
+msgid ""
+"When working in a proprietary software project, testing resources are very "
+"limited. A small testing team continues the work that developers started "
+"with unit testing, using their expertise to find as many bugs as possible, "
+"to release the product in good shape for end user consumption. In the Free "
+"Software world, however, everything changes."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :30
+msgid ""
+"When I was hired at Canonical, apart from fulfilling the dream of having a "
+"paid job in a Free Software project, I was amazed by the possibilities that "
+"testing a Free Software project brought. The development of the product "
+"happens in the open, and users can access the software in the early stages, "
+"test it and file bugs as they encounter them. For a person passionate about "
+"testing, this is a new world with lots of new possibilities. I wanted to "
+"make the most of it."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :36
+msgid ""
+"As many people do, I thought that dogfooding, or using the software that you "
+"are aiming to release, was the most important testing activity that we could "
+"do in Free Software. But, if ``given enough eyeballs all the bugs are "
+"shallow'', (one of the key lessons of Raymond's ``The Cathedral \\& The "
+"Bazaar''), and Ubuntu had millions of users, why were very important bugs "
+"still slipping into the release?"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :47
+msgid ""
+"First thing that I found when I started working at Canonical was that the "
+"organized testing activities were very few or nonexistent. The only testing "
+"activities that were somehow organized were in the form of emails sent to a "
+"particular mailing list calling for testing a package in the development "
+"version of Ubuntu. I do not believe that this can be considered a proper "
+"testing activity, but just another form of dogfooding. This kind of testing "
+"generates a lot of duplicated bugs, as a really easy to spot bug will be "
+"filed by hundreds of people. Unfortunately, the really hard to spot but "
+"potentially critical bug, if someone files it, is likely to remain "
+"unnoticed, due to the noise created by the other hundreds of bugs."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/AraPulido.tex
+#: :49
+msgid "Looking better"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :52
+msgid ""
+"Is this situation improving? Are we getting better at testing in Free "
+"Software projects? Yes, I really believe so."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :60
+msgid ""
+"During the latest Ubuntu development cycles we have started several "
+"organized testing activities. The range of topics for these activities is "
+"wide, including areas like new desktop features, regression testing, X.org "
+"drivers testing or laptop hardware testing. The results of these activities "
+"are always tracked, and they prove to be really useful for developers, as "
+"they are able to know if the new features are working correctly, instead of "
+"guessing that they work correctly because of the absence of bugs."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :81
+msgid "Regarding tools that help testing, many improvements have been made:"
+msgstr ""
+
+#. type: itemize
+#: ./qualityassurance/AraPulido.tex
+#: :81
+msgid ""
+"Apport\\footnote{\\url{http://wiki.ubuntu.com/Apport}} has contributed to "
+"increase the level of detail of the bugs reported against Ubuntu: crashers "
+"include all the debugging information and their duplicates are found and "
+"marked as such; people can report bugs based on symptoms, etc."
+msgstr ""
+
+#. type: itemize
+#: ./qualityassurance/AraPulido.tex
+#: :81
+msgid ""
+"Launchpad\\footnote{\\url{http://launchpad.net}}, with its upstream "
+"connections, has allowed having a full view of the bugs, knowing that bugs "
+"happening in Ubuntu are usually bugs in the upstream projects, and allowing "
+"developers to know if the bugs are being solved there."
+msgstr ""
+
+#. type: itemize
+#: ./qualityassurance/AraPulido.tex
+#: :81
+msgid ""
+"Firefox, with its Test Pilot extension and program, drives the testing "
+"without having to leave the "
+"browser\\footnote{\\url{http://testpilot.mozillalabs.com}}. This is, I "
+"believe, a much better way to reach testers than a mailing list or an IRC "
+"channel."
+msgstr ""
+
+#. type: itemize
+#: ./qualityassurance/AraPulido.tex
+#: :81
+msgid ""
+"The Ubuntu QA team is testing the desktop in an automated fashion and "
+"reporting results every "
+"week\\footnote{\\url{http://reports.qa.ubuntu.com/reports/desktop-testing/natty}}, "
+"allowing developers to have a very quick way to check that there have not "
+"been any major regressions during the development."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :84
+msgid ""
+"Although testing in Free Software projects is getting better, there is still "
+"a lot to be done."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/AraPulido.tex
+#: :86
+msgid "Looking ahead"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :96
+msgid ""
+"Testing is a skilled activity that requires lots of expertise, but in the "
+"Free Software community is still seen as an activity that does not require "
+"much effort. One of the reasons could be that the way we do testing is still "
+"very old-fashioned and does not reflect the increase of complexity in the "
+"Free Software world in the last decade. How can it be possible that with the "
+"amount of innovation that we are generating in Free Software communities, "
+"testing is still done like it was in the 80s? Let's face it, fixed testcases "
+"are boring and get easily outdated. How are we going to grow a testing "
+"community, who is supposed to find meaningful bugs if their main required "
+"activity is updating testcases?"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :105
+msgid ""
+"But, how do we improve testing? Of course, we cannot completely get rid of "
+"testcases, but we need to change the way we create and maintain them. Our "
+"testers and users are intelligent, so, why create step-by-step scripts? "
+"Those could easily get replaced by an automated testing tool. Instead of "
+"that, let's just have a list of activities you perform with the application "
+"and some properties it should have, for example, ``Shortcuts in the launcher "
+"can be rearranged'' or ``Starting up LibreOffice is fast''. Testers will "
+"figure out how to do it, and will create their testcases as they test."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :118
+msgid ""
+"But this is not enough, we need better tools to help testers know what to "
+"test, when and how.  What about having an API to allow developers to send "
+"messages to testers about updates or new features that need testing? What "
+"about an application that tell us what part of our system needs testing "
+"based on testing activity? In the case of Ubuntu we have the data in "
+"Launchpad (we would need testing data as well, but at least we have bug "
+"data). If I want to start a testing session against a particular component I "
+"would love to have the areas that have not been tested yet and a list of the "
+"five bugs with more duplicates for that particular version, so I avoid "
+"filing those again. I would love to have all this information without "
+"leaving the same desktop that I am testing. This is something that Firefox "
+"has started with Test Pilot, although they are currently mainly gathering "
+"browser activity."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :128
+msgid ""
+"Communication between downstream and upstream and vice-versa also needs to "
+"get better. During the development of a distribution, many of the upstream "
+"versions are also under development, and they already have a list of known "
+"bugs. If I am a tester of Firefox through Ubuntu, I would love to have a "
+"list of known bugs as soon as the new package gets to the archive. This "
+"could be done by having an acknowledged syntax for release notes, that could "
+"then get easily parsed and bugs automatically filed and connected to the "
+"upstream bugs. Again, all of this information should be easily available to "
+"the tester, without leaving the desktop."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AraPulido.tex
+#: :134
+msgid ""
+"Testing, if done this way, would allow the tester to concentrate on the "
+"things that really matter and that make testing a skilled activity; "
+"concentrate on the hidden bugs that have not been found yet, on the special "
+"configurations and environments, on generating new ways to break the "
+"software. And, ultimately, on having fun while testing."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/AraPulido.tex
+#: :136
+msgid "Wrapping up"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :2
+msgid ""
+"From what I have seen in the latest three years, testing has improved a lot "
+"in Ubuntu and the rest of Free Software projects that I am somehow involved "
+"with, but this is not enough. If we really want to increase the quality Free "
+"Software we need to start investing in testing and innovating the ways we do "
+"it, the same way we invest in development. We cannot test 21st century "
+"software with 20th century testing techniques. We need to react. Free "
+"Software is good because it is open source is not enough anymore. Free "
+"Software will be good because it is open source and has the best quality "
+"that we can offer.  \\clearpage \\clearpage \\chapterwithauthor{Andre "
+"Klapper}{Kick, Push}"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :6
+msgid ""
+"\\authorbio{In real life, Andre Klapper is a bugmaster. During lunch break "
+"or while sleeping he works on random things in GNOME (bugsquad, release "
+"team, translation, documentation, etc) or Maemo, or studies, or eats ice "
+"cream.}"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :10
+msgid ""
+"\\noindent{}At the very beginning I only had one question: How can I print a "
+"part of the email which I received in Gnome's email client Evolution? I "
+"asked on the corresponding mailing list."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :14
+msgid ""
+"I had switched to Linux exactly one year ago, out of frustration that I "
+"could not make my modem work after reinstalling a proprietary operating "
+"system that was popular around that time."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :23
+msgid ""
+"The answer to my question was ``not possible''. Cool kids would have checked "
+"out the code, compiled it, hacked it to make it act as wanted, and submitted "
+"a patch attached to a bug report by then. Well, as you can guess I was not a "
+"cool kid.  My programming skills are rather limited, so I stuck to a "
+"cumbersome printing workaround for the time being. The answer I received on "
+"the mailing list also mentioned that the feature was in planning, and that a "
+"bug report had been filed on my behalf (without mentioning where, but I did "
+"not care about that -- I was happy that there were plans to fix my issue "
+"soon)."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :34
+msgid ""
+"It may just have been my laziness to have stayed subscribed to the mailing "
+"list.  Some folks mentioned the bug tracker from time to time, often as a "
+"direct response to feature requests, so I took a look at it eventually. But "
+"bug trackers, especially Bugzilla, are strange tools with lots of complex "
+"options.  An area you normally prefer to avoid unless you are a "
+"masochist. They contain many tickets describing bugs or feature requests by "
+"users and developers. It looked as if those reports were partially also used "
+"for planning priorities.  (Calling this ``Project Management'' would be an "
+"euphemism - less than one fourth of the issues that were planned to get "
+"fixed or implemented for a specific release actually got fixed in the end.)"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :43
+msgid ""
+"What I found beside an interesting look at the issues of the software and "
+"the popularity of certain requests were inconsistencies and some noise, like "
+"lots of duplicates or bug reports missing enough information to get "
+"processed properly.  I felt like cleaning up a bit by ``triaging'' the "
+"available bug reports. I do not know what this tells you about my mindset "
+"though -- add wrong buzzwords for random characteristics here, like "
+"organized, persistent or knowledgeable. Also nice irony considering that my "
+"father always used to complain about my messy room."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :50
+msgid ""
+"So back in those dial-up modem times I usually collected my questions and "
+"went online to enter IRC once a day in order to shoot my questions at "
+"Evolution's bugmaster who was always welcoming, patient and willing to share "
+"his experience.  If there was a triaging guide available at that time "
+"covering basic bug management knowledge and explaining good practices and "
+"common pitfalls, I had not heard about it."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :59
+msgid ""
+"The amount of open reports decreased by 20\\% within a few months though "
+"that was of course not just because of one person starting to triage some "
+"tickets.  Obviously there was some work waiting to get picked up by somebody "
+"-- like decreasing the amount of open tickets for the developers so that "
+"they could better focus, discussing and setting some priorities with them, "
+"and responding to some users' comments that had remained unanswered at that "
+"time. Open Source is always welcoming to contributions once you have found "
+"your hook to participate."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :68
+msgid ""
+"Way later I realized that there is some documentation around to dive "
+"into. Luis Villa - who might have been the first bugmaster ever -- wrote an "
+"essay called ``Why Everyone Needs A Bugmaster''\\footnote{\\url{ "
+"http://tieguy.org/talks-files/LCA-2005-paper-html/index.html}}, and most "
+"Bugsquad teams in Open Source projects were publishing triaging guides in "
+"the meantime that helped newbies get involved in the community. Many Open "
+"Source developers started their great Open Source careers by triaging bugs "
+"and gained initial experience in software project management."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/AndreKlapper.tex
+#: :76
+msgid ""
+"Nowadays there are also tools which can save you a lot of time when it comes "
+"to the repetitive grunt work part of triaging. On the server side GNOME's "
+"``stock answers'' extension provides common and frequently used comments to "
+"add to tickets via one click, and on the client side you can run your own "
+"Greasemonkey scripts or Matěj Cepl's Jetpack extension called "
+"``bugzilla-triage-scripts''\\footnote{\\url{ "
+"https://fedorahosted.org/bugzilla-triage-scripts}}."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :2
+msgid ""
+"If you are an average or poor musician but still love music more than "
+"anything else, you can stick around in the business as a "
+"journalist. Software development also has such niches apart from the default "
+"idea of writing code that can make you happy. You have to spend some time to "
+"find them but it is worth the efforts, experience and contacts, and with "
+"some luck and skills it might even earn you a living in your personal field "
+"of interest and keep you from ending up as a code monkey.  \\clearpage "
+"\\clearpage \\chapterwithauthor{Jonathan ``Duke'' Leto}{Test-Driven "
+"Enlightenment}"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :6
+msgid ""
+"\\authorbio{Jonathan ``Duke'' Leto is a software developer, published "
+"mathematician, Git ninja and avid bicyclist living in Portland, Oregon. He "
+"is a core developer of Parrot Virtual Machine and founder of Leto Labs LLC.}"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :11
+msgid ""
+"\\noindent{}When I first got involved in Free and Open Source Software, I "
+"had no clue what tests were or why they were important. I had worked on some "
+"personal programming projects before, but the first time I actually worked "
+"on a project with others, i.e., got a commit bit, was Yacas, Yet Another "
+"Computer Algebra System, a computer algebra system similar to Mathematica."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :16
+msgid ""
+"At this stage in my journey, tests were an afterthought. My general "
+"meta-algorithm was to hack on code $\\rightarrow$ see if it works "
+"$\\rightarrow$ write a simple test to show it works (optional). If a test "
+"was challenging to write, it most likely never got written."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :20
+msgid ""
+"This is the first step in the path to Test-Driven Enlightenment. You know "
+"tests are probably a good idea, but you have not seen the benefit of them "
+"clearly, so you only write tests occasionally."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :25
+msgid ""
+"If I could open up a wormhole and tell my younger self one piece of wisdom "
+"about testing, it would be:"
+msgstr ""
+
+#. type: quote
+#: ./qualityassurance/JonathanLeto.tex
+#: :25
+msgid "``Some tests, in the long-run, are more important than the code they test.''"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :33
+msgid ""
+"A few people right about now may be thinking that I put on my tinfoil "
+"testing hat when I sit down to code. How can tests be \\emph{more} important "
+"than the code they test? Tests are the proof that your code \\emph{actually} "
+"works, and they guide you to writing correct code as well as providing the "
+"flexibility to change code and know that features still work. The larger "
+"your codebase becomes, the more valuable your tests are, because they allow "
+"you to change one part of your code and still be sure that the rest of it "
+"works."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :39
+msgid ""
+"Another vital reason to write tests is because it indicates that something "
+"is explicitly desirable, rather than an unintended side-effect or "
+"oversight. If you have a specification, you can use tests to verify that you "
+"meet it, which is very valuable, and in some industries, necessary. A test "
+"is just like telling a story, where the story is how you think code should "
+"work."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :45
+msgid ""
+"Code either changes and evolves or bitrots\\footnote{The term ``bitrot'' is "
+"coder slang for the almost universal fact that if a piece of code does not "
+"change but everything it relies on does, it ``rots'' and usually has very "
+"little chance of working unless modifications are made to accommodate newer "
+"software and hardware.}."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :51
+msgid ""
+"Very often, you will write tests once, but then totally refactor your "
+"implementation or even rewrite it from scratch. Tests often outlive the code "
+"they originally tested, i.e., one set of tests can be used no matter how "
+"many times your code is refactored. Tests are actually the litmus test that "
+"allows you to throw away an old implementation and say ``this newer "
+"implementation has a much better design and passes our test suite.'' I have "
+"seen this happen many times in the Perl and Parrot communities, where you "
+"can often find me."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :54
+msgid ""
+"Tests allow you to change things quickly and know if something is "
+"broken. They are like jet packs for developers."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :57
+msgid "Carpenters have a bit of sage wisdom that goes like this:"
+msgstr ""
+
+#. type: quote
+#: ./qualityassurance/JonathanLeto.tex
+#: :57
+msgid "``Measure twice, cut once.''"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :59
+msgid "Coding is like cutting and tests are like measuring."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :63
+msgid ""
+"Test-Driven Enlightenment saves an enormous amount of time, because instead "
+"of flailing around, fiddling with code, not having a direction, tests hone "
+"your focus."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :66
+msgid ""
+"Tests also are very good positive feedback. Every time you make a new test "
+"pass, you know that your code is better and it has one more feature or one "
+"less bug."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :71
+msgid ""
+"It is easy to think ``I want to add 50 features'' and spend all day fiddling "
+"with code, constantly switching between working on different things. Most of "
+"the time, very little will be accomplished. Test-Driven Enlightenment guides "
+"one to focus on making one test pass at a time."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :75
+msgid ""
+"If you have a single failing test, you are on a mission to make it pass. It "
+"focuses your brain on something very specific, which very often has better "
+"results than switching between tasks constantly."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :89
+msgid ""
+"Most information about being test-driven is very specific to a language or "
+"situation, but that does not need to be the case. Here is how to approach "
+"adding a new feature or fixing a bug in any language:"
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :89
+msgid ""
+"Write a test that fails, which you think will pass when the feature is "
+"implemented or bug is fixed. Advanced: As you write the test, run it "
+"occasionally, even if it is not done yet, and guess the actual error message "
+"that the test will give. The more tests you write and run, the easier this "
+"will become."
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :89
+msgid "Hack on the code."
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :89
+msgid "Run the test. If it passes, go to \\#4, otherwise go to \\#2."
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :89
+msgid "You are done! Do a happy dance :)"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :91
+msgid ""
+"This method works for any kind of test and any language. If you remember "
+"only one thing about testing from this essay, remember the steps above."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :103
+msgid ""
+"Here are some more general test-driven guidelines that will serve you well "
+"and apply in almost any situation:"
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :103
+msgid ""
+"Understand the difference between what is being tested and what is being "
+"used as a tool to test something else."
+msgstr ""
+
+#. type: enumerate
+#: ./qualityassurance/JonathanLeto.tex
+#: :103
+msgid ""
+"Fragile tests. You could write a test that makes sure an error message is "
+"exactly correct. But what happens when the error message changes? What "
+"happens when someone internationalizes your code to Catalan? What happens "
+"when someone runs your code on an operating system you have never heard of? "
+"The more resilient your test is, the more valuable it will be."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :108
+msgid ""
+"Think about these things when you write tests. You want them to be "
+"resilient, i.e., tests, for the most part, should only have to change when "
+"functionality changes. If you have to change your tests often, but "
+"functionality is not changing, you are doing something wrong."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/JonathanLeto.tex
+#: :110
+msgid "Kinds of tests"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :117
+msgid ""
+"Many people start to get confused when people speak of integration tests, "
+"unit tests, acceptance tests and many other flavors of tests. One should not "
+"worry too much about these terms. The more tests you write, the more nuances "
+"you will see and the differences between tests will become more "
+"apparent. Everyone does not have the same definition for what these tests "
+"are, but the terms are still useful to describe kinds of tests."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/JonathanLeto.tex
+#: :119
+msgid "Unit tests vs. integration tests"
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :125
+msgid ""
+"Unit tests and integration tests form a spectrum. Unit tests test small bits "
+"of code, and integration tests verify how more than one unit fits "
+"together. The test writer gets to decide what comprises a unit, but most "
+"often it is at the level of a function or method, although some languages "
+"call those things by different names."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :130
+msgid ""
+"To make this a little more concrete, we will give a basic analogy using "
+"functions. Imagine that $f(x)$ and $g(x)$ are two functions which represent "
+"two units of code. For concreteness, let's assume they represent two "
+"specific functions in your favorite Free/Open Source project's codebase."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :139
+msgid ""
+"An integration test asserts something like function composition, i.e., "
+"$f(g(a)) = b$. An integration test is testing how multiple things integrate "
+"or work together, instead of how a single part works individually. If "
+"algebra isn't your thing, another way to look at it is unit tests only test "
+"one part of the machine at a time, but integration tests very many parts "
+"work in unison. A great example of an integration test is test-driving a "
+"car.  You are not checking the air pressure, or measuring voltage of the "
+"spark plugs.  You are making sure the vehicle works as a whole."
+msgstr ""
+
+#. type: Plain text
+#: ./qualityassurance/JonathanLeto.tex
+#: :146
+msgid ""
+"Most of the time it is good to have both. I often start with unit tests and "
+"add integration tests as needed, since you will weed out the most basic bugs "
+"first, then find more subtle bugs that are related to how pieces do not "
+"quite fit together, as opposed to the individual pieces not working. Many "
+"people write integration tests first and then delve into unit tests. Which "
+"you write first is not nearly as important as writing both kinds."
+msgstr ""
+
+#. type: section{#2}
+#: ./qualityassurance/JonathanLeto.tex
+#: :148
+msgid "Enlightenment"
+msgstr ""
+
+#. type: Plain text
+#: qualityassurance.tex:4
+msgid ""
+"Test-Driven Enlightment is a path, not a place. Enjoy the journey and make "
+"sure to stop and smell the flowers if and when you get lost."
+msgstr ""

@@ -1,0 +1,1327 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 12.usablity\n"
+"POT-Creation-Date: 2014-01-06 14:51+0800\n"
+"PO-Revision-Date: 2014-01-06 18:11+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: usability/GuillaumePaumier.tex:2
+msgid "Usability"
+msgstr "无障碍使用"
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:2
+msgid "\\chapterwithauthor{Guillaume Paumier}{Learn from Your Users}"
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:9
+msgid ""
+"\\authorbio{Guillaume Paumier is a photographer and physicist living in "
+"Toulouse, France. A long-time Wikipedian, he currently works for the "
+"Wikimedia Foundation, the non-profit that runs Wikipedia. As a product "
+"manager for Multimedia Usability, he notably conducted user research to "
+"design a new media upload system for Wikimedia Commons, the free media "
+"library associated with Wikipedia.}"
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:23
+msgid ""
+"\\noindent{}You know Wikipedia, the freely reusable encyclopedia that anyone "
+"can edit? It was created in 2001 and recently celebrated its tenth "
+"anniversary. Despite being one of the ten most visited websites in the "
+"world, its user interface still looks very ``1.0' compared to what "
+"interactive web technologies allow. Some might say it is for the best: "
+"Wikipedia is ``serious stuff'', and the user should not be distracted by "
+"``fireworks'' in the interface. Yet, Wikipedia has had issues recruiting new "
+"contributors in the last few years, in part because of its interface that "
+"some may call archaic. This might explain why surveys of Wikipedia "
+"participants have repeatedly shown a bias towards young, technology-savvy "
+"men, many with a background in computers and engineering.  Besides the fact "
+"that free knowledge and free licenses sprouted from the fertile land of Free "
+"and Open Source Software, the complicated interface has discouraged many "
+"motivated potential participants."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:30
+msgid ""
+"In 2011, while major online publishing and collaboration platforms (like "
+"WordPress, Etherpad and Google Documents) offer a visual editor to some "
+"extent, Wikipedia still uses by default an old-fashioned wikitext editor "
+"that uses quotes (\\textquotesingle \\textquotesingle \\textquotesingle "
+"\\textquotesingle) and brackets ([[]]) for formatting. Efforts are underway "
+"to transition to a default visual editor in 2012, but it is not an easy "
+"challenge to solve."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:38
+msgid ""
+"But let us put the editor aside for a moment. The interface of Wikipedia "
+"remains fairly complicated, and many useful features are difficult to "
+"discover. Did you know Wikipedia has an integrated version control system, "
+"and you can see all the previous versions of a page? Did you know you can "
+"see the list of all the edits made by a participant? Did you know you can "
+"link to a specific version of a page? Did you know you can export a page to "
+"PDF, or create custom hardcover books from Wikipedia content, to be sent to "
+"your home?"
+msgstr ""
+
+#. type: section{#2}
+#: usability/GuillaumePaumier.tex:40
+msgid "The Implementation Model"
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:47
+msgid ""
+"Most Wikipedia readers arrive through search engines. Statistics show they "
+"spend little time on Wikipedia once they find the information they were "
+"looking for.  Few stick around and explore what tools the interface offers. "
+"For example, Wikipedia is routinely criticized about its quality and "
+"reliability. Many of these unexplored, almost hidden tools could prove "
+"useful to readers to help them assess the reliability of information."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:62
+msgid ""
+"Wikipedia and its sister projects (like Wikisource and Wikimedia Commons)  "
+"are powered by a wiki engine called MediaWiki (and supported by the "
+"Wikimedia Foundation; all these confusing names alone are a usability sin). "
+"For a long time, the development of MediaWiki was primarily led by software "
+"developers. The MediaWiki community has a strong developer base; actually, "
+"this community is almost entirely composed of developers. Only recently did "
+"designers join the community and they were hired by the Wikimedia Foundation "
+"in this capacity. There are hardly any volunteer designers in the community. "
+"This has caused the application to be built and ``designed'' exclusively by "
+"developers. As a consequence, the interface has naturally taken a shape that "
+"closely follows the ``implementation model'', i.e., the way the software is "
+"implemented in the code and data structures. Only rarely does this "
+"implementation model match the ``user model'', i.e., the way the user "
+"imagines things to work."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:73
+msgid ""
+"It would be unfair to say that developers do not care about users. The "
+"purpose of creating software (apart from the sheer pleasure of learning "
+"stuff, writing code and solving problems) is to release it so it can be "
+"used. This is particularly true in the world of Free and Open Source "
+"Software, where most developers selflessly volunteer their time and "
+"expertise. One might argue that many developers are, in fact, users of their "
+"own products, especially in the world of Free and Open Source software. "
+"After all, they created it or joined its team, for a reason, and this reason "
+"was rarely money. As a consequence, developers of this kind of software "
+"would be in an ideal position to know what the user wants."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:75
+msgid ""
+"But let's face it: if you are reading this, you are not your regular user."
+msgstr ""
+
+#. type: section{#2}
+#: usability/GuillaumePaumier.tex:77
+msgid "The Developer Point Of View"
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:85
+msgid ""
+"If you are a developer, it is particularly difficult for you to sit in the "
+"user's chair. For one thing, your familiarity with the code and the "
+"software's implementation makes you see its features and interface from a "
+"very specific perspective. You know each and every feature of the "
+"application you created. You know where to find everything. If something "
+"with the interface feels a little odd, you may unconsciously discard it "
+"because you know it is a side-effect of how you implemented such or such a "
+"feature."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:95
+msgid ""
+"Let us say you are creating an application that stores data in tabular form "
+"(possibly in a database). When the time comes to show this data to the user, "
+"you will naturally think of the data as tabular, because it is how you "
+"implemented it. It will make sense to you to display it in a way that is "
+"consistent with how it is stored. Similarly, any kind of array or other "
+"sequential structure is bound to be remembered as such, and displayed in a "
+"sequential format in the interface as well, perhaps as a list. However, "
+"another format may make more sense for the regular user, for example a set "
+"of sentences, a chart, or another visual representation."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:102
+msgid ""
+"Another challenge is your level of expertise. Because you want your "
+"application to be awesome, you are likely to do a lot of research to build "
+"it.  In the end, you may not only become an expert in your application, but "
+"also an expert in your application's topic. Many of your users will not have "
+"(or need)  that level of expertise, and they may be lost with the level of "
+"detail of some features, or be unfamiliar with some terms the layperson does "
+"not know."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:104
+msgid "So, what can you do to fix it?"
+msgstr ""
+
+#. type: section{#2}
+#: usability/GuillaumePaumier.tex:106
+msgid "Watch users. Seriously."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:108
+msgid ""
+"Watching people as they use your application is truly an eye-opening "
+"experience."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:122
+msgid ""
+"Now, one way to watch people use your application is to hire a usability "
+"firm, who will recruit testers with various profiles among a pool of "
+"thousands, prepare an interview script, rent a room in a usability lab with "
+"a screen-recording app, a video camera pointed at the user, and you in a "
+"backroom behind a one-way glass, head-desking and swearing every time the "
+"user does something you think does not make any sense. If you can afford to "
+"do that, then by all means, do so. What you will learn will really change "
+"your perspective. If you can not afford professional testing, all is not "
+"lost; you are just going to have to do it yourself. Just sit beside a user "
+"as they show you how they perform their tasks and go through their workflow. "
+"Be a silent observer: your goal is to observe, and note everything. Many "
+"things will surprise you. Once the user is done, you can go through your "
+"notes and ask questions to help you understand how they think."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:134
+msgid ""
+"To know more about do-it-yourself testing have a look at \\textit{Don't Make "
+"Me Think: A Common Sense Approach to Web Usability} by Steve Krug, \\textit"
+"{About Face 3: The Essentials of Interaction Design} by Alan Cooper, Robert "
+"Reimann and David Cronin, and the OpenUsability project\\footnote{\\url"
+"{http://openusability.org}}.  It can be a bit awkward for users to be "
+"watched, yet I bet many of them will happily volunteer to help you improve "
+"your application. Users who cannot contribute code are usually happy to find "
+"other ways to participate in Free Software, and showing you how they use the "
+"software is a very easy way to do so. Users are generally grateful for the "
+"time you have spent developing the application, and they want to give back."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:141
+msgid ""
+"You will need to keep in mind, that not everything your users request can or "
+"should be done. Listen carefully to their stories: it is an opportunity for "
+"you to identify issues. But just because a user requests a feature does not "
+"mean they really need that feature; perhaps the best way to fix the issue "
+"underlying their feature request is to implement a completely different "
+"feature. Take what your users say with a grain of salt. But you probably "
+"knew that already."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:143
+msgid "Oh, and by the way, do not ask your family, either."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:151
+msgid ""
+"No offense intended, I am sure your mom, dad, sisters and brothers are very "
+"nice people.  But if you are creating an accounting application, and your "
+"sister has never done any accounting, she is going to be quite lost. You "
+"will spend more time explaining what double-entry bookkeeping is than really "
+"testing your software. However, your mom, who bought herself a digital "
+"camera last year, could be an ideal tester if you are creating an "
+"application to manage digital photos, or to upload them to a popular online "
+"sharing platform. For your accounting application, you could ask one of your "
+"colleagues or friends who already knows a thing or two about accounting."
+msgstr ""
+
+#. type: section{#2}
+#: usability/GuillaumePaumier.tex:153
+msgid "Ask different people, too."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:161
+msgid ""
+"For some cosmological reason, people will find endless ways to use and abuse "
+"your application, and break it in ways you would not think of in your worst "
+"nightmares. Some will implement processes and workflows with your "
+"application that make absolutely no sense to you, and you will want to slam "
+"your head on your desk. Others will use your application in ways so smart, "
+"they will make you feel stupid. Try to listen to users with different "
+"profiles, who have different goals when they use your application."
+msgstr ""
+
+#. type: Plain text
+#: usability/GuillaumePaumier.tex:163
+msgid ""
+"Users are an unpredictable species. But they are on your side. Learn from "
+"them."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:2
+msgid "If you remember nothing else, ..."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:2
+msgid "... then remember this:"
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:2
+msgid ""
+"You will be tempted to make the interface look and behave like how it works "
+"in the back-end. Your users can help you prevent that."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:2
+msgid ""
+"Users are an unpredictable species. They will break, abuse and optimize your "
+"application in ways you can not even imagine."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:2
+msgid ""
+"Learn from your users. Improve your application based on what you learned. "
+"Profit."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:2
+msgid ""
+"\\chapterwithauthor{Federico Mena Quintero}{Software that Has the Quality "
+"Without A Name}"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:9
+msgid ""
+"\\authorbio{Federico Mena Quintero is one of the founders of the GNOME "
+"project, and was the maintainer of the GIMP some time before that.  He "
+"worked at Red Hat Advanced Development Labs during the early days of GNOME, "
+"and later was one of the first hires at Ximian, where he worked mainly on "
+"the Evolution Calendar.  He still works on GNOME in general, for Novell / "
+"Suse, and lives in Mexico.}"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:18
+msgid ""
+"\\noindent{}When I was learning how to program, I noticed that I frequently "
+"hit the same problem over and over again: I would often write a program that "
+"worked reasonably well, and even had a good structure, but after some time "
+"of modifying it and enhancing it, I could no longer tweak it any further. "
+"Either its complexity would overwhelm me, or it would be so tightly written "
+"that it allowed no room for expansion, like a house where you cannot build "
+"up because it has a sloping roof, and you cannot build to the sides because "
+"it has a wall all around it."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:23
+msgid ""
+"As I got better, I learned to deal with complexity. We all learn how to do "
+"that with various tools and techniques: abstraction, encapsulation, object-"
+"orientation, functional techniques, etc. We learn how various techniques let "
+"us write broader programs."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:30
+msgid ""
+"However, the problem of having a program that was too tight or too "
+"intertwined to modify still persisted. Sometimes I had what I thought was a "
+"beautiful design, but modifying it in any way would ``make it uglier'' and I "
+"did not want that. Other times I had something with so many interconnected "
+"parts, that I just could not plug anything else into it or the whole thing "
+"would fall down under its own weight."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:36
+msgid ""
+"Some years ago the whole \\textit{Refactoring} craze started, but I did not "
+"pay much attention to it. I said, sure, it is a way to clean up your code, "
+"but so what? I already know how to take a chunk of code and turn it into a "
+"function; I already know how to take similar chunks of code and turn them "
+"into derived classes. I already know how to write mostly-clean code. What is "
+"the big deal?"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:40
+msgid ""
+"I dismissed \\textit{Refactoring} as something suited to less experienced "
+"programmers; as some nice recipes for cleaning up your code, but nothing "
+"that you could not discover yourself."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:46
+msgid ""
+"The same thing happened to me with \\textit{Design Patterns}. I thought they "
+"were just giving pompous names like Singleton and Strategy to the everyday "
+"kinds of structures one would naturally put in a program. Maybe my ego as a "
+"programmer was too inflated to consider those works seriously. But then, "
+"something happened."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:48
+msgid "Christopher Alexander's work"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:54
+msgid ""
+"Some years ago, my wife and I bought a small, one-story house and we wanted "
+"to expand it. We were thinking of having a child, so we needed more space. I "
+"needed a real home-office, not just a leftover alcove where my desk and "
+"bookcases barely fit. As avid cooks, we both needed a kitchen that was "
+"larger and more comfortable than the one the house had. My wife needed a "
+"Room Of Her Own."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:57
+msgid ""
+"We did not want to pay for an expensive architect, and neither of us knew "
+"anything about construction. How would we design our house?"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:64
+msgid ""
+"At times, while browsing the web, I will sometimes remember that I have seen "
+"the name of a certain author before, or the title of a book, or something "
+"like that.  I may have not really paid attention to it in the past, but "
+"somehow, the more times I see the same thing mentioned, the more likely it "
+"is that I will get interested enough in it to actually see what it is about. "
+"``Oh, several people have already mentioned this name or this book; maybe I "
+"should check it out.''"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:69
+msgid ""
+"That is just what happened with the name of Christopher Alexander. I had "
+"read that he was a peculiar architect (of real-world buildings, not "
+"software), somehow connected to the software world through object-oriented "
+"techniques. As I started reading about his work, I became tremendously "
+"interested in it."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:79
+msgid ""
+"In the 1970s, Christopher Alexander was a mathematician/architect teaching "
+"at the University of California, Berkeley. He and a group of like-minded "
+"architects went to various places around the world, trying to see if there "
+"were reasons for why there are human-built places in the world (cities, "
+"towns, parks, buildings, houses) where it is very pleasant to be, those that "
+"are comfortable, livable, and \\textit{nice}, and some places where this is "
+"not the case. The pleasant places were present in all of the traditional "
+"architectures of the world -- European, African, Asian, American -- which "
+"pointed to the idea of being able to extract common factors from all of them."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:86
+msgid ""
+"Alexander and his team distilled their findings into a list of good "
+"architectural patterns, and published three books: \\textit{The Timeless Way "
+"of Building}, where they describe the philosophy and method of good "
+"architecture; \\textit{A Pattern Language}, which I will describe next; and "
+"\\textit{The Oregon Experiment}, where they detail the design and "
+"construction of a university campus with their method."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:88
+msgid "A Pattern Language"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:95
+msgid ""
+"A pattern is a recurring problem when designing and building things, with a "
+"discussion of the forces that shape the problem, and with a solution that is "
+"in turn connected, almost recursively, to other super- or sub-patterns. For "
+"example, let us consider the INTIMACY GRADIENT, an important pattern in the "
+"book (patterns are spelled in capital letters throughout the book for easy "
+"identification, so I will do the same):"
+msgstr ""
+
+#. type: subsection{#2}
+#: usability/FedericoMenaQuintero.tex:97
+msgid "INTIMACY GRADIENT"
+msgstr ""
+
+#. type: paragraph{#2}
+#: usability/FedericoMenaQuintero.tex:104
+msgid "Super-patterns and preamble:"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:104
+msgid ""
+"... if you know roughly where you intend to place the building wings - WINGS "
+"OF LIGHT, and how many stories they will have - NUMBER OF STORIES, and where "
+"the MAIN ENTRANCE is, it is time to work out the rough disposition of the "
+"major areas on every floor. In every building the relationship between the "
+"public areas and private areas is most important."
+msgstr ""
+
+#. type: paragraph{#2}
+#: usability/FedericoMenaQuintero.tex:109
+msgid "Statement of problem:"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:109
+msgid ""
+"Unless the spaces in a building are arranged in a sequence which corresponds "
+"to their degrees of privateness, the visits made by strangers, friends, "
+"guests, clients, family, will always be a little awkward."
+msgstr ""
+
+#. type: paragraph{#2}
+#: usability/FedericoMenaQuintero.tex:117
+msgid "Discussion:"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:117
+msgid ""
+"I will not quote all of it. But for example, consider an apartment where you "
+"can only reach the bathroom by first crossing the bedroom. Visits are always "
+"awkward because you feel like you need to tidy up your room first, if you "
+"intend your visitors to be able to use the WC! Or consider an office, where "
+"you do not want a quiet work space to be right next to the reception, "
+"because then it will not be quiet at all -- you want it to be more private, "
+"towards the back."
+msgstr ""
+
+#. type: paragraph{#2}
+#: usability/FedericoMenaQuintero.tex:122
+msgid "Summary of the solution:"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:122
+msgid ""
+"Lay out the spaces of a building so that they create a sequence which begins "
+"with the entrance and the most public parts of the building, then leads into "
+"the slightly more private areas, and finally to the most private domains."
+msgstr ""
+
+#. type: paragraph{#2}
+#: usability/FedericoMenaQuintero.tex:126
+msgid "Sub-patterns to consult:"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:126
+msgid ""
+"COMMON AREAS AT THE HEART. ENTRANCE ROOM for houses; A ROOM OF ONE'S OWN for "
+"individuals. RECEPTION WELCOMES YOU for offices, HALF-PRIVATE OFFICE at the "
+"back."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:133
+msgid ""
+"The patterns get quite specific, but they never impose a style or an actual "
+"shape for the result. For example, there is a pattern called OPEN SHELVES. "
+"Deep cupboards make you put things behind other things, so you can not see "
+"them nor reach them. They also have a big footprint. Cupboards that are one-"
+"item-deep automatically stay tidy, and you always know at a glance where "
+"everything is.  Things that you use frequently should not be behind doors."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:141
+msgid ""
+"So you can see the essence of design patterns: good, tested recipes that do "
+"not constrain your implementation in unnecessary ways. The patterns do not "
+"mandate a particular style, nor include superfluous decorations: the book "
+"does not tell you, ``make this shape of flourishes in the handrails''; "
+"instead it tells you, ``a house should have its rooms placed such that "
+"sunlight enters them according to the time of the day in which they are most "
+"used -- East for the bedrooms in the morning, West for the living room in "
+"the afternoon''."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:151
+msgid ""
+"I had gotten a copy of \\textit{A Pattern Language} shortly before starting "
+"the expansion of our house. The book was a revelation: \\textbf{this} was "
+"the way to approach the design of our house, and now we could do it "
+"ourselves instead of paying a lot of money for an inadequate solution. We "
+"were able to make up a rough plan for our house, and then figure out smaller "
+"details as the construction went on. This is the kind of book that, as you "
+"read it, manages to confirm intuitive ideas that you half-knew you had -- "
+"the kind of book where you find yourself saying, ``of course, this is "
+"completely how I thought it should be'' all the time."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:157
+msgid ""
+"\\textit{Design Patterns}, the well-known book by Gamma et al, took direct "
+"inspiration from Alexander's architectural patterns. They wanted to do the "
+"same thing: to make a list of problems that appear frequently when "
+"programming, and to present good solutions for them, that would not "
+"constrain your implementation unnecessarily."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:165
+msgid ""
+"One thing that I realized while reading \\textit{A Pattern Language} (a "
+"valuable thing from both lists of patterns, the architectural and the "
+"software one) is that they give us a vocabulary to talk about how things are "
+"constructed. It is much more convenient to say, ``this object has listeners "
+"for its properties'', than ``this object lets you hook callback functions "
+"that are called when its properties change''. What I thought were only "
+"pompous names, are in fact ways to express knowledge in a compact form."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:167
+msgid "The Quality Without A Name"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:178
+msgid ""
+"Much of Alexander's discussion of patterns and their philosophy refers "
+"something which he calls the ``Quality Without A Name''. You know places "
+"with the Quality Without A Name. It is present in the coffee shop where you "
+"like to go to read, because the afternoon light hits it at just the right "
+"intensity, and there are comfortable seats and tables, and somehow it always "
+"is packed with people and yet you do not feel overcrowded. It is present in "
+"the corner in a park where a tree shades a bench, maybe there is some water "
+"running, and no matter if it rains or if it is sunny, it always seems to be "
+"a pleasure to be there. Think of a Hobbit House, where everything is at "
+"hand, everything is comfortable, and everything is lovingly made."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:187
+msgid ""
+"A thing or place has the Quality Without A Name if it is comfortable, has "
+"evolved over time in its own terms, is free of inner contradictions, does "
+"not try to draw attention to itself, and seems to have archetypal qualities "
+"-- like if it were the way that thing was supposed to be built. Most "
+"importantly, Alexander asserted that this is an objective quality, not a "
+"subjective one, and that it can be measured and compared. Although this "
+"seems like a very vague definition, that is as far as Alexander was able to "
+"take it during this first phase of his work. The real revelation would come "
+"later."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:194
+msgid ""
+"As programmers, we have all seen beautiful programs at some point. Maybe "
+"they are the examples in \\textit{Programming Pearls}, a beautiful book "
+"which every hacker should read. Maybe you have seen a beautifully "
+"implemented algorithm that exudes rightness. Maybe you remember a very "
+"compact, very legible, very functional, very correct piece of code. That "
+"software has the Quality Without A Name."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:198
+msgid ""
+"It became clear to me that I had to learn to write software that attained "
+"the Quality Without A Name, and Alexander's frame of mind was the right "
+"starting point for this."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:200
+msgid "The ticket booth"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:205
+msgid ""
+"Alexander's PhD dissertation, which was the basis for his book \\textit"
+"{Notes on the Synthesis of Form} from 1964, tried to mathematize design by "
+"defining it as a progression from a series of requirements to a final "
+"result, through an analysis of the forces that shaped the design."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"Let me quote Richard Gabriel, of whom I will talk more later, when he "
+"describes the time when Alexander was trying to design a ticket booth based "
+"on his mathematical ideas:"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid "Alexander says [about the Quality Without A Name]:"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"It is a subtle kind of freedom from inner contradictions. (Alexander 1979)"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"This statement reflects the origins of his inquiry into the quality. It "
+"started in 1964 when he was doing a study for the [San Francisco] Bay Area "
+"Rapid Transit (BART) system based on the work reported in Notes on the "
+"Synthesis of Form (Alexander 1964), which in turn was based on his Ph.D. "
+"dissertation. One of the key ideas in this book was that in a good design "
+"there must be an underlying correspondence between the structure of the "
+"problem and the structure of the solution -- good design proceeds by writing "
+"down the requirements, analyzing their interactions on the basis of "
+"potential misfits, producing a hierarchical decomposition of the parts, and "
+"piecing together a structure whose"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"structural hierarchy is the exact counterpart of the functional hierarchy "
+"established during the analysis of the program. (Alexander 1964)"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"Alexander was studying the system of forces surrounding a ticket booth, and "
+"he and his group had written down 390 requirements for what ought to be "
+"happening near it. Some of them pertained to such things as being there to "
+"get tickets, being able to get change, being able to move past people "
+"waiting in line to get tickets, and not having to wait too long for tickets. "
+"What he noticed, though, was that certain parts of the system were not "
+"subject to these requirements and that the system itself could become bogged "
+"down because these other forces - forces not subject to control by "
+"requirements -- acted to come to their own balance within the system. For "
+"example, if one person stopped and another also stopped to talk with the "
+"first, congestion could build up that would defeat the mechanisms designed "
+"to keep traffic flow smooth. Of course there was a requirement that there "
+"not be congestion, but there was nothing the designers could do to prevent "
+"this by means of a designed mechanism."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"As a programmer, does this sound familiar? You can make a beautiful, "
+"thorough design, that crumbles down when you actually build it because "
+"things emerge that you did not anticipate. This is not a failure of your "
+"design, but of something else! Richard Gabriel goes on:"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid "Alexander said this:"
+msgstr ""
+
+#. type: quote
+#: usability/FedericoMenaQuintero.tex:260
+msgid ""
+"So it became clear that the free functioning of the system did not purely "
+"depend on meeting a set of requirements. It had to do, rather, with the "
+"system coming to terms with itself and being in balance with the forces that "
+"were generated internal to the system, not in accordance with some arbitrary "
+"set of requirements we stated. I was very puzzled by this because the "
+"general prevailing idea at the time [in 1964] was that essentially "
+"everything was based on goals. My whole analysis of requirements was "
+"certainly quite congruent with the operations research point of view that "
+"goals had to be stated and so on.  What bothered me was that the correct "
+"analysis of the ticket booth could not be based purely on one’s goals, that "
+"there were realities emerging from the center of the system itself and that "
+"whether you succeeded or not had to do with whether you created a "
+"configuration that was stable with respect to these realities."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:264
+msgid ""
+"And that is the core of the problem: how do you create a configuration that "
+"is stable with the realities that emerge from itself as you build it?"
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:266
+msgid "The Nature of Order"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:273
+msgid ""
+"Although Christopher Alexander knew that he had produced something valuable "
+"with his investigation and catalog of patterns, he was not completely "
+"satisfied.  Where had the patterns come from? Could we make new patterns "
+"from scratch, or must we be content with what traditional architecture has "
+"managed to evolve so far? Are patterns necessary at all? How can we better "
+"define, and evaluate or measure, the Quality Without A Name?"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:293
+msgid ""
+"Alexander spent the next twenty years researching those questions. By "
+"studying the actual process by which good built environments had been "
+"created, he discovered that processes of a certain kind are essential to "
+"creating good towns, or buildings, or any man-made thing in fact. He arrived "
+"at the following conclusions:"
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:293
+msgid ""
+"Nature creates things that all have about 15 properties in common (I will "
+"show you later). This happens solely through natural processes -- standard "
+"physics and chemistry -- although it is not quite clear why very different "
+"processes produce similar results."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:293
+msgid ""
+"Traditional architectures, or towns which just evolved over time, also have "
+"those properties. You can derive all the patterns in \\textit{A Pattern "
+"Language} by following a certain process based on those properties."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:293
+msgid "Each property can also describe a transformation to the existing space."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:293
+msgid ""
+"The only way to achieve good design is by using those transformations, one "
+"at a time."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:293
+msgid ""
+"This was published in 2003-2004 in four volumes titled \\textit{The Nature "
+"of Order}."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:295
+msgid "The fifteen properties"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"The first book in \\textit{The Nature of Order} deals with fifteen "
+"properties that appear in all natural systems. I will summarize them very "
+"briefly; see the references for pictures and more extensive explanations."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Levels of scale:} There is a balanced range of sizes. You do not "
+"have abrupt changes in the sizes of adjacent things. Elements have fractal "
+"scale."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Strong centers:} You can clearly identify parts of the space or "
+"structure."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Thick boundaries:} Lines delimit things. In living systems, edges "
+"are the most productive environments (e.g., all the critters that live at "
+"the edge of the water)."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Alternating repetition:} High/low, thick/thin, shape A and shape B. "
+"Things oscillate and alternate to create a good balance."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Positive space:} Space is beautifully shaped, convex, enclosed.  It "
+"is not leftover space. Think of how a Voronoi diagram has cells that grow "
+"outward from a bunch of points, or how a piece of corn has kernels that grow "
+"from tiny points until they touch the adjacent kernels."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Good shape:} The sails of a ship, the shell of a snail, the beak of "
+"a bird. They attain the optimal shape for their purpose, which is beautiful."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Local symmetries:} The world is not symmetrical at large. But small "
+"things tend to be symmetrical, because it is easier that way. Your house is "
+"not symmetrical, but each window is."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Deep interlock and ambiguity:} The crooked streets of old towns.  "
+"Axons in neurons. It is hard to separate figure and ground, or foreground "
+"and background. Two strong centers are made stronger if a third center is "
+"placed between them, so that it belongs to both."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Contrast:} You can distinguish where one thing ends and the next "
+"one begins, because they do not fade into each other."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Gradients:} Things fade into each other where they need to.  "
+"Concentrations in solutions, snow or earth banks, the wires that support a "
+"bridge. The way bandwidth decreases as you move away from the backbone."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Roughness:} The world is not frictionless and smooth.  "
+"Irregularities are good because they let each piece adapt perfectly to its "
+"surroundings, rather than being an exact copy that may not fit as well."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Echoes:} Things repeat and echo each other. Things are unique in "
+"their exact shape, but the general shapes repeat over and over."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{The void:} Sometimes you get a big blank area for quietness of "
+"form. A lake, a courtyard, a picture window."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Simplicity and inner calm:} Things are as simple as possible, but "
+"no simpler."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:340
+msgid ""
+"\\textbf{Non-separateness:} Everything depends on everything else. You "
+"cannot separate a fish from the pond and the aquatic plants. You cannot "
+"separate a column from the base of the building."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:342
+msgid "Structure-preserving transformations"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:367
+msgid ""
+"The second book in \\textit{The Nature of Order} describes how each of those "
+"properties also defines a transformation. For example:"
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:367
+msgid ""
+"\\textbf{Thick boundaries:} You can sometimes transform something "
+"beneficially by adding a boundary to it. You plant a hedge around a garden, "
+"which then serves as beauty, as a wind-break so that strong winds do not "
+"damage the garden, and as a productive system on its own. In a graphical "
+"user interface, scrollable boxes without a frame are hard to distinguish "
+"from the window's background (think of all white web pages with text entry "
+"boxes that do not have a frame). You put a cornice at the top of a building, "
+"so that you do not get an abrupt transition between the building and the sky."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:367
+msgid ""
+"\\textbf{Local symmetries:} Small parts of built things are easier to build "
+"symmetrically; because they are turned on a lathe, because they need access "
+"from both sides, because they fold like a book. Making things asymmetrical "
+"just to be interesting takes extra work and it is harder to make them work "
+"well."
+msgstr ""
+
+#. type: itemize
+#: usability/FedericoMenaQuintero.tex:367
+msgid ""
+"\\textbf{Positive space:} Feeling too exposed when in your desk? Add a waist-"
+"high bookshelf beside you to delimit your space, but not to completely close "
+"you off. Does your user interface feel like a lot of leftover space after "
+"you place the controls? Make the controls surround the usable space instead."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:367
+msgid ""
+"Each of these is a structure-preserving transformation. You make a change in "
+"the existing structure not by tearing it down and remaking it, but by "
+"tweaking one thing at a time according to those properties as "
+"transformations."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:374
+msgid ""
+"In software terms, it turns out that this is what much of \\textit"
+"{Refactoring} is about, when you translate the concepts to code. Refactoring "
+"is just applying structure-preserving transformations, or as Martin Fowler "
+"(the author of \\textit{Refactoring}) would put it, behavior-preserving "
+"transformations. You do not change what the program does; you just change "
+"how it is built internally, piece by piece."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:381
+msgid ""
+"By extracting a chunk of code and putting it in a function with a name, you "
+"are essentially adding a thick boundary around that code, and creating a "
+"strong center. By removing a global variable and adding class variables, you "
+"are allowing for roughness, as every instance can now have a different value "
+"in that variable, as needed. By having a producer/consumer, or notifier/"
+"listener, you have local symmetries, deep interlock and ambiguity, and good "
+"shape."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Richard Gabriel, one of the principal figures in Common Lisp, studied how to "
+"apply Alexander's theories to software (and also to poetry, and is code not "
+"similar to poetry after all?). He gives the following example:"
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Imagine that you write a PhoneCall class. This is a latent center, not as "
+"strong as it could be."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Gerard Meszaros, in \\textit{Pattern: Half Object + Protocol} suggested that "
+"you should split that into half calls tied by a protocol."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"We attain a local symmetry, we make a strong center, and get levels of scale."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid "Now make a diagram of that:"
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"You have local symmetry, levels of scale, boundaries, deep interlock and "
+"ambiguity -- and this is where Meszaros left things."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Richard Gabriel then suggests strengthening the centers that exist by "
+"applying other structure-preserving transformations. What about the latent "
+"center in the middle?"
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"You add an explicit boundary (Call) that ties the HalfCalls. This improves "
+"the local symmetries, retains deep interlock and ambiguity, and it is "
+"composable."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid "Yes, composable."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Multi-way calls, conference calls, happen all out of applying structure-"
+"preserving transformations."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:428
+msgid ""
+"Probably every programmer keeps a mental picture of the program he is "
+"creating or modifying. The hard part of modifying code that you did not "
+"write is forming that mental picture in the first place. When you work to "
+"make the code present a more beautiful picture, your code becomes better -- "
+"and Alexander gives us a good way to do that."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:430
+msgid "The fundamental process"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"Over a long argument, Alexander explains why following this process of "
+"applying structure-preserving transformations is the \\textbf{only} way to "
+"achieve a good, functional design. This is not just for buildings, but for "
+"everything we construct. It does not matter if you start with an existing "
+"program or building or city, or whether you are starting from scratch. We "
+"mimic nature's own evolutions and regenerative processes, but we do it "
+"faster."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"Start with what you have -- an empty lot, or an already-built building, or a "
+"program that looks ugly and is hard to use."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"Identify the centers that exist in that space. Find the weakest center or "
+"the least coherent."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"See how to apply one or more of the fifteen structure-preserving "
+"transformations to strengthen that weak center. Does it need to be "
+"delimited? Does it need to be blended with its surroundings? Does it need "
+"more detail? Does it need to be de-cluttered?"
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"Find the new centers that are born when you apply the transformation to the "
+"old center. Does the new combination make things stronger? Prettier? More "
+"functional?"
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid "Ensure that you did the simplest possible thing."
+msgstr ""
+
+#. type: enumerate
+#: usability/FedericoMenaQuintero.tex:454
+msgid "Go back to the beginning for the next step."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:454
+msgid ""
+"A super-simple summary would be: find the bad parts, make them better in the "
+"simplest way possible, test the results, iterate."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:461
+msgid ""
+"Alexander is not keen on destroying things just to rebuild them in a "
+"different way. You should not demolish parts of a town to rebuild it; you "
+"should improve it gradually. In software, it is well-known that you should "
+"not rewrite things just because you do not understand them anymore. Tearing "
+"things down makes you lose all the knowledge you had embodied in the thing "
+"you are destroying, even if it looks ugly in its current state."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:469
+msgid ""
+"Similarly, Alexander is against making detailed, up-front designs. He gives "
+"a good argument of why pre-made designs can not work well in the end: "
+"because you can not predict absolutely everything that will come up during "
+"construction or implementation; because you will miss details of the "
+"environment into which your creation will live; because nature itself is not "
+"pre-ordained, and rather it grows organically and mercilessly evolves things "
+"until they manage to survive by themselves."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:479
+msgid ""
+"In this fashion, you do not design the whole user interface, or the whole "
+"structure, for a big program in a single step. You go from big to small or "
+"small to big (levels of scale); you test each part individually until it is "
+"good (strong centers); you make sure the parts are not too disconnected from "
+"each other (non-separateness). You move a few widgets where they are easier "
+"to reach, or where they are closer to the data to which they refer. You "
+"remove some frames and separators to reduce clutter. Above all, you "
+"continually evaluate what you created against real users and real use cases, "
+"so that you empirically test things against reality, not against castles in "
+"the sky."
+msgstr ""
+
+#. type: section{#2}
+#: usability/FedericoMenaQuintero.tex:481
+msgid "A Name for the Quality"
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:489
+msgid ""
+"Over the course of \\textit{The Nature of Order}, Alexander manages to show "
+"that environments or structures that are built according to that method all "
+"end up having the Quality Without A Name. He calls this \\textbf{living "
+"structure}. It can be measured and compared. It no longer has no name; we "
+"can now speak of environments with more or less living structure than "
+"others, or of programs with more or less living structure than others -- and "
+"we strive to make and have more of that property."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:492
+msgid ""
+"I just called this essay, ``Software that has the Quality Without A Name'' "
+"because it sounds more mysterious that way."
+msgstr ""
+
+#. type: Plain text
+#: usability/FedericoMenaQuintero.tex:497
+msgid ""
+"I can not claim to know the perfect way of designing and writing software "
+"now, but at least I have a good method grounded on what produces good things "
+"elsewhere. It worked for my house, and so far I have seen it work very well "
+"for my software. I hope it works well for you, too!"
+msgstr ""
+
+#. type: section{#2}
+#: usability.tex:3
+msgid "References"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Christopher Alexander, \\textit{A Pattern Language}. Online version at \\url"
+"{http://bit.ly/8n6igg}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Christopher Alexander, \\textit{The Nature of Order}. Terrible web page at "
+"\\url{http://www.natureoforder.com}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Photos and drawings of the fifteen properties of life - \\url{http://bit.ly/"
+"b82Dxu}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Richard Gabriel, \\textit{Patterns of Software}. A beautiful, wide-ranging "
+"book on software development, Christopher Alexander's ideas, and the search "
+"for good techniques for writing software. Online version at \\url{http://bit."
+"ly/dqGUp4}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Richard Gabriel, \\textit{Christopher Alexander: the search for beauty}. A "
+"very good presentation of Christopher Alexander's ideas and an exposition of "
+"patterns in the software world.  \\url{http://bit.ly/ztE6cp}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Richard Gabriel, \\textit{The Nature of Order: the post-patterns world}.  "
+"Another very good presentation, subsequent to the previous one, that "
+"explains the Fifteen Properties of Life, the Fundamental Process, and how "
+"this relates to software. \\url{http://dreamsongs.com/Files/NatureOfOrder."
+"pdf}"
+msgstr ""
+
+#. type: itemize
+#: usability.tex:3
+msgid ""
+"Federico Mena Quintero, \\textit{Software that has the Quality Without A "
+"Name}.  Presentation for the 2011 Desktop Summit in Berlin.  \\url{http://"
+"bit.ly/oYgJUf}"
+msgstr ""

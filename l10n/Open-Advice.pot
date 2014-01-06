@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:45+0800\n"
+"PO-Revision-Date: 2014-01-06 15:10+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#.  Meta data
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "Open Advice"
+msgstr "开源建议书"
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "FOSS: What We Wish We Had Known When We Started"
+msgstr ""
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "Lydia Pintscher"
+msgstr ""
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "2012"
+msgstr ""
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "978-1-105-51493-7"
+msgstr ""
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid "http://open-advice.org"
+msgstr ""
+
+#. type: newcommand{#4}
+#: Open-Advice.tex:29
+msgid ""
+"Georg Greve, Armijn Hemel, Evan Prodromou, Markus Krötzsch, Felipe Ortega, "
+"Leslie Hawthorn, Kévin Ottens, Lydia Pintscher, Jeff Mitchell, Austin Appel, "
+"Thiago Macieira, Henri Bergius, Kai Blin, Ara Pulido, Andre Klapper, "
+"Jonathan Leto, Atul Jha, Rich Bowen, Anne Gentle, Shaun McCance, Runa "
+"Bhattacharjee, Guillaume Paumier, Federico Mena Quintero, Máirín Duffy "
+"Strode, Eugene Trounev, Robert Kaye, Jono Bacon, Alexandra Leisse, Jonathan "
+"Riddell, Thom May, Vincent Untz, Stuart Jarvis, Jos Poortvliet, Sally "
+"Khudairi, Nóirín Plunkett, Dave Neary, Gareth J. Greenaway, Selena "
+"Deckelmann, Till Adam, Frank Karlitschek, Carlo Daffara, Dr. Till Jaeger, "
+"Shane Coughlan"
+msgstr ""
+
+#. type: hypersetup{#1}
+#: Open-Advice.tex:52
+msgid ""
+"pdfauthor={\\bookauthors}, pdftitle={\\booktitle}, pdfsubject={Open Source, "
+"Free Software}, pdfkeywords={Open Source, Free Software}, pdflang=en, "
+"colorlinks, linkcolor=black, anchorcolor=black, filecolor=black, "
+"urlcolor=black, citecolor=black, bookmarksnumbered=true, "
+"pdfpagelayout=TwoColumnRight"
+msgstr ""
+
+#. type: Plain text
+#: Open-Advice.tex:52
+msgid ""
+"\\ifusinght \\else \\usepackage{xmpincl} \\includexmp{Open-Advice} "
+"\\usepackage{pdfpages} \\fi"
+msgstr ""
+
+#. type: hyphenation{#1}
+#: Open-Advice.tex:52
+msgid ""
+"pro-ject pro-jects Free-desk-top Wiki-pe-dia fund-rais-ing pro-spec-tus-es "
+"pro-vi-ders"
+msgstr ""
+
+#. \cfoot[]{Open Advise}
+#. type: Plain text
+#: Open-Advice.tex:59
+msgid "\\ihead[]{\\headmark} \\ohead[]{\\pagemark} \\ifoot[]{ } \\ofoot[]{ }"
+msgstr ""
+
+#.  Use a nicer-Looking design for the TOC
+#. type: Plain text
+#: Open-Advice.tex:63
+msgid "\\usetocstyle{KOMAlike}"
+msgstr ""
+
+#.  Avoid typographical unpleasantries
+#.  Avoids line-overshooting at the cost of "Word-like" spacing
+#. type: Plain text
+#: Open-Advice.tex:70
+msgid "\\clubpenalty = 10000 \\widowpenalty = 10000 \\displaywidowpenalty = 10000"
+msgstr ""
+

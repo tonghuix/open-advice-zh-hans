@@ -1,0 +1,248 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 04. Ideas & Innovations\n"
+"POT-Creation-Date: 2014-01-06 14:48+0800\n"
+"PO-Revision-Date: 2014-01-06 18:30+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: ideasinnovation/ArmijnHemel.tex:2
+msgid "Ideas and Innovation"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:2
+msgid "\\chapterwithauthor{Armijn Hemel}{Code First}"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:11
+msgid ""
+"\\authorbio{Armijn Hemel has been using free software since 1994, when his "
+"brother came home with a stack of floppies with an early version of FreeBSD. "
+"A year later the switch to Linux was made and he has been using Unix(-like) "
+"systems ever since then, both at home, during his studies at Utrecht "
+"University and at work.  Since 2005, Armijn has been part of the core team "
+"of gpl-violations.org and has his own consultancy (Tjaldur Software "
+"Governance Solutions) specialized in detection and resolution of GPL license "
+"violations.}"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:22
+msgid ""
+"\\noindent{}Back in 1999 I was just getting started in FLOSS activism. I had "
+"already been using Linux and FreeBSD for a number of years then, but I was "
+"merely a user and I wanted to actually contribute something back. The best "
+"way I thought for contributing back was to write code. I could not find any "
+"existing project I would be comfortable working on, so I decided to start my "
+"own project. In hindsight the reason why I did that was probably a mixture "
+"of various things.  One factor was insecurity whether or not my code was "
+"actually good enough to be accepted in an existing project (I was, and still "
+"am, no brilliant programmer)  and with your own project that is not much of "
+"an issue. The second reason is probably youthful arrogance."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:31
+msgid ""
+"My idea was to make a presentation program, which would fancy more of the "
+"advanced (or, annoying, if you wish) features of PowerPoint. Back in that "
+"time there was no OpenOffice.org and choices were pretty limited to LaTeX "
+"and Magicpoint, which are more tailored to delivering text content, than to "
+"showing whirly effects. I wanted to make the program cross platform and back "
+"then I thought Java would be the best choice for this. The idea was to make "
+"a presentation program, written in Java, which would have support for all "
+"those whirly effects. I made up my mind and started the project."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:37
+msgid ""
+"Infrastructure-wise everything was there: there was a mailing list, there "
+"was a website, there was source code control (CVS). But there was no actual "
+"code for people to work on. The only things I had were some ideas of what I "
+"wanted to do, an itch to scratch and the right buzzwords. I actually wanted "
+"people to join in creating this program and make it a truly collaborative "
+"project."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:45
+msgid ""
+"I started making designs (with some newly acquired UML knowledge) and sent "
+"them around. Nothing happened. I tried to get people involved, but "
+"collaboratively working on a design is very hard (besides, it is probably "
+"not the best way to create software in the first place). After a while I "
+"gave up and the project silently died, without ever producing a single line "
+"of code. Every month I was reminded by the mailing list software that the "
+"project once existed, so I asked it to be taken offline."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/ArmijnHemel.tex:53
+msgid ""
+"I learned a very valuable, but somewhat painful, lesson: when you announce "
+"something and when you want people to get involved in your project, at least "
+"make sure there is some code available. It does not have to be all finished, "
+"it is OK if it is rough (in the beginning that is), but at least show that "
+"there is a basis for people to work with and improve upon. Otherwise your "
+"project will go where many many projects, including my own failed project, "
+"have gone: into oblivion."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:2
+msgid ""
+"I eventually found my niche to help advance FLOSS, by making sure that the "
+"legal underpinnings of FLOSS are tight through the gpl-violations.org "
+"project. In retrospect I have never used, nor missed, the whirly effects in "
+"presentation programs and found them to be increasingly irritating and "
+"distracting too much from the content. I am happily using LaTeX beamer and "
+"occasionally (and less happily) OpenOffice.org/LibreOffice to make "
+"presentations.  \\clearpage \\clearpage \\chapterwithauthor{Evan Prodromou}"
+"{Everyone Else Might Be Wrong, But Probably Not}"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:7
+msgid ""
+"\\authorbio{Evan Prodromou is the founder of Wikitravel, StatusNet and the "
+"Open Source social network Identi.ca. He has participated in Open Source "
+"software for 15 years as a developer, documentation writer, and occasional "
+"bomb-throwing crank. He lives in Montreal, Quebec.}"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:12
+msgid ""
+"\\noindent{}The most important characteristic of the Open Source project "
+"founder, in the first weeks or months before releasing their software into "
+"the world, is mule-headed persistence in the face of overwhelming factual "
+"evidence. If your software is so important, why has someone else not written "
+"it already? Maybe it is not even possible. Maybe nobody else wants what you "
+"are making. Maybe you are not good enough to make it. Maybe someone else "
+"already did, and you are just not good enough at Googling to find it."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:19
+msgid ""
+"Keeping the faith through that long, dark night is hard; only the most pig-"
+"headed, opinionated, stubborn people make it through. And we get to exercise "
+"all our most strongly-held programmer's opinions. What is the best "
+"programming language to use? Application architecture? Coding standards? "
+"Icon colors? Software license? Version control system? If you are the only "
+"one who works on (or knows about!) the project, you get to decide, "
+"unilaterally."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:22
+msgid ""
+"When you eventually launch, though, that essential characteristic of "
+"stubborn determination and strong opinion becomes a detriment, not a "
+"benefit. Once you have launched, you will need exactly the opposite skill to "
+"make compromises to make your software more useful to other people. And a "
+"lot of those compromises will feel really wrong."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:24
+msgid ""
+"It is hard to take input from ``outsiders'' (e.g., people who are not you). "
+"First, because they focus on such trivial, unimportant things -- your "
+"variable naming convention, say, or the placement of particular buttons. And "
+"second, because they are invariably wrong -- after all, if what you have "
+"done is not the right way to do it, you would not have done it that way in "
+"the first place. If your way was not the right way, why would your code be "
+"popular?"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:28
+msgid ""
+"But ``wrong'' is relative. If making a ``wrong'' choice makes your software "
+"more accessible for end users, or for downstream developers, or for "
+"administrators or packagers, is that not really right?"
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:35
+msgid ""
+"And the nature of these kind of comments and contributions is usually "
+"negative.  Community feedback is primarily reactive, which means it is "
+"primarily critical.  When was the last time you filed a bug report to say, "
+"``I really like the organization of the hashtable.c module.'' or ``Great job "
+"on laying out that sub-sub-sub-menu.''? People give feedback because they do "
+"not like the way things work right now with your software. They also might "
+"not be diplomatic in delivering that news."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:41
+msgid ""
+"It is hard to respond to this kind of feedback positively. Sometimes, we "
+"flame posters on our development mailing lists, or close bug reports with a "
+"sneer and a WONTFIX. Worse, we withdraw into our cocoon, ignoring outside "
+"suggestions or feedback, cuddling up with the comfortable code that fits our "
+"preconceptions and biases perfectly."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:48
+msgid ""
+"If your software is just for you, you can keep the codebase and surrounding "
+"infrastructure as a personal playground. But if you want your software to be "
+"used, to mean something to other people, to (maybe) change the world, then "
+"you are going to need to build up a thriving, organic community of users, "
+"core committers, admins and add-on developers. People need to feel like they "
+"own the software, in the same way that you do."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:58
+msgid ""
+"It is hard to remember that each one of those dissenting voices is the tiny "
+"corner of the wedge. Imagine all the people who hear about your software and "
+"never bother to try it. Those who download it but never install it. Those "
+"who install it, get stuck, and silently give up. And those who do want to "
+"give you feedback, but can not find your bug-report system, developers "
+"mailing list, IRC channel or personal email address. Given the barriers to "
+"getting a message through, there are likely about 100 people who want to see "
+"change for every one person to get the message through. So listening to "
+"those voices, when they do reach you, is critical."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation/EvanProdromou.tex:64
+msgid ""
+"The project leader is responsible for maintaining the vision and purpose of "
+"the software. We can not vacillate, swinging back and forth based on this or "
+"that email from random users. And if there is a core principle at stake, "
+"then, of course, it is important to hold that core steady. No one else but "
+"the project leader can do that."
+msgstr ""
+
+#. type: Plain text
+#: ideasinnovation.tex:3
+msgid ""
+"But we have to think: are there non-core issues that can make your software "
+"more accessible or usable? Ultimately the measure of our work is in how we "
+"reach people, how our software is used, and what it is used for. How much "
+"does our personal idea about what is ``right'' really matter to the project "
+"and to the community? How much is just what the leader likes, personally? If "
+"those non-core issues exist, reduce the friction, respond to the demand, and "
+"make the changes. It is going to make the project better for everyone."
+msgstr ""

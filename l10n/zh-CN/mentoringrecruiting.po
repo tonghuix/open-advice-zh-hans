@@ -1,0 +1,562 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 06.mentoring recruiting\n"
+"POT-Creation-Date: 2014-01-06 14:49+0800\n"
+"PO-Revision-Date: 2014-01-06 18:30+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: mentoringrecruiting/LeslieHawthorn.tex:2
+msgid "Mentoring and Recruiting"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:2
+msgid ""
+"\\chapterwithauthor{Leslie Hawthorn}{You’ll Eventually Know Everything "
+"They’ve Forgotten}"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:11
+msgid ""
+"\\authorbio{An internationally known community manager, speaker and author, "
+"Leslie Hawthorn has over 10 years experience in high tech project "
+"management, marketing and public relations. Recently she joined AppFog as "
+"their Community Manager, where she is responsible for developer engagement. "
+"Prior to AppFog, she served as Outreach Manager at Oregon State University’s "
+"Open Source Lab and as a Program Manager for Google’s Open Source Team, "
+"where she managed the Google Summer of Code Program, created the contest now "
+"known as Google Code-in and launched the company’s Open Source Developer "
+"Blog.}"
+msgstr ""
+
+#. type: quote
+#: mentoringrecruiting/LeslieHawthorn.tex:21
+msgid ""
+"``The most important documentation for initial users is the basics: how to "
+"quickly set up the software, an overview of how it works, perhaps some "
+"guides to doing common tasks. Yet these are exactly the things the writers "
+"of the documentation know all too well -- so well that it can be difficult "
+"for them to see things from the reader's point of view, and to laboriously "
+"spell out the steps that (to the writers) seem so obvious as to be unworthy "
+"of mention.'' -- Karl Fogel, Producing Open Source Software"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:29
+msgid ""
+"When you are first starting work on a FOSS project, the learning curve is "
+"steep and the path daunting. You may find yourself subscribed to mailing "
+"lists or in chat rooms with all kinds of ``famous'' people, like the creator "
+"of your favorite programming language or the maintainer of your favorite "
+"package, wondering how you are ever going to be skilled enough to contribute "
+"effectively.  What you may not realize is how much these wise folk have "
+"forgotten along their path to success."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:39
+msgid ""
+"To use a simple simile, the process of learning how to use and develop for "
+"any open source project is much like learning to ride a bicycle. For those "
+"who are experienced cyclists, ``it’s as easy as riding a bicycle.'' You have "
+"probably ridden a bike a few times and understand its architecture: saddle, "
+"wheels, brakes, pedals and handlebars. Yet you climb aboard, head out on "
+"your ride and suddenly discover that riding is not as simplistic as you had "
+"thought: at what height should your saddle sit? What gear should you be in "
+"when climbing a hill? When descending one? And do you really need that "
+"helmet anyway? (Hint: Yes, you do.)"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:48
+msgid ""
+"When you first start off cycling, you will not even know what questions to "
+"ask and you will only find out by having sore knees, aching lungs and a "
+"twinge in your back. Even then, your questions will not always yield the "
+"answers you need; someone might know to tell you to lower your saddle when "
+"you tell them your knees hurt, but they might also just assume that you are "
+"new to this whole thing and eventually you will just figure it out on your "
+"own. They have forgotten fighting with gear changes, figuring out that they "
+"had the wrong lights and reflectors, and which hand signal indicates a left "
+"turn because they have been riding for so long that all these matters are "
+"simply second nature to them."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:62
+msgid ""
+"The same scenario holds true when getting started in FOSS. As you are "
+"building a package for the first time, you will inevitably run into some "
+"obscure error message or other kind of fail. And when you ask for help, some "
+"friendly soul will no doubt tell you that ``it’s easy, just do foo, bar and "
+"baz.'' Except for you, it is not easy, there may be no documentation for "
+"foo, bar is not doing what it is supposed to be doing and what is this baz "
+"thing anyway with its eight disambiguation entries on Wikipedia? You "
+"obviously do not want to be a pest, but you will need help to actually get "
+"something done. Perhaps you keep retrying the same steps and keep failing, "
+"getting more and more frustrated. Maybe you wander off, get a coffee and "
+"figure you will come back to the problem later.  What none of us in the FOSS "
+"world want to happen is what happens to many: that cup of coffee is "
+"infinitely better than feeling ignorant and intimidated, so you do not try "
+"your hand at FOSS any further."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:68
+msgid ""
+"Realize now that you will eventually know those things that the experts "
+"around you have forgotten or do not articulate because these steps are "
+"obvious to them.  Every person more knowledgeable than you went through the "
+"same wanderings you are right now when learning how to do the things you are "
+"trying to do. Here are a few tips to make your travels easier:"
+msgstr ""
+
+#. type: paragraph{#2}
+#: mentoringrecruiting/LeslieHawthorn.tex:76
+msgid "Don’t wait too long to ask for help"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:76
+msgid ""
+"No one wants to be a pest and no one enjoys looking clueless. That being "
+"said, if you are unable to fix your problem after trying to do so for 15 "
+"minutes, it is time to ask for help. Make sure you check the project’s "
+"website for documentation so you use the right IRC channel, forum or mailing "
+"list for help. Many projects have online communication channels specifically "
+"for beginners, so keep an eye out for words like \\textit{mentor}, \\textit"
+"{newbie}, and \\textit{getting started}."
+msgstr ""
+
+#. type: paragraph{#2}
+#: mentoringrecruiting/LeslieHawthorn.tex:85
+msgid "Talk about your (thought) process"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LeslieHawthorn.tex:85
+msgid ""
+"It is not just a matter of asking questions, it is knowing the right "
+"questions to ask. When getting started, you will not necessarily know what "
+"those questions are, so when asking for help, be detailed about what you are "
+"trying to accomplish, the steps you have taken, and the problem you have "
+"encountered. Let your would-be mentors in the project IRC channel or on the "
+"mailing list know that you have read the manual by including links to the "
+"documentation you have read on the topic. If you have not found any "
+"documentation, a polite mention of the fact is also helpful."
+msgstr ""
+
+#. type: paragraph{#2}
+#: mentoringrecruiting/KevinOttens.tex:2
+msgid "Know your own value"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:2
+msgid ""
+"As a new contributor to a project, you are an invaluable asset not for your "
+"knowledge, but for your ignorance. When first starting work in FOSS, nothing "
+"seems (to you) so obvious as to be unworthy of mention. Take notes on the "
+"problems you have encountered and how they were fixed, then use those notes "
+"to update the project documentation or work with the community to prepare "
+"screen casts or other training materials for particularly tough problems. "
+"When you encounter something truly frustrating, realize you are in the "
+"spectacular position of helping make sure the next person who comes along "
+"does not encounter the same difficulties.  \\clearpage \\clearpage "
+"\\chapterwithauthor{Kévin Ottens}{University and Community}"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:10
+msgid ""
+"\\authorbio{Kévin Ottens is a long term hacker of the KDE community. He "
+"contributed to the KDE Platform at large, with a strong emphasis on API "
+"design and frameworks architecture. Graduating in 2007, he holds a PhD in "
+"computer science which led him to work particularly on ontologies "
+"engineering and multi-agent systems. Kévin's job at KDAB includes developing "
+"research projects around KDE technologies. He still lives in Toulouse where "
+"he serves as part time teacher in his former university.}"
+msgstr ""
+
+#. type: section{#2}
+#: mentoringrecruiting/KevinOttens.tex:18
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:18
+msgid ""
+"Free Culture communities are mostly driven by volunteer efforts. Also most "
+"of the people getting into such communities do so during their time at the "
+"university. It is somewhat the right period of your life to embark in such "
+"adventures: you are young, full of energy, curious, and probably want to "
+"change the world to your image. That is really all that is needed for most "
+"volunteer work."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:22
+msgid ""
+"But, at the same time, being a student does not necessarily leave you plenty "
+"of time to engage with a Free Culture community. Indeed, most of these "
+"communities are rather large, and it can be frightening to contact them."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:29
+msgid ""
+"It obviously raises a scary question: do Free Culture communities, because "
+"they don't try to actively outreach to universities, fail to attract the "
+"next generation of talented contributors? That is a valid question we tried "
+"to explore in the context of a community producing software, namely KDE. In "
+"this article, we focus on the aspects we did not foresee but had to deal "
+"with while looking for an answer to this question."
+msgstr ""
+
+#. type: section{#2}
+#: mentoringrecruiting/KevinOttens.tex:36
+msgid "Building relationship with a local university"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:36
+msgid ""
+"Really, it all starts by reaching out to the students themselves, and for "
+"that, the best way is still to get to their universities, trying to show "
+"them how welcoming Free Culture communities can be. To that effect, we built "
+"a relationship with the Paul Sabatier University in Toulouse -- more "
+"precisely one of its courses of study named IUP ISI which focused on "
+"software engineering."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:42
+msgid ""
+"The IUP ISI was very oriented toward ``hands on'' knowledge, and as such had "
+"a pre-existing program for student projects. A particularly interesting "
+"point of that program is the fact that students work in teams mixing "
+"students from different promotions. Third year and fourth year students get "
+"to collaborate on a common goal, which usually leads to teams of seven to "
+"ten students."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:48
+msgid ""
+"The first year of our experiment we hooked up with that program, proposing "
+"new topics for the projects, focusing on software developed within the KDE "
+"community. Henri Massié, director of the course of study, has been very "
+"welcoming to the idea, and let us put the experiment in place. For that "
+"first year, we were allocated two slots for KDE related software projects."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:65
+msgid ""
+"To quickly build trust, we decided that year to provide a few guarantees "
+"regarding the work of the students:"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:65
+msgid ""
+"to help the teachers have confidence in the topics covered: the chosen "
+"projects were close to the topics taught at the IUP ISI (that is why we "
+"targeted a UML modeling tool and a project management tool for that year);"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:65
+msgid ""
+"to give maximum visibility to the teachers: we provided them a server on "
+"which the student production was regularly built and remotely accessible for "
+"testing purpose;"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:65
+msgid ""
+"to ease the engagement of the students with the community: the maintainers "
+"of the projects were appointed to play a ``customer'' role thus pushing "
+"requirements to the students and helping them find their way in the "
+"ramifications of the community;"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:65
+msgid ""
+"finally, to get the students going, we introduced a short course on how to "
+"develop with Qt and the frameworks produced by KDE;"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:72
+msgid ""
+"At the time of this writing, we have been through five years of such "
+"projects.  Small adjustments to the organization have been done here and "
+"there, but most of the ideas behind it stayed the same. Most of the changes "
+"made were the result of more and more interest from the community willing to "
+"engage with students and of more and more freedom given to us in the topics "
+"we could cover in our projects."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:78
+msgid ""
+"Moreover, throughout those years the director gave us continuous support and "
+"encouragement, effectively allocating more slots for Free Culture community "
+"projects, proving that our integration strategy was right: building trust "
+"very quickly is key to a relationship between a Free Culture community and a "
+"university."
+msgstr ""
+
+#. type: section{#2}
+#: mentoringrecruiting/KevinOttens.tex:88
+msgid "Realizing teaching is a two-way process"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:88
+msgid ""
+"During those years of building bridges between the KDE community and the IUP "
+"ISI course of study, we ended up in teaching positions to support the "
+"students in their project related tasks. When you have never taught a "
+"classroom full of students, you might still have this image of yourself "
+"sitting in a classroom a few years ago. Indeed, most teachers were students "
+"once... sometimes not even the type of very disciplined or attentive "
+"students. You were likely having this feeling of drinking from a firehose: a "
+"teacher entering a room, getting in front of the students and delivering "
+"knowledge to you."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:92
+msgid ""
+"This stereotype is what most people keep in mind of their years as students "
+"and the first time they get in a teaching situation they want to reproduce "
+"that stereotype: coming with knowledge to deliver."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:99
+msgid ""
+"The good news is that nothing could be further from the truth than this "
+"stereotype. The bad news is that if you try to reproduce it, you are very "
+"likely to scare your students away and face nothing else than lack of "
+"motivation on their side to engage with the community. The image you give of "
+"yourself is the very first thing they will remember of the community: the "
+"first time you get in the classroom, to them \\emph{you are} the community!"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:107
+msgid ""
+"Not falling into the trap of this stereotype requires you to step back a bit "
+"and to realize what teaching is really about. It is not a one way process "
+"where one delivers knowledge to students. We came to the conclusion that it "
+"is instead a two-way process: you get to create a symbiotic relationship "
+"with your student.  Both the students and the teacher have to leave the "
+"classroom with new knowledge. You get to deliver your expertise of course -- "
+"but to do so efficiently you have to adapt to the students' frame of "
+"reference all the time. It is a very humbling work."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:123
+msgid ""
+"Realizing that fact generates quite a few changes in the way you undertake "
+"your teaching:"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:123
+msgid ""
+"You will have to understand the culture of your students. They probably have "
+"a fairly different background from you and you will have to adapt your "
+"discourse to them; for instance, the students we trained are all part of the "
+"so-called Y generation which exhibits fairly different traits regarding "
+"leadership, loyalty and trust than previous generations."
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:123
+msgid ""
+"You will have to reassess your own expertise, since you will need to adapt "
+"your discourse to their culture. You will approach your own knowledge from "
+"very different angles than what you are used to, which will inevitably lead "
+"you to discoveries in fields you assumed you mastered."
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/KevinOttens.tex:123
+msgid ""
+"Finally, you will have to build skills in presenting; a teaching position is "
+"really about getting out of your comfort zone to present your own knowledge "
+"while keeping it interesting and entertaining to your audience. It will make "
+"you a better presenter."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:127
+msgid ""
+"As such, you will become a better teacher. Also your goals of getting well "
+"trained students, and having students engage with a Free Culture community "
+"will be better fulfilled."
+msgstr ""
+
+#. type: section{#2}
+#: mentoringrecruiting/KevinOttens.tex:133
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:133
+msgid ""
+"At the end of the day why would you go through all the effort to build trust "
+"with a university and step outside of your comfort zone by improving your "
+"teaching? Well, it really boils down to the initial question we tried to "
+"answer:"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:136
+msgid ""
+"\\emph{Do Free Culture communities fail to attract new contributors out of "
+"universities simply because of their inaction?}"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/KevinOttens.tex:144
+msgid ""
+"In our experience the answer is \\emph{yes}. Through those five years of "
+"building up a relationship with the IUP ISI, we retained around two students "
+"per year on average. Some of them disappeared after a while, but some of "
+"them become very active contributors. The other ones still keep some "
+"nostalgia of that period of their life and keep advocating even though they "
+"do not contribute directly. And right now we have a local KDE team which "
+"managed to efficiently organize a two day conference for our latest release "
+"party."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:2
+msgid ""
+"Of those former students, not a single one would have engaged with KDE "
+"without those university projects. We would have completely missed those "
+"talents.  Luckily, we have not been inactive.  \\clearpage \\clearpage "
+"\\chapterwithauthor{Lydia Pintscher}{Being Allowed to Do Awesome}"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:7
+msgid ""
+"\\authorbio{Lydia Pintscher is a people geek and cat herder by nature. Among "
+"other things, she manages KDE's mentoring programs (Google Summer of Code, "
+"Google Code-in, Season of KDE), is a founding member of KDE's Community "
+"Working Group and is a board member of KDE e.V.}"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:10
+msgid ""
+"\\noindent{}Free Software has an enemy. It is not who most people on the "
+"Internet think it is. No, it is a lack of active participation."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:22
+msgid ""
+"Every single day there are thousands of people out there looking for a way "
+"to put meaning into their life, looking for ways to do something that truly "
+"matters. Every single day thousands of lines of code for Free Software "
+"projects are waiting to be written and debugged, programs are waiting to be "
+"promoted and translated, artwork is waiting to be created and much more. "
+"Sadly, far too often the people fail to connect with projects. There are "
+"several reasons for that. It starts with people not knowing about Free "
+"Software at all and its benefits and purpose. But we are getting there. "
+"People are starting to use and maybe even understand Free Software on a "
+"large scale. Free Software projects live by converting some of those users "
+"into active contributors. This is where the problems begin."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid ""
+"I have managed hundreds of students in mentoring programs and have been "
+"doing outreach in various forms for Free Software projects. I've worked with "
+"enthusiastic people whose life was changed for the better by their "
+"contributions to Free Software. But there is one theme I see over and over "
+"again and it breaks my heart because I now know what talent we are missing "
+"out on: not being allowed to do awesome. It is best summarized by what a "
+"fellow Google Summer of Code mentor said: ``The insight that most people in "
+"Open Source didn’t get allowed to work on stuff but just didn’t run fast "
+"enough at the right moment seems to be rare''. Potential contributors often "
+"think they are not allowed to contribute.  The reasons for this are many and "
+"they are all misconceptions. The most common misconceptions in my experience "
+"are:"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid ""
+"``I can not write code. There can not possibly be a way for me to "
+"contribute.''"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid "``I am not really good at this. My help is not needed.''"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid ""
+"``I would just be a burden. They have more important things to worry about.''"
+msgstr ""
+
+#. type: itemize
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid ""
+"``I am not needed. They must already have enough much more brilliant people "
+"than me.''"
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting/LydiaPintscher.tex:46
+msgid ""
+"Those are almost always false and I wish I had known a long time ago that "
+"they are so prevalent. I would have done a lot of my initial outreach "
+"efforts differently."
+msgstr ""
+
+#. type: Plain text
+#: mentoringrecruiting.tex:4
+msgid ""
+"The easiest way of getting someone out of this situation is to invite them "
+"personally. ``That workshop we are doing? Oh yes, you should come.'' ``That "
+"bug in the bug tracker? I'm sure you're the perfect person to try to fix "
+"it.'' ``That press release we need to get done? It would be great if you "
+"could read over it and make sure it is good.'' And if that is not possible, "
+"make sure that your outreach material (you have some, right?) clearly states "
+"what kind of people you are looking for and what you consider the basic "
+"requirements. Make sure to especially reach out to people outside your usual "
+"contributor base because for them this barrier is even bigger. And unless "
+"you overcome that, you will only recruit who you are -- meaning you will get "
+"more contributors just like the ones you already have. People like the "
+"people you already have are great, but think about all the other great "
+"people you are missing out on, who could bring new ideas and skills to your "
+"project."
+msgstr ""

@@ -1,0 +1,64 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 01.Top Matter\n"
+"POT-Creation-Date: 2014-01-06 14:51+0800\n"
+"PO-Revision-Date: 2014-01-06 18:11+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. Extra title page
+#. empty page back
+#. inner title page
+#. type: Plain text
+#: topmatter.tex:43
+msgid "\\booktitle"
+msgstr ""
+
+#. type: flushright
+#: topmatter.tex:43
+msgid "\\bookeditor{} (Editor)"
+msgstr ""
+
+#. type: flushright
+#: topmatter.tex:43
+msgid "{\\Huge\\bfseries\\sffamily\\booktitle}"
+msgstr ""
+
+#. type: flushright
+#: topmatter.tex:43
+msgid "\\vspace{2em} {\\large\\sffamily\\booksubtitle}"
+msgstr ""
+
+#. titleback
+#. dedication
+#. End of top matter
+#. type: Plain text
+#: topmatter.tex:43
+msgid ""
+"The information in this book is distributed on an ``As Is'' basis, without "
+"warranty. While every precaution has been taken in the preparation of this "
+"work, neither the authors nor the editor or publishers shall have any "
+"liability to any person or entity with respect to any loss or damage caused "
+"or alledged to be caused directly or indirectly by the information contained "
+"in it.\\vfill Copyright \\textcopyright{} \\bookyear{} \\bookauthors\\\\ "
+"\\newline \\fbox{\\parbox{\\textwidth}{ \\begin{center}\\includegraphics{cc-"
+"by-sa.png}\\end{center} This work is licensed under a Creative Commons "
+"Attribution-ShareAlike 3.0 License. To view a copy of this license visit: \\"
+"\\{\\small\\url{http://creativecommons.org/licenses/by-sa/3.0/legalcode}}.  "
+"\\vspace{0.25em} }} \\newline \\\\ Visit \\url{http://www.open-advice.org} "
+"to download this book as PDF or eBook and receive additional information.  "
+"\\newline \\\\ {\\tt ISBN: \\bookisbn}\\newpage \\thispagestyle{empty} "
+"\\vspace*{2cm} \\begin{flushright} {\\Large\\itshape for giants\\\\and those "
+"who will stand on their shoulders}\\\\ \\end{flushright} \\newpage "
+"\\thispagestyle{empty} \\mbox{}"
+msgstr ""

@@ -1,0 +1,818 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: part{#2}
+#: ./packaging/JonathanRiddell.tex
+#: :2
+msgid "Packaging"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :2
+msgid "\\chapterwithauthor{Jonathan Riddell}{From Beginner to Professional}"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :5
+msgid ""
+"\\authorbio{Jonathan Riddell is a KDE and Kubuntu developer currently "
+"employed by Canonical. When not at a computer he canoes the rivers of "
+"Scotland.}"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :12
+msgid ""
+"\\noindent{}There was a bug in the code. A nasty one too: a crash without "
+"saving data.  That is the problem with looking at code, you find things to "
+"fix. It is easy to get involved in Free Software; the difficult part is "
+"getting out again. After the first bug fix there are more and more, all "
+"within reach. Bug fixes lead to adding features, which leads to project "
+"maintenance, which leads to running community."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :19
+msgid ""
+"It started with reading Slashdot, that mass of poorly filtered tech and geek "
+"news with comments from anyone who can reload fast enough to get at the "
+"top.  Every news story was interesting and exciting, a fresh insight into "
+"the tech world I was becoming fascinated with. No more did I have to accept "
+"what was given to me by large software companies, here in the Free Software "
+"community I could see the code develop in front of me."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :31
+msgid ""
+"As a university student it was possible to complete the exercises given by "
+"lecturers very quickly, but exercises are not finished programs. I wanted to "
+"know how to apply the simple skills they had given me to the real world by "
+"writing programs which solve real problems for people. So I looked for the "
+"code, which was not hard to find, just lying around on the Internet in "
+"fact.  Looking closer at the code for the programs I was running I saw "
+"beauty. Not because the code was perfectly tidy or well-structured, but "
+"because I could understand it with the concepts I had already learned. Those "
+"classes, methods and variables fell into place, enabling me to solve the "
+"relevant problems. Free Software is the best way to make that step from "
+"knowing how to finish exercises in a class to understanding how real "
+"programs get written."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :39
+msgid ""
+"Every computing student should work on Free Software for their "
+"dissertation.  Otherwise you get to spend six months to a year on a project "
+"only for it to sit in the basement of a library never to be visited "
+"again. Only Free Software makes it possible to excel by doing what comes "
+"naturally: wanting to learn how to solve interesting problems. By the end of "
+"my project NASA programmers were using my UML diagramming tool and it won "
+"awards with lavish receptions. With Free Software you can solve real "
+"problems for real users."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :44
+msgid ""
+"The developer community is full of amazing people, with the passion and "
+"dedication to work without any more reward than a successful computer "
+"program.  The user community is also awesome. It is satisfying to know you "
+"have helped someone solve a problem, and I appreciate the thank you emails I "
+"receive."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :52
+msgid ""
+"Having written useful software, it needs to be made available to the "
+"masses.  Source code is not going to work for most people, it needs to be "
+"packaged up.  Before I was involved in it I looked down on packaging as a "
+"lazy way to contribute to Free Software. You get to take much of the credit "
+"without having to code anything. This is somewhat unfair, much of the "
+"community management needed to run any Free Software project can also be "
+"seen as taking the credit without doing the code."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :67
+msgid ""
+"Users depend on packagers a lot. It needs to be both fast, to keep those who "
+"want the latest and greatest, and it needs to be reliable, for those who "
+"want stability (which is everyone). The tricky part is that it involves "
+"working with other people’s software, and other people’s software is always "
+"broken. Once software is out in the wild problems start to emerge that were "
+"not visible on the author’s own computer. Maybe the code does not compile "
+"with a different compiler version, maybe the licensing is unclear so it can "
+"not be copied, maybe the versioning is inconsistent so minor updates might "
+"be incompatible, screen sizes might be different, desktop environments can "
+"affect it, sometimes necessary third party libraries do not even have a "
+"release. These days software needs to run on different architectures, 64-bit "
+"processors caused problems when they became widely available, these days it "
+"is ARM which is defeating coders’ assumptions. Packagers need to deal with "
+"all of these issues, to give something to the users which reliably works."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :83
+msgid ""
+"We have a policy in Ubuntu that packages with unit tests must have those "
+"tests enabled as part of the package build process. Very often they fail and "
+"we get told by the software author that the tests are only for his or her "
+"own use.  Unfortunately it is never reliable enough in software to test it "
+"yourself, it needs others to test it too. One test is rarely enough, it "
+"needs a multi-layered approach. The unit tests from the original program "
+"should be the first place to start, then the packager tests it on his or her "
+"own computer, then it needs others to test it too. Automatic install and "
+"upgrade testing can be scripted on cloud computing services quite "
+"nicely. Putting it into the development distribution archive gets wider "
+"testing before finally some months later it gets released to the masses. At "
+"each stage problems can and will be found which need to be fixed, then those "
+"fixes need testing. So there might not be much coding involved but there is "
+"a lot of work to get the software from being 95\\% to being 100\\% ready, "
+"that 5\\% is the hardest part, a slow and delicate process needing careful "
+"attention all the way."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :89
+msgid ""
+"You can not do packaging without good communication with your upstream "
+"developers. When bugs happen it is vital to be able to find the right person "
+"to talk to quickly. It is important to get to know them well as friends and "
+"colleagues. Conferences are vital for this as meeting someone gives much "
+"more context to a mailing list post than a year of emails can."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :97
+msgid ""
+"One of the unspoken parts of the Free Software world is the secret IRC "
+"channels used by core members of a project. All big projects have them, "
+"somewhere out there Linus Torvalds has a way of chatting to Andrew Morton et "
+"al about what is good and what is bad in Linux. They are more social than "
+"technical and when overused can be very anti-social for the community at "
+"large, but for those times when there is a need for a quick communication "
+"channel without noise they work well."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :104
+msgid ""
+"Blogging is another important method of communication in the Free Software "
+"community. It is our main method of marketing and promotion for both the "
+"software we produce and ourselves. Not to be used for shameless "
+"self-publicity, there is no point claiming you will save lives with your "
+"blog, but used to talk about your work on Free Software it builds "
+"community. It can even get you a job or recognized in the street."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/JonathanRiddell.tex
+#: :112
+msgid ""
+"Those Slashdot stories of new technology developments are not about remote "
+"figures you never meet in the way newspaper stories are. They are about "
+"people who found a problem and solved it using the computer in front of "
+"them. For a few years I was editing the KDE news site, finding the people "
+"who were solving problems, creating novel ideas and doing the slow slog of "
+"getting the software up to high enough quality, then telling the world about "
+"them. There were never a shortage of people and stories to tell the world "
+"about."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :2
+msgid ""
+"My last piece of advise is to stay varied. There is such a wealth of "
+"interesting projects out there to explore, learn from and grow, but once in "
+"a position of responsibility it can be tempting to stay there. Having helped "
+"create a community for Kubuntu I am moving temporarily to work on Bazaar, a "
+"very different project with a focus on developers rather than non-tech "
+"users. I can start again learning how code turns into useful reality, how a "
+"community interacts, how quality is maintained. It will be a fun challenge "
+"and I am looking forward to it.  \\clearpage \\clearpage "
+"\\chapterwithauthor{Thom May}{Packaging - Providing a Great Route into Free "
+"Software}"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :7
+msgid ""
+"\\authorbio{Thom May is a Debian Developer, an emeritus Member of the Apache "
+"Software Foundation and was one of the first hires for Canonical, Ubuntu's "
+"parent company. He currently lives in London and is Head of DevOps for "
+"Macmillan Digital Science.}"
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/ThomMay.tex
+#: :14
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :14
+msgid ""
+"I started out in Free Software over a decade ago. I had been using Debian "
+"for some years through university, and decided that I wanted to give "
+"something back.  So I started the long journey through the Debian New "
+"Maintainer's process, never having really contributed to Free Software "
+"before, and concerned that a lack of experience with C would prove to be a "
+"major problem."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :20
+msgid ""
+"As it turned out, this concern was mostly unfounded. By starting out working "
+"with packages that I used regularly I was able to contribute effectively. As "
+"my experience with the myriad of tools and systems that Debian provides to "
+"its maintainers grew, I became more efficient with my time, and was able to "
+"take on a wider range of packages."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :26
+msgid ""
+"Taking on more packages increased my exposure to a range of build systems, "
+"programming languages and toolkits, and also helped to bring me into the "
+"Debian community. Abrasive and opinionated though it is, Debian's community "
+"of skilled and experienced maintainers is one of the main reasons Debian has "
+"maintained its technical excellence over such a long period."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :36
+msgid ""
+"At about this time the Apache httpd project was finally closing in on the "
+"first beta releases of httpd 2.0, which had been several years in the making "
+"and was going to be a massive upgrade. Debian's Apache team had been fairly "
+"inactive for some time -- the 1.3 packages were stable and changed "
+"infrequently -- and had no plans for packaging 2.0.  I had a strong interest "
+"in ensuring that the httpd packages were well maintained -- I was working as "
+"a sysadmin in charge of numerous Apache web servers -- so it made a lot of "
+"sense to take on the challenge of producing packages for the new release."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :41
+msgid ""
+"A friend and I started work on the packages and quickly discovered that "
+"while the code was approaching an early beta quality, the tooling around the "
+"build and customization of httpd was sadly lacking, which is fairly typical "
+"for many complex software projects."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :50
+msgid ""
+"Over the course of the best part of a year -- whilst upstream stabilised "
+"their code and an increasing number of early adopters began to test and "
+"deploy the new release -- we worked hard to ensure that the build system was "
+"sufficiently flexible and robust to cope with the stringent requirements of "
+"Debian's policy.  As well as ensuring that our packages were technically "
+"correct, we had to ensure that our relationship with upstream allowed us to "
+"get patches back upstream whenever possible, and to get a heads up whenever "
+"security issues arose and for early testing of release candidates."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :58
+msgid ""
+"My interactions with Apache in the course of packaging and maintaining httpd "
+"2.0 led me to become an upstream committer on the project, meaning I could "
+"contribute code directly. This is generally the final step in moving from "
+"packaging software to actively developing it for a wider audience than your "
+"distribution. On a personal level, this recognition gave me the confidence "
+"to contribute to far more Free Software projects, since I knew that my code "
+"was of sufficient quality to be welcomed."
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/ThomMay.tex
+#: :66
+msgid "Evolution - from packager to developer"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :66
+msgid ""
+"So how did this happen? Packaging in its simplest form ensures that a given "
+"software project complies with the policy of the distribution; in my case "
+"Debian. Generally, this means configuring the software at build time so that "
+"files are placed in the correct directory locations (specified by the File "
+"Hierarchy Standard, or FHS), that dependencies on other packages are "
+"correctly specified, and that the software runs successfully on the "
+"distribution."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :72
+msgid ""
+"More complex packaging can require splitting an upstream project into "
+"multiple packages, for example libraries and the header files that allow the "
+"user to compile software against that library are shipped in separate "
+"packages, and platform dependent files can be shipped separately from "
+"platform independent ones. Ensuring that the upstream software correctly "
+"deploys in these situations will often require changes to the code. These "
+"changes are the first step into active work on a project, rather than the "
+"sometimes passive act of packaging."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :83
+msgid ""
+"Once your package is available in the distribution it is exposed to millions "
+"of potential users. These users are guaranteed to run your software in ways "
+"that neither you, as packager, nor your upstream expected. Unsurprisingly, "
+"with many eyes come many bug reports. Debian, in common with most "
+"distributions, encourages its users to submit bug reports directly to "
+"Debian, rather than to the individual upstream projects. This allows "
+"maintainers to triage bug reports and ensure that the changes made during "
+"the packaging process are not the cause of the reported problem. Often there "
+"can be considerable interaction between the reporter of the problem and the "
+"package maintainer before the upstream developers become involved."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :91
+msgid ""
+"As the package maintainer increases their knowledge of the project, they "
+"will be able to solve most problems directly. The maintainer will often "
+"release bug fixes directly into Debian in parallel with feeding them back "
+"upstream, allowing for swift problem resolution and considerable testing of "
+"fixes. Once a fix is confirmed the maintainer will then work with the "
+"upstream project to ensure that the required changes happen in the upstream, "
+"definitive project, so that they are available to other users of the "
+"software."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :98
+msgid ""
+"Providing successful bug fixes on distributions such as Debian is often a "
+"complex art form. Debian runs on many platforms, from IBM mainframes to "
+"smart phones, and the range and breadth of these platform swiftly reveals "
+"assumptions in the code. More often than not the packager has easier access "
+"to a broader range of platforms than upstream does, and so is the first port "
+"of call when a knotty porting problem does come up. One quickly learns to "
+"recognise the symptoms of pointer size assumptions, endianness problems, and "
+"many other esoteric issues; this experience makes one a more versatile and "
+"cautious programmer."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :108
+msgid ""
+"As a package collects bug fixes and improvements, it is essential to feed "
+"those changes back upstream. Too often the delta between a package and the "
+"definitive, upstream software can grow enormously, with the effect that the "
+"two become almost entirely separate code bases. Not only does this increase "
+"the maintenance burden on both sides, but it can cause huge frustration and "
+"waste large amounts of time for your upstream should a user of your package "
+"report a bug related to one of the changes in the packaged version to the "
+"upstream. To this end, a close working relationship with upstream and an "
+"understanding of the best way for both parties to collaborate is vital."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :116
+msgid ""
+"Collaboration between upstream and packager can take many forms. Whether it "
+"be finding the correct way to communicate bug reports, making sure you use "
+"the correct coding style, or ensuring that you both use the same version "
+"control system in the same way, making sure that your interactions are as "
+"friction-free as possible, makes for a far better relationship with upstream "
+"and a greatly increased likelihood that your upstream will take the time to "
+"help you when you need it."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :124
+msgid ""
+"Once the working relationship between you and your upstream is established, "
+"it becomes an easy step to contribute more directly to upstream. This, too, "
+"can take many forms. Simple first steps can involve synchronising any "
+"upstream bug reports with the ones from your distribution, making sure that "
+"duplicate effort is not expended to root cause and fix bugs. More direct "
+"involvement entails feature development and changes with a wider scope than "
+"would be palatable when made in a packaged version."
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/ThomMay.tex
+#: :129
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :129
+msgid ""
+"I think the two core things I wish I had known when starting out are the "
+"sense of community that Free Software engenders, and the fantastic route "
+"that packaging of Free Software provides into the wider Free Software world."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/ThomMay.tex
+#: :135
+msgid ""
+"Community is critical to the success of Free Software. It comes in many "
+"forms, from the legion of users willing to invest time in making your "
+"software better, to one’s peers in a distribution or software project who "
+"invest their time and energy into honing your skills and ensuring that your "
+"contributions are as good as possible."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :2
+msgid ""
+"The route from packaging into development is one often traveled. It provides "
+"a learning curve less steep than entering a development community cold, and "
+"allows one to develop skills at a more gradual rate than would otherwise be "
+"the case.  \\clearpage \\clearpage \\chapterwithauthor{Vincent Untz}{Where "
+"Upstream and Downstream Meet}"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :11
+msgid ""
+"\\authorbio{Vincent Untz is an active Free Software enthusiast, GNOME lover "
+"and advocate, as well as an openSUSE booster. He held the position of GNOME "
+"Release Manager between 2008 and 2011, until GNOME 3.0 went out, was an "
+"active GNOME Foundation director (2006-2010) and is leading the GNOME team "
+"in openSUSE.  However, he finds it simpler to declare he is a "
+"``touche-\\`{a}-tout'', working on various (some say random) areas of the "
+"desktop and helping openSUSE stay amazing. Vincent is still pushing French "
+"as the official language for GNOME, and hopes to succeed really soon "
+"now. And he loves ice cream.}"
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/VincentUntz.tex
+#: :13
+msgid "A long time ago, in a room at night\\ldots"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :22
+msgid ""
+"\\noindent{}I took a last look at the list of bugs to see if I had not "
+"forgotten a patch that should be merged. I made sure to write what I thought "
+"was a descriptive \\texttt{NEWS} entry about the new version. I typed "
+"\\texttt{make distcheck} to start the release process and looked at the "
+"terminal displaying hundreds of lines.  A tarball got created, and I "
+"double-checked that the tarball was building fine.  Again and again -- I was "
+"anxious and somehow did not fully trust the \\texttt{make distcheck} "
+"command. After checking everything several times, I uploaded the tarball to "
+"the server and sent a mail announcement."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :27
+msgid ""
+"I had managed to do it: I had released my first tarball of a software of "
+"which I had recently become co-maintainer. And I was certainly thinking: "
+"``now users can enjoy some goodness!'' But mere seconds after my tarball got "
+"uploaded, a few people downloaded it and made my release really accessible "
+"to users."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :30
+msgid ""
+"This is something I took for granted, as I thought it was mostly a trivial "
+"task. I thought wrong."
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/VincentUntz.tex
+#: :32
+msgid "Upstream Versus Downstream"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :35
+msgid ""
+"As users, we do not necessarily understand the different steps required to "
+"ship software to us. It is here, and we can simply enjoy it."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :39
+msgid ""
+"Many people contribute to this process of shipping software, and the effort "
+"is usually split between two groups of people, which are central in how Free "
+"Software works today:"
+msgstr ""
+
+#. type: itemize
+#: ./packaging/VincentUntz.tex
+#: :53
+msgid ""
+"\\textbf{upstream}: This is the group creating the software. It obviously "
+"includes coders, but depending on the project, other categories of "
+"contributors also are key participants: designers, translators, documenters, "
+"testers, bug triagers, etc. Upstream generally only ships the source code in "
+"a compressed archive, a tarball."
+msgstr ""
+
+#. type: itemize
+#: ./packaging/VincentUntz.tex
+#: :53
+msgid ""
+"\\textbf{downstream}: This is the group responsible for distributing the "
+"software to the users. In the very same way as for upstream, contributors "
+"have a wide range of profiles, as they work on translations, documentation, "
+"testing, bug triage and more. There is however a profile that is, as of now, "
+"unique to downstream: the packagers, who prepare the software to make it "
+"available in a format suitable for easier use than just source code, a "
+"package."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :57
+msgid ""
+"Interestingly, this is a rather intuitive split for users too, although we "
+"are unaware of it: we often assume that the software developers are "
+"unreachable, and we send feedback and ask for help to the distributors "
+"instead."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :62
+msgid ""
+"A concrete analogy to clarify this upstream--downstream split could be the "
+"usual model for physical goods, with retail stores ($\\approx$ downstream)  "
+"distributing products of manufacturers ($\\approx$ upstream), and playing an "
+"important role for customers ($\\approx$ users)."
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/VincentUntz.tex
+#: :64
+msgid "A Closer Look at Downstream"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :70
+msgid ""
+"If I had to summarize in one sentence the role of downstream, this is how I "
+"would describe it:"
+msgstr ""
+
+#. type: quote
+#: ./packaging/VincentUntz.tex
+#: :70
+msgid "Downstream is the bridge between users and upstream."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :80
+msgid ""
+"When I released my first upstream tarball, I was assuming that for "
+"downstream, the work would mostly be compiling the source and building a "
+"package out of it, and nothing else. Building a package is indeed the first "
+"step, but this is only the beginning of the journey for downstream: then "
+"come several different tasks, some of which are purely technical while "
+"others are social. I will only very briefly describe this journey here, in a "
+"non-exhaustive way, as this could be a whole part of this book\\footnote{It "
+"is worth mentioning that I do not believe that downstream should "
+"significantly modify the software released by upstream; some downstreams do "
+"that, however, and this adds to their workload.}."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :92
+msgid ""
+"The building of the package itself can be less trivial than expected: it is "
+"not uncommon that the packager hits some issues that were unknown to "
+"upstream, like when a new version of the compiler is used (with new errors), "
+"or a specific library needs to be updated first (because the tarball is "
+"using some new API), or the build system of the tarball is tailored for a "
+"specific way of working (which does not follow the guidelines of the "
+"targetted distribution). What is even more ignored by many is that all those "
+"issues can also occur after the tarball has already been packaged, like when "
+"migrating the whole distribution to a new compiler or toolchain. None of "
+"those technical issues are extremely difficult to handle per se, and "
+"upstream is often happy to help solve them; but without downstream, those "
+"issues could go unnoticed by upstream for a while."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :108
+msgid ""
+"What is more important to me than those technical challenges is that "
+"downstream is generally in direct contact with more users than "
+"upstream. This results in bug reports, support requests, requests to change "
+"configuration defaults, and more. This is where the downstream crowd really "
+"shines: instead of simply forwarding all of this upstream, downstream will "
+"work on this feedback from users to only relay summarized bits that upstream "
+"will be able to use. Often, bug reports come without enough information on "
+"the issue (in which case downstream will ask for more details); often, the "
+"support requests stem from a misunderstanding on the user side (which "
+"downstream can then, sometimes, translate to a suggestion to change the "
+"software to avoid such misunderstanding); often, new configuration defaults "
+"are suggested without a good-enough rationale (and downstream will work with "
+"the users to see if there is a valid rationale). Of this huge amount of "
+"data, downstream will produce a smaller set of information that upstream "
+"will be able to easily consume, which will lead to improvements in the "
+"software."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :114
+msgid ""
+"There are generally two rewards for downstream contributors: the indirect "
+"and direct contributions to the upstream project thanks to the efforts done "
+"downstream are enough for many, but on top of that, the direct contact with "
+"more users leads to being exposed to the satisfaction of those users. And "
+"such exposure easily makes a day for many people."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :122
+msgid ""
+"As a sidenote, when considering the amount of work involved downstream, I "
+"would not be surprised if, at the end of the day, many upstream contributors "
+"are glad to have downstream people act as a buffer to them: this "
+"significantly lowers the amount of feedback, while at the same time "
+"improving the quality of the feedback (by avoiding duplicated comments, "
+"undetailed issues, etc.). This enables upstream to stay focused on the "
+"development itself, instead of forcing upstream to either triage feedback or "
+"ignore it."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :131
+msgid ""
+"Just looking at my own upstream experience, I cannot count the number of "
+"patches I received from downstream to fix build issues. I also remember "
+"countless discussions about the bugs that were affecting users the most, "
+"that helped me organize my priorities. And since I joined the downstream "
+"ranks, I started sending similar build-related patches to upstream, and "
+"chatting with my downstream hat to relay feedback from users. Such "
+"upstream--downstream collaboration contributes to improving the overall "
+"quality of our Free Software ecosystem, and I would consider it essential to "
+"our good health."
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/VincentUntz.tex
+#: :133
+msgid "Pushing Downstream Upstream!"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :140
+msgid ""
+"I am firmly believing that there must be a strong upstream--downstream "
+"collaboration for a project to succeed. I doubt there is much disagreement "
+"on this by anyone; however, by ``downstream'', people usually think of the "
+"work being done in distributions. But, especially, for applications, it is "
+"becoming more and more viable to push that downstream work out of "
+"distributions and to get benefits from such a move upstream."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :149
+msgid ""
+"Tools like the Open Build Service make it easy to have people build and "
+"distribute packages of an application for several distributions. This has "
+"benefits for both the users (who can more easily and more quickly enjoy "
+"updates of their favorite applications) and for upstream (who can help build "
+"a stronger relationship with its user base). The only challenge with such a "
+"move is that there still needs to be someone doing the packaging work, but "
+"also to manage the larger feedback from users. That is, there still needs to "
+"be someone doing the downstream work; except that it would be done as part "
+"of upstream."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :157
+msgid ""
+"To me, this sounds like an exciting perspective, and I would even go as far "
+"as suggesting that we, the Free Software community, should slowly migrate "
+"the downstream work being done in distributions to be based on downstream "
+"work being done directly upstream whenever possible -- and at least for "
+"applications, this is often possible. This obviously requires a mind shift, "
+"but it would allow more sharing of the efforts that are most of the time "
+"being duplicated in all the different downstreams as of today."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :161
+msgid ""
+"For people willing to start contributing nowadays to applications they like, "
+"this packaging work upstream is a whole new approach that could be really "
+"successful!"
+msgstr ""
+
+#. type: section{#2}
+#: ./packaging/VincentUntz.tex
+#: :163
+msgid "I tried it and I stayed, will you?"
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :170
+msgid ""
+"Downstream has always been essential to my life as a Free Software user -- "
+"after all, only a few people are manually building their whole system from "
+"scratch and I am not one of them. But it also became an asset to me as an "
+"upstream developer, as I started taking more time to discuss with downstream "
+"people to get more feedback on bugs, features, general quality and even "
+"future directions of the software I was working on."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :175
+msgid ""
+"This is only when I started being a downstream myself that I understood that "
+"this position is indeed a privileged one to help advise upstream, because of "
+"the direct contact to users and because of the different perspective we get "
+"from this different position."
+msgstr ""
+
+#. type: Plain text
+#: ./packaging/VincentUntz.tex
+#: :179
+msgid ""
+"Without downstream, we would not be where we are today. If you want to make "
+"a difference, be sure that by joining a downstream effort and talking to "
+"upstream, you will succeed."
+msgstr ""
+
+#. type: Plain text
+#: packaging.tex:4
+msgid "And you will have fun."
+msgstr ""

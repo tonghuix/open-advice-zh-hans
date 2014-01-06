@@ -1,0 +1,735 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-06 14:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: part{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :2
+msgid "Research"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :2
+msgid ""
+"\\chapterwithauthor[Out of the Lab, into the Wild]{Markus Kr\\\"otzsch}{Out "
+"of the Lab, into the Wild: Growing Open Source Communities around Academic "
+"Projects}"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :13
+msgid ""
+"\\authorbio{Markus Kr\\\"otzsch is a post-doctoral researcher at the "
+"Department of Computer Science of the University of Oxford. He obtained his "
+"Ph.D. from the Institute of Applied Informatics and Formal Description "
+"Methods (AIFB) of the Karlsruhe Institute of Technology (KIT) in 2010. His "
+"research interest is the intelligent automatic processing of information, "
+"ranging from the foundations of formal knowledge representation to "
+"application areas like the Semantic Web. He is the lead developer of the "
+"successful Semantic Web application platform Semantic MediaWiki, co-editor "
+"of the W3C OWL 2 specification, chief maintainer of the semanticweb.org "
+"community portal, and co-author of the textbook Foundations of Semantic Web "
+"Technologies.}"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :24
+msgid ""
+"\\noindent{}Academic researchers develop large amounts of software, be it "
+"for validating a hypothesis, for illustrating a new approach, or merely as a "
+"tool to aid some study. In most cases, a small focused prototype does the "
+"job, and it is disposed quickly after the focus of research moves "
+"on. However, once in a while, a novel approach or upcoming technology bears "
+"the potential to really change the way in which a problem is solved. Doing "
+"so promises professional reputation, commercial success, and the personal "
+"gratification of realizing the full potential of a new idea. The researcher "
+"who made this discovery then is tempted to go beyond a prototype towards a "
+"\\emph{product} that is actually used -- and is faced by a completely new "
+"set of practical problems."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :26
+msgid "The Fear of the User"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :47
+msgid ""
+"Frederick P.\\ Brooks, Jr., in one of his famous essays on software "
+"engineering, gives a good picture of the efforts related to maintaining real "
+"software, and warns us of the user:"
+msgstr ""
+
+#. type: quote
+#: ./research/MarkusKroetzsch.tex
+#: :47
+msgid ""
+"``The total cost of maintaining a widely used program is typically 40 "
+"percent or more of the cost of developing it. Surprisingly, this cost is "
+"strongly affected by the number of users. More users find more bugs.''"
+msgstr ""
+
+#. type: footnote{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :47
+msgid ""
+"Frederick P.  Brooks, Jr.: The Mythical Man-Month. Essays on Software "
+"Engineering. Anniversary Edition. Addison-Wesley, 1995."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :47
+msgid ""
+"While this figure might well be different in today's environment, the basic "
+"observation is still true, and may even have been aggravated by the use of "
+"instantaneous global communication. Even worse, more users not only find "
+"more actual bugs, but also articulate more wishes in general. Be it a "
+"genuine error, a feature request, or merely a fundamental misunderstanding "
+"of the software's operation, the typical user request is far from being a "
+"technically precise bug report. And each request demands the attention of "
+"the developers, consuming precious time that is not available to actually "
+"write code."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :57
+msgid ""
+"The analytical mind of the researcher foresees this issue, and, in its "
+"natural struggle to prevent a gloomy future in customer care, may develop an "
+"outright \\emph{fear of the user}. In the worst case, this may lead to a "
+"decision against the whole project, in a weaker form it may still lead "
+"researchers to practically hide brilliant software products from potential "
+"users. More than once have I heard researchers saying: ``We don't need more "
+"visibility, we are getting enough emails already!'' And indeed, there are "
+"cases where the communication effort related to a software tool exceeds the "
+"effort that a researcher can invest without abandoning her main job."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :69
+msgid ""
+"Often, however, this tragic outcome could easily have been prevented. Brooks "
+"could hardly foresee this. When he wrote his essays, users were indeed "
+"customers, and software maintenance was part of the product they "
+"purchased. A balance had to be found between development effort, market "
+"demand, and pricing.  This is still the case for many commercial software "
+"products today, but has little to do with the reality of small-scale Open "
+"Source development. Typical OSS users do not pay for the service they "
+"receive. Their attitude accordingly is not that of a demanding customer, but "
+"more often that of a grateful and enthusiastic supporter. No small part of "
+"the art of successful OSS maintenance is turning this enthusiasm into much "
+"needed support, balancing the increase in user interest with an increase in "
+"user contribution."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :77
+msgid ""
+"Recognizing that Open Source users are not just ``customers who don't pay'' "
+"is an important insight. But it must not lead us to overestimate their "
+"potential.  The optimistic counterpart of the irrational fear of the user is "
+"the belief that active and supportive Open Source communities grow "
+"naturally, based merely on the license that was chosen for publishing "
+"code. This grave error of judgement is still surprisingly common, and has "
+"sealed the doom of many attempts of creating open communities."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :79
+msgid "Sowing and Reaping"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :88
+msgid ""
+"The plural of ``user'' is not ``community.'' While the former may grow in "
+"numbers, the latter does not grow by itself, or grows wildly without "
+"yielding the hoped-for support for the project. The task of the project "
+"maintainer who seeks to benefit from the users' raw energy therefore "
+"resembles that of a gardener who needs to prepare a fertile ground, plant "
+"and water the seedlings, and possibly prune undesired shoots before being "
+"able to reap the fruits.  Compared to the rewards the overall effort is "
+"little, but it is vital to do the right things, at the right time."
+msgstr ""
+
+#. type: paragraph{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :103
+msgid "Preparing the Technical Ground"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :103
+msgid ""
+"Building a community starts even before the first user appears. Already the "
+"choice of the programming language determines how many people will be able "
+"to deploy and debug our code. Objective Caml might be a beautiful language, "
+"but using Java instead will increase the amount of potential users and "
+"contributors by orders of magnitude. Developers thus must compromise, since "
+"the most widespread technology is rarely most efficient or elegant. This can "
+"be a particularly hard step for researchers who often prefer superiority of "
+"language design. When working on Semantic MediaWiki, I have often been asked "
+"why in the world we would use PHP when server-side Java would be so much "
+"cleaner and more efficient. Comparing the community size of Semantic "
+"MediaWiki with similar Java-based efforts may answer this question. This "
+"example also illustrates that the target audience determines the best choice "
+"of base technology. The developer herself should have the necessary insight "
+"to make a most opportunistic decision."
+msgstr ""
+
+#. type: paragraph{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :114
+msgid "Thoroughly Working the Ground"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :114
+msgid ""
+"A related issue is the creation of readable and well documented code from "
+"the very start. In an academic environment, some software projects are "
+"touched by many temporary contributors. Changing staff and student projects "
+"may deteriorate code quality. I remember a small software project at TU "
+"Dresden that had been maintained quite well by a student assistant. After he "
+"had left it was found that his code was thoroughly documented -- in "
+"Turkish. A researcher can only be a part-time programmer, so special "
+"discipline is needed to enforce the extra work needed for accessible "
+"code. The reward will be a much greater chance of informed bug reports, "
+"useful patches, or even external developers later on."
+msgstr ""
+
+#. type: paragraph{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :128
+msgid "Spreading the Seeds of Communities"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :128
+msgid ""
+"Inexperienced Open Source developers often think it as a big step to publish "
+"their code openly. In reality nobody else will notice. To attract users and "
+"contributors alike one has to spread the word. The public communication of a "
+"real project should at least involve announcements for every new release.  "
+"Mailing lists are probably the best channels for this. Some social skill is "
+"needed to find the balance between annoying spam and shy understatement.  "
+"Projects that are motivated by the honest conviction that they will help "
+"users to solve real problems should be easy to advertise respectably. Users "
+"will quickly notice the difference between shameless advertising and useful "
+"information. Obviously, active announcements should wait until the project "
+"is ready. This does not only include its actual code but also its homepage "
+"and basic usage documentation."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :136
+msgid ""
+"Throughout its lifetime, the project should be mentioned in all "
+"\\emph{appropriate} places, including web sites (start with your homepage!), "
+"presentations, scientific papers, online discussions. One cannot appreciate "
+"enough the power of the single link that leads a later main contributor to "
+"his first visit of the project's homepage. Researchers should not forget to "
+"also publicize their software outside of their immediate academic "
+"community. Other researchers are rarely the best basis for an active "
+"community."
+msgstr ""
+
+#. type: paragraph{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :152
+msgid "Providing Spaces to Grow"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :152
+msgid ""
+"Trivially easy, yet often neglected is the duty of project maintainers to "
+"provide for the communication spaces that communities can grow in. If a "
+"project has no dedicated mailing list, then all support requests will be "
+"sent privately to the maintainer. If there is no public bug tracker, bug "
+"reports will be fewer and less helpful. Without a world-editable wiki for "
+"user documentation, the developer is left with extending and refining the "
+"documentation continuously. If the development trunk of the source code is "
+"not accessible, then users will not be able to check the latest version "
+"before complaining about bugs. If the code repository is inherently closed, "
+"then it is impossible to admit external contributors. All of this "
+"infrastructure is offered for free by a number of service providers. Not all "
+"forms of interaction might be desired, e.g.\\ there are reasons to keep the "
+"group of developers closed. But it would be foolish to expect support from a "
+"community without even preparing the basic spaces for this."
+msgstr ""
+
+#. type: paragraph{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :165
+msgid "Encouraging and Controlling Growth"
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :165
+msgid ""
+"Inexperienced developers often are concerned that opening up mailing lists, "
+"forums, and wikis for users will require a lot of additional maintenance. It "
+"rarely does, but some basic activities are of course necessary. It starts "
+"with \\emph{rigorously enforcing} the use of public communication. Users "
+"need to be educated to ask questions publicly, to look up the documentation "
+"before asking, and to report bugs in the tracker instead of via email. I "
+"tend to reject all private support requests, or to forward the answers to "
+"public lists. This also ensures that solutions are available on the web for "
+"future users to find. In any case, users should be thanked explicitly for "
+"all forms of contribution -- many enthusiastic and well-meaning people are "
+"needed for building a healthy community."
+msgstr ""
+
+#. type: Plain text
+#: ./research/MarkusKroetzsch.tex
+#: :176
+msgid ""
+"When a certain density of users is reached, support starts to happen from "
+"user to user. This is always a magical moment for a project, and a sure sign "
+"that it is on a good path. Ideally, the core maintainers should still "
+"provide support for tricky questions, but at some point certain users will "
+"take the lead in discussions, and it is important to thank them (personally) "
+"and to involve them further in the project. Conversely, unhealthy "
+"developments must be stopped where possible, and in particular aggressive "
+"behavior can be a real danger to community development. Likewise, not all "
+"well-meant enthusiasm is productive, and it is often necessary to say no, "
+"friendly but clearly, to prevent feature creep."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/MarkusKroetzsch.tex
+#: :178
+msgid "The Future is Open"
+msgstr ""
+
+#. type: Plain text
+#: ./research/PaulAdams.tex
+#: :1
+msgid ""
+"Building an initial community around a project is an important part of "
+"transforming a research prototype into a grown Open Source software. If it "
+"succeeds, there are many options for further developing the project, "
+"depending on the goals of the project maintainer and community. Some general "
+"directions include:"
+msgstr ""
+
+#. type: itemize
+#: ./research/PaulAdams.tex
+#: :1
+msgid ""
+"Continuing to grow and develop the project and its OSS community, enlarging "
+"the core team of developers and maintainers, and eventually making it "
+"independent of its academic origin. This may involve further community "
+"activities (e.g.\\ dedicated events) and maybe establishing organizational "
+"support."
+msgstr ""
+
+#. type: itemize
+#: ./research/PaulAdams.tex
+#: :1
+msgid ""
+"Founding a company for commercially exploiting the project based on, e.g., a "
+"dual-license or consulting business model. Established tools and vibrant "
+"communities are a major asset for a start-up company, and can be beneficial "
+"to several business strategies without abandoning the original OSS product."
+msgstr ""
+
+#. type: itemize
+#: ./research/PaulAdams.tex
+#: :1
+msgid ""
+"Withdrawing from the project. There are many reasons why one may no longer "
+"be able to maintain the close affiliation to the project. Having established "
+"a healthy open community maximizes the chances that the project can continue "
+"independently. In any case, it is much more respectable to make a clear cut "
+"than to abandon the project silently, killing it by inactivity until its "
+"reach is diminished to the point where no future maintainer can be found."
+msgstr ""
+
+#. type: Plain text
+#: ./research/PaulAdams.tex
+#: :1
+msgid ""
+"The shape of the community will be different when working toward one of "
+"these principal options. But in each case, the role of the researcher "
+"changes in the cause of the project. The initial scientist and coder may "
+"turn into a manager or technical director. In this sense, the main "
+"difference between an influential OSS project and a perpetual research "
+"prototype is not so much the amount of work but the type of work that is "
+"required to succeed. Understanding this is part of the success -- the only "
+"other thing that is needed is an awesome piece of software."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :2
+msgid ""
+"\\chapterwithauthor{Felipe Ortega}{Prepare for the Future: Evolution of "
+"Teams in FLOSS}"
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :11
+msgid ""
+"\\authorbio{Felipe Ortega is a researcher and project manager at Libresoft, "
+"a research group at University Rey Juan Carlos (URJC), Spain. Felipe "
+"develops novel methodologies to analyze open collaborative communities (like "
+"free software projects, Wikipedia and social networks). He has done "
+"extensive research with the Wikipedia project and its community of "
+"authors. He actively participates in research, promotion and "
+"education/training on libre software, especially in the Master on Libre "
+"Software at URJC. He is a strong advocate of open educational resources, "
+"open access in scientific publishing and open data in science.}"
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :28
+msgid ""
+"\\noindent{}In his well-known essay \\textit{The Cathedral and the "
+"Bazaar}\\footnote{\\url{ "
+"http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar}}, Eric "
+"S.  Raymond remarks one of the first important lessons that every programmer "
+"must learn: ``Every good work of software starts by scratching a developer's "
+"personal itch''. You never realize how certain is this statement unless you "
+"experience that situation by yourself. In fact, the majority of FLOSS "
+"programmers (if not all) certainly underwent this process as they got their "
+"hands dirty in a brand new project, or they join an existing one, eager to "
+"help making it better.  However, many developers and other participants in "
+"FLOSS communities (documentation writers, translators, etc.) usually "
+"overlook another important lesson stressed by Raymond a bit later in his "
+"essay: ``When you lose interest in a program, your last duty to it is to "
+"hand it off to a competent successor''.  This is the central topic I want to "
+"cover here. You should think about the future of your project, and the "
+"newcomers that one day will take over your work and continue to improve it."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/FelipeOrtega.tex
+#: :30
+msgid "Generational relay"
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :37
+msgid ""
+"At some point in their lifetime, many FLOSS projects must face a "
+"generational relay. Former developers in charge of code maintenance and "
+"improvement eventually leave the project and its community, for a wide "
+"variety of reasons.  These include personal issues, a new job that does not "
+"leave them enough free time, starting a new project, switching to a "
+"different project that seems more appealing, \\dots\\ The list can be pretty "
+"long."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :62
+msgid ""
+"The study of generational relay (or developer turnover) in FLOSS projects is "
+"still an emerging area of study that needs further research to improve our "
+"understanding of these situations. In spite of this, some researchers have "
+"already collected objective evidence that sheds some light on these "
+"processes.  In OSS 2006, my colleagues Jesus G. Barahona and Gregorio Robles "
+"presented a work entitled ``Contributor Turnover in Libre Software "
+"Projects''. In this work, they show a methodology to identify the most "
+"active developers (usually known as core contributors) in different time "
+"intervals, over the whole history of a given project. Then, they apply this "
+"method to study 21 large projects, in particular GIMP, Mozilla (former "
+"instance of the well-known browser) and Evolution. In a nutshell, what they "
+"found is that we can identify three types of projects according to their "
+"rate of developer turnover:"
+msgstr ""
+
+#. type: itemize
+#: ./research/FelipeOrtega.tex
+#: :62
+msgid ""
+"Code gods projects: These projects heavily rely on the work of their "
+"founders, and there is very little generational relay, or none at all. GIMP "
+"falls into this category."
+msgstr ""
+
+#. type: itemize
+#: ./research/FelipeOrtega.tex
+#: :62
+msgid ""
+"Projects with multiple generations: Projects like Mozilla show a clear "
+"pattern of developer turnover, with new groups of active developers taking "
+"over the lead of code development and maintenance from the hands of the "
+"previous core contributors."
+msgstr ""
+
+#. type: itemize
+#: ./research/FelipeOrtega.tex
+#: :62
+msgid ""
+"Composite projects: Evolution belongs to a third category of projects, "
+"showing some rate of turnover but not as evident as in the previous case, "
+"mitigated by retention of some core contributors over the project history."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :68
+msgid ""
+"This classification leads us to an obvious question: so, what is the most "
+"common pattern found in real FLOSS projects out there? Well, results for the "
+"whole set of 21 projects analyzed in this work render a clear conclusion, "
+"which is that multiple generations and composite projects are the most "
+"common cases found in the FLOSS ecosystem. Only Gnumeric and Mono showed a "
+"distinctive pattern of strong retention of former developers, indicating "
+"that people contributing to these projects may have more appealing reasons "
+"to continue their work for a long time."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :73
+msgid ""
+"Nevertheless, this is not the normal picture. On the contrary, this study "
+"gives support for the advice we are considering here, that we should prepare "
+"to transfer, at some point in the future, our role and knowledge in the "
+"project to the future contributors joining our community."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/FelipeOrtega.tex
+#: :75
+msgid "The knowledge gap"
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :85
+msgid ""
+"Any person experiencing a significant change in her life must deal with "
+"adaption to new conditions. For example, when you quit your job to get "
+"another one you prepare yourself for a certain period in which you have to "
+"fit in a new place, and integrate yourself in a different working "
+"group. Hopefully, after a while you have finally settled down in your new "
+"job. But, sometimes, you keep good friends from your old job, and you can "
+"meet them again after the move. Maybe then, talking with your former "
+"workmates, you can learn what happened with the person recruited to fill "
+"your previous position. This seldom occurs in FLOSS projects."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :91
+msgid ""
+"The downside of generational relay in FLOSS projects may come in a very "
+"concrete form, namely a knowledge gap. When a former developer leaves the "
+"project, and especially if she had an extensive experience in that "
+"community, she leaves behind both her tangible and abstract knowledge that "
+"may or may not be passed on to subsequent newcomers."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :99
+msgid ""
+"A clear example is source code. Like any product of fine intellectual work "
+"(well, at least one should expect that, right?) developers leave a personal "
+"imprint whenever they produce new code. Sometimes, you feel eternally in "
+"debt to that awesome programmer who wrote neat, elegant code that virtually "
+"speaks by itself and is easily maintainable. Other times, the situation is "
+"the opposite and you struggle to understand very obscure, unclear code "
+"without any comments or hints that can help you."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :109
+msgid ""
+"This is what we tried to measure in 2009, in a research work presented at "
+"HICSS 2009. The title is ``Using Software Archeology to Measure Knowledge "
+"Loss in Software Projects Due to Developer Turnover''. In case you were "
+"wondering, it has nothing to do with a whip, treasures, temples or thrilling "
+"adventures, though it was really entertaining. What we measured (among other "
+"things) was the percentage of orphaned code left behind by developers who "
+"quit FLOSS projects, and not taken by any of the current developers, yet. In "
+"this case, we choose four projects (Evolution, GIMP, Evince and Nautilus) to "
+"test our research method. And we found quite interesting results."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :118
+msgid ""
+"Evolution exhibited a somewhat worrying pattern, in the sense that the "
+"percentage of orphaned code was growing over time. By 2006, nearly 80\\% of "
+"all source code lines had been abandoned by former developers and remained "
+"untouched by the rest of the team. On the contrary, GIMP showed a radically "
+"different pattern, with a clear and sustained effort of the development team "
+"to reduce the number of orphaned lines of code. By the way, remember that "
+"GIMP had already been characterized as a code gods project, and thus "
+"benefits from a much more stable development team to undertake this daunting "
+"task."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :129
+msgid ""
+"Does this mean that GIMP developers were having a much better experience "
+"than Evolution folks? To be honest, we do not know. Nevertheless, we can "
+"foresee a clear, predictable risk: the higher the percentage of orphaned "
+"code, the larger the effort to maintain the project. Whenever you need to "
+"fix a bug, develop a new feature or extend an existing one, you bump into "
+"code you had never seen before. Of course you may be a fantastic programmer, "
+"but no matter how wonderful you are, GIMP developers do have a clear "
+"advantage in this case, since they have someone in the team with precise "
+"knowledge about most of the code they need to maintain. In addition, they "
+"also work to further reduce the portion of unknown source code over time."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/FelipeOrtega.tex
+#: :131
+msgid "It feels like home"
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :144
+msgid ""
+"Interestingly, some projects manage to retain users for much longer periods "
+"than one could expect. Again, we can find empirical evidence supporting this "
+"claim.  In OSS 2005, Michlmayr, Robles and González-Barahona presented some "
+"relevant results pertaining this aspect. They studied the persistence of "
+"participation of software maintainers in Debian, calculating the so-called "
+"half-life ratio. This is the time needed for a certain population of "
+"maintainers to fall to half of its initial size. The result was that the "
+"estimated half-life of Debian maintainers was approximately 7.5 years. In "
+"other words, since the study was undertaken over a period of six and a half "
+"years (between July 1998 to December 2004), comprising from Debian 2.0 to "
+"Debian 3.1 (only stable releases), more than 50\\% of maintainers of Debian "
+"2.0 were still contributing to Debian 3.1."
+msgstr ""
+
+#. type: Plain text
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"Debian has created quite a formal procedure to admit new software "
+"maintainers (also known as Debian developers) including the acceptance of "
+"the Debian Social Contract and showing good knowledge of Debian Policy. As a "
+"result, one would expect to have quite committed contributors. Actually this "
+"is the case, since these authors found that packages left behind by former "
+"maintainers were usually taken over by other developers staying in the "
+"community. Only in those cases in which the package was not useful anymore "
+"it was simply abandoned.  I think we can learn some useful conclusions from "
+"these research works:"
+msgstr ""
+
+#. type: enumerate
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"Spend some time to develop the main guidelines of your project. It may start "
+"as a single, short document, simply featuring some recommendations and good "
+"practices. This should evolve as the project grows, to serve as a learning "
+"pill for newcomers to quickly grasp the core values of your team, as well as "
+"the main traits of your working style."
+msgstr ""
+
+#. type: enumerate
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"Force yourself to follow well-known coding standards, good practices and "
+"elegant style. Document your code. Include comments to describe sections "
+"that might be especially hard to understand. Do not feel that you are "
+"wasting your time. In practice, you are being very pragmatic, investing time "
+"in the future of your project."
+msgstr ""
+
+#. type: enumerate
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"If possible, when the time comes for you to quit the project try to make "
+"others aware of your decision some time in advance. Make sure they "
+"understand which critical parts will need a new maintainer. Ideally, if you "
+"are a community, prepare at least a very simple procedure to automate this "
+"process and make sure that you do not forget any important point before that "
+"person leaves the project (especially if she was a key developer)."
+msgstr ""
+
+#. type: enumerate
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"Keep an eye on the size of orphaned code. If it rises too rapidly, or it "
+"reaches a significant proportion of your project, it is a clear indication "
+"that you will be running into trouble very soon, especially if the number of "
+"bug reports grows or you plan to revamp your code with a serious "
+"refactoring."
+msgstr ""
+
+#. type: enumerate
+#: ./research/FelipeOrtega.tex
+#: :177
+msgid ""
+"Always ensure that you leave enough tips and hints for a newcomer to take "
+"over your work in the future."
+msgstr ""
+
+#. type: section{#2}
+#: ./research/FelipeOrtega.tex
+#: :179
+msgid "I wish I had known you were coming (before I quit)"
+msgstr ""
+
+#. type: Plain text
+#: research.tex:4
+msgid ""
+"I admit it is not very easy to think about your successors while you are "
+"programming. Many times, you just do not realize that your code may end up "
+"being taken over by another project, reused by other people or you might "
+"eventually be replaced by another person, willing to continue your work "
+"thereafter.  However, the most remarkable asset of FLOSS is precisely that "
+"one: the code will be reused, adapted, integrated or extended by someone "
+"else. Maintainability is a critical feature of software engineering. But it "
+"becomes paramount in FLOSS. It is not only about source code. It is about "
+"people, social relationships and digital etiquette. It is something beyond "
+"mere good taste. Quod severis metes (``as you sow, so shall you "
+"reap''). Remember that, next time, you may be the newcomer filling the "
+"knowledge gap left by a former developer."
+msgstr ""

@@ -1,0 +1,1173 @@
+# Chinese Translation for Open Advice book.
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Open-Advice package.
+# Tong Hui <tonghuix@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 18.bussiness\n"
+"POT-Creation-Date: 2014-01-06 14:46+0800\n"
+"PO-Revision-Date: 2014-01-06 18:11+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: business/TillAdam.tex:2
+msgid "Business"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:2
+msgid "\\chapterwithauthor{Till Adam}{Free Software in Public Administrations}"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:8
+msgid ""
+"\\authorbio{Originally from a liberal arts and music background, Till Adam "
+"has spent the last decade or so in software. He works at KDAB where he "
+"directs services, including the company's Free Software activities. Till "
+"also serves on the board of directors of Kolab Systems AG, a company with a "
+"pure Free Software business model.  He lives with his wife and daughter in "
+"Berlin.}"
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:10 business/FrankKarlitschek.tex:16
+#: business/CarloDaffara.tex:18
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:24
+msgid ""
+"Like, I imagine, many of the other authors in this collection of essays I "
+"started contributing to Free Software when I was a student. I had decided "
+"relatively late in life to pursue a degree in Computer Science (having "
+"failed to become rich and famous as a musician) and was expecting to be "
+"quite a bit older than my peers when I graduated. So I thought it would be "
+"good to teach myself programming, which I was not getting much of at school, "
+"to become more attractive to future employers, despite my age.  After some "
+"forays into various smaller communities I eventually found my way into KDE "
+"and started working on the email application. Thanks to the extremely "
+"helpful and technically brilliant group of people I met there I was able to "
+"learn quickly and contribute meaningfully to the code base, getting sucked "
+"more and more into both the social circle and the fascinating technical "
+"problem space of personal information management."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:34
+msgid ""
+"When KDAB, a company full of KDE people, asked me whether I wanted to help "
+"out with some commercial work that was being done, as a student job, I was "
+"of course thrilled to be able to combine making a living with my hobby of "
+"hacking on KDE software. Over the years I then witnessed the adoption of "
+"KDE's personal information management frameworks and applications by the "
+"public sector, particularly in Germany, first hand and saw KDAB's business "
+"in this area grow.  As I transitioned into more coordinative roles it "
+"eventually became part of my job to effectively sell and deliver services "
+"based on Free Software including KDE's products to large organizations, "
+"particularly in the public sector."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:42
+msgid ""
+"It should be noted that much of the project work this text reflects upon was "
+"done in cooperation with other Free Software businesses, namely g10code, the "
+"maintainers of GNUPG and cryptography specialists, and Intevation, a "
+"consultancy focused entirely on Free Software and its strategic challenges "
+"and opportunities. Especially Bernhard Reiter, one of Intevation's founders, "
+"was instrumental to the selling and running of many of these projects and "
+"whatever morsels of wisdom this text might contain are likely products of "
+"his analysis and my many conversations with him over the years."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:46
+msgid ""
+"So if Bernhard and I could travel back in time and share insights with our "
+"younger, more naïve selves, what would those insights be? Well, it turns out "
+"they all start with the letter 'P'."
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:48
+msgid "People"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:63
+msgid ""
+"As things stand today it is still harder for IT operations people and "
+"decision makers to use Free Software than it is to use proprietary "
+"alternatives. Even in Germany, where Free Software has relatively strong "
+"political backing, it is easier and safer to suggest the use of something "
+"that is perceived as ``industry standard'' or ``what everyone else does''; "
+"proprietary solutions, in other words.  Someone who proposes a Free Software "
+"solution will likely face opposition by less adventurous (or more short-"
+"sighted) colleagues, close scrutiny by superiors, higher expectations with "
+"respect to the results and unrealistic budget pressure. It thus requires a "
+"special breed of person willing to take personal risks, go out on a limb, "
+"potentially jeopardize career progress and fight an uphill battle. This is "
+"of course true in any organization, but in a public administration special "
+"persistence is required because things move generally more slowly and an "
+"inflexible organizational hierarchy and limited career options amplify the "
+"issue."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:78
+msgid ""
+"Without an ally on the inside it can be prohibitively difficult to get Free "
+"Software options seriously considered. If there is such a person, it is "
+"important to support them in their internal struggles as much as possible. "
+"This means providing them with timely, reliable and verifiable information "
+"about what goes on in the community the organization intends to interface "
+"with, including enough detail to provide a full picture but reducing the "
+"complexity of the communication and planing chaos that is part of the Free "
+"Software way of working, at times, such that it becomes more manageable and "
+"less threatening. Honesty and reliability help to build strong relationships "
+"with these key people, the basis of longer term success. As their interface "
+"to the wondrous and somewhat frightening world of Free Software communities "
+"they rely on you to find the paths that will carry them and their "
+"organization to their goals and they make decisions largely based on "
+"personal trusts. That trust has to be earned and maintained."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:86
+msgid ""
+"In order to achieve this, it is important to focus not only on achieving the "
+"technical results of projects, but also keep in mind the broader personal "
+"and organizational goals of those one is dealing with. Success or failure of "
+"the current project might not depend on whether an agency's project manager "
+"can show off only marginally related functionality to superiors at seemingly "
+"random points in the schedule, but whether the next project happens or not "
+"might. When you have few friends, helping them be successful is a good "
+"investment."
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:88
+msgid "Priorities"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:102
+msgid ""
+"As technologists, Free Software people tend to focus on the things that are "
+"new, exciting and seemingly important at a technology level. Consequently we "
+"put less emphasis on things that are more important in the context of an "
+"(often large) public administration. But consider someone wanting to roll "
+"out a set of technologies in an organization that intends to stick with it "
+"for a long time. Since disruptive change is difficult and expensive, it is "
+"far more important to have documentation of the things that will not work, "
+"so they can be avoided or worked around, than it is to know that some future "
+"version will behave much better. It is unlikely that that new version will "
+"ever be practically available to the users currently under consideration, "
+"and it is far easier to deal with known issues pro-actively than to be "
+"forced to react to surprises.  Today's documented bug is, ironically, often "
+"preferable to tomorrow's fix with unforeseeable side effects."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:109
+msgid ""
+"In a large organization that uses software for a long time, the cost of "
+"acquiring the software, be it via licenses or as part of contracted custom "
+"development of Free Software, pales in comparison to the cost of maintaining "
+"and supporting it.  This leads to the thinking that fewer, more stable "
+"features, which cause less load on the support organization and are more "
+"reliable and less maintenance intensive are better than new, complex and "
+"likely less mature bells and whistles."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:124
+msgid ""
+"While both of these sentiments run counter to the instincts of Free Software "
+"developers, it is these same aspects that make it very attractive for the "
+"public sector to contract the development of Free Software, rather than "
+"spending the money on licenses for off-the-shelf products. Starting from a "
+"large pool of freely available software, the organization can invest the "
+"budgets it has into maturing exactly those parts that are relevant for its "
+"own operations. It thus does not have to pay (via license costs) for the "
+"development of market driven, fancy features it will not need. By submitting "
+"all of that work back upstream into the community, the longer term "
+"maintenance of these improvements and of the base software is shared amongst "
+"many. Additionally, because all of the improvements become publicly "
+"available, other organizations with similar needs can benefit from them with "
+"no additional cost, thus maximizing the impact of tax payer money, something "
+"any public administration is (or should be) keen to do."
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:126
+msgid "Procurement"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:138
+msgid ""
+"So, if it is so clearly better use of IT budgets for government agencies to "
+"invest into the improvement of Free Software and into the tailoring of it to "
+"its needs, why is it so rarely done? Feature parity for many of the most "
+"important kinds of software has long been reached, usability is comparable, "
+"robustness and total cost of ownership as well. Mindshare and knowledge are "
+"of course still problems, but the key practical obstacle for procurement of "
+"Free Software services lies in the legal and administrative conditions under "
+"which it must happen. Changing these conditions requires work on a political "
+"and lobby level. In the context of an individual project it is rarely "
+"possible. Thankfully organizations like the Free Software Foundation Europe "
+"and its sister organization in the US are lobbying on our behalf and slowly "
+"effecting change. Let's look at two central, structural problems."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/TillAdam.tex:140
+msgid "Licenses, not Services"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:152
+msgid ""
+"Many IT budgets are structured such that part of the money is set aside for "
+"the purchase of new software or the continued payment for the use of "
+"software in the form of licenses. Since it was unimaginable to those who "
+"structured these budgets that software could ever be anything but a "
+"purchasable good, represented by a proprietary license, it is often "
+"difficult or impossible for the IT decision makers to spend that same money "
+"on services. Managerial accounting will simply not hear of it.  This can "
+"lead to the unhappy situation that an organization has the will and the "
+"money to improve a piece of Free Software to exactly suit its needs, deploy "
+"and run it for years and contribute the changes back to community, yet the "
+"plan can not go forward unless the whole affair is wrapped in an artificial "
+"and unnecessary sale and purchase of an imaginary product based on the Free "
+"Software license."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/TillAdam.tex:154
+msgid "Legal Traps"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:164
+msgid ""
+"Contractual frameworks for software providers often assume that whoever "
+"signs up to provide the software fully controls all of the involved "
+"copyrights, trademarks and patents. The buying organization expects to be "
+"indemnified against various risks by the provider. In the case of a company "
+"or an individual providing a solution or service based on Free Software that "
+"is often impossible since there are other rights holders that can not "
+"reasonably be involved in the contractual arrangement.  This problem appears "
+"most pointedly in the context of software patents. It is practically "
+"impossible for a service provider to insure against patent litigation risks "
+"which makes it very risky to take on the full responsibility."
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:166
+msgid "Price"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:185
+msgid ""
+"Historically, the key selling point of Free Software that has been "
+"communicated to the wider public has been its potential to save money.  Free "
+"Software has indeed made large scale cost saving possible in many "
+"organizations and for many years now.  The GNU/Linux operating system has "
+"spearheaded this development.  Because of its free availability for download "
+"was perceived in stark contrast to the expensive licenses of its main "
+"competitor, Microsoft Windows.  For something as widely used and useful as "
+"an operating system, the structural cost benefit of development cost put "
+"onto many shoulders is undeniable.  Unfortunately the expectation that this "
+"holds true for all Free Software products has led to the unrealistic view "
+"that using it will always, immediately and greatly reduce cost. In our "
+"experience, this is not true. As we have seen in earlier sections it does "
+"make a lot of sense to get more out of the money spent using Free Software "
+"and it is likely that over time and across multiple organizations money can "
+"be saved, but for the individual agency looking to deploy a piece of Free "
+"Software there will be an upfront investment and cost associated with "
+"getting it to the point of maturity and robustness required."
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:199
+msgid ""
+"While this seems entirely reasonable to IT operations professionals it is "
+"often harder to convince their superiors with budget power of this truth. "
+"Especially when potential cost saving has been used as an argument to get "
+"Free Software in the door initially it can prove very challenging to "
+"effectively manage expectations down the road. The earlier the true cost and "
+"nature of the investment is made transparent to decision makers, the more "
+"likely they are to commit to it for the long haul.  High value for money is "
+"still attractive and a software services provider that will not continue to "
+"be available because the high price pressure does not yield sufficient "
+"economic success is as unattractive in Free Software as it is in proprietary "
+"license based business models. It is thus also in the interest of the "
+"customers that cost estimations are realistic and the economic conditions of "
+"the work being done are sustainable."
+msgstr ""
+
+#. type: section{#2}
+#: business/TillAdam.tex:201 business/FrankKarlitschek.tex:185
+msgid "Conclusion"
+msgstr ""
+
+#. type: Plain text
+#: business/TillAdam.tex:213
+msgid ""
+"Our experience shows that it is possible to convince organizations in the "
+"public sector to spend money on Free Software based services. It is an "
+"attractive proposition that provides good value and makes political sense. "
+"Unfortunately structural barriers still exist, but with the help of pioneers "
+"in the public sector they can be worked around. Given sufficient support by "
+"us all, those working for Free Software on a political level will eventually "
+"overcome them. Honest and clear communication of the technical and economic "
+"realities can foster effective partnerships that yield benefits for the Free "
+"Software community, the public administrations using the software and those "
+"providing them with the necessary services in an economically viable, "
+"sustainable way."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:2
+msgid ""
+"\\chapterwithauthor{Frank Karlitschek}{Underestimating the Value of a Free "
+"Software Business Model}"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:14
+msgid ""
+"\\authorbio{Frank Karlitschek was born in 1973 in Reutlingen, Germany and "
+"started to write software at the age of 11. He studied Computer Science at "
+"the University of T\\\"ubingen and became involved in free software and "
+"Internet technologies in the mid-1990s. In 2001, he started to contribute to "
+"KDE by launching KDE-Look.org, an artwork community site which later became "
+"the openDesktop.org network. Frank started several Open Source projects and "
+"initiatives like the Social Desktop, the Open Collaboration Services, the "
+"Open-PC and ownCloud. In 2007 he started a company called hive01 which "
+"offers services and products around Open Source and Internet technologies.  "
+"Today Frank is a board member and Vice President of the KDE e.V. and a "
+"regular speaker at international conferences.}"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:26
+msgid ""
+"Ten years ago, I underestimated the value of a business model. Free software "
+"and a business model? They do not belong together. At least, that is what I "
+"thought when I started contributing to KDE in 2001. Free Software is about "
+"fun and not money. Right? Free software people want a world where everybody "
+"can write software and huge companies, like Microsoft or Google, are "
+"superfluous. Software should be free and anyone who wants to develop "
+"software should be able to do so -- even hobby developers. So earning money "
+"is not important. Right? Today, I hold a different opinion. Sometimes "
+"developers should be remunerated for their efforts."
+msgstr ""
+
+#. type: section{#2}
+#: business/FrankKarlitschek.tex:28
+msgid "The Free Software motivation"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:40
+msgid ""
+"Most Free Software developers have two basic motivations to work on Free "
+"Software. The first motivation is the fun factor. It is a fantastic "
+"experience to work together with very talented people from all over the "
+"world and create great technology. KDE, for example, is one of the most "
+"welcoming communities I know. It is so much fun to work with thousands of "
+"contributors from all over the world to create software which will be used "
+"by millions. Basically, everyone is an expert in one or more areas and we "
+"collaborate to create a shared vision. For me it is always a blast to meet "
+"other KDE contributors, exchange ideas or work on our software whether we "
+"meet online or in real life at one of the many conferences or events. And it "
+"is also about friendship. Over the years I have made many good friends in "
+"KDE."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:54
+msgid ""
+"But KDE contributors are not motivated only by fun to join KDE. It is also "
+"the idea that all of us can make the world a better place with our "
+"contributions. Free Software is essential if you care about access to "
+"technology and IT for developing countries. It enables poor people to "
+"participate in the information age without buying expensive licenses for "
+"proprietary software. It is essential for people who care about privacy and "
+"security, because Free Software is the only way to see exactly what your "
+"computer is doing with your private data. Free Software is important for a "
+"healthy IT eco-system, because it enables everybody to build on the work of "
+"others and really innovate. Without Free Software it would not have been "
+"possible for Google or Facebook to start their businesses. It is not "
+"possible to innovate and create the next disruptive technology if you depend "
+"on proprietary software and do not have full access to all parts of the "
+"software."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:59
+msgid ""
+"Free Software is also essential for education, because everybody can see all "
+"the internals of the software and study how it works. That is how Free "
+"Software helps to make the world a better place and why I contribute to Free "
+"Software projects such as KDE."
+msgstr ""
+
+#. type: section{#2}
+#: business/FrankKarlitschek.tex:61
+msgid "The need for an ecosystem"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:75
+msgid ""
+"These are the main reasons why I want to see Free Software, and especially "
+"the free desktop, become mainstream. To make this happen, we need a lot more "
+"contributors than we have today. By contributors I mean people who write the "
+"core frameworks, the desktop, the great applications. We need people who "
+"work on usability, artwork, promotion and many other important areas. KDE is "
+"already a really big community with thousands of members. But we need more "
+"people to help to compete with proprietary software in a big way. The Free "
+"Software community is tiny compared to the proprietary software world. On "
+"the one hand this is not a problem, because the distributed software "
+"development model of the Free Software world is much more efficient than the "
+"closed source way of writing software. One big advantage is, for example, "
+"the ability to re-use code better.  But even with these advantages we need "
+"many more contributors than we have today, if we really want to conquer the "
+"desktop and mobile markets."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:79
+msgid ""
+"We also need companies to help us bring our work to the mass market. In a "
+"nutshell, we need a big and healthy ecosystem that enables people to work on "
+"Free Software for a living."
+msgstr ""
+
+#. type: section{#2}
+#: business/FrankKarlitschek.tex:81
+msgid "The current situation"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:97
+msgid ""
+"I started contributing to KDE over 10 years ago and since then I have seen "
+"countless highly motivated and talented people join KDE. This is really "
+"cool.  The problem is that I also saw a lot of experienced contributors "
+"dropping out of KDE. That is really sad. Sometimes it is just the normal way "
+"of the world.  Priorities shift and people concentrate on other stuff. The "
+"problem is that many also drop out because of money. At some point people "
+"graduate and want to move out of their dorm rooms. Later some people want to "
+"get married and have kids. At this point people have to find jobs. There are "
+"some companies in the KDE ecosystem that offer KDE-related jobs. But these "
+"are only a fraction of the available IT jobs. So, a lot of senior KDE "
+"contributors have to work for companies where they work on proprietary "
+"software, unrelated to KDE and Free Software. Sooner or later most of these "
+"developers drop out of KDE.  I underestimated this factor 10 years ago, but "
+"I think it is a problem for KDE in the long term, because we lose our most "
+"experienced people to proprietary software companies."
+msgstr ""
+
+#. type: section{#2}
+#: business/FrankKarlitschek.tex:99
+msgid "My dream world"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:106
+msgid ""
+"In my dream world people can pay their rent by working on Free Software and "
+"they can do it in a way which does not conflict with our values.  KDE "
+"contributors should have all the time they need to contribute to KDE and "
+"Free Software in general. They should earn money by helping KDE. Their "
+"hobbies should become their jobs. This would make KDE grow in a big way, "
+"because it would be fun to contribute and also provide good long-term job "
+"prospects."
+msgstr ""
+
+#. type: section{#2}
+#: business/FrankKarlitschek.tex:108
+msgid "What are the options?"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:116
+msgid ""
+"So what are the options? What can we do to make this happen? Are there ways "
+"for developers to pay their rent while working on Free Software? I want to "
+"list a few ideas here that I collected during several discussions with Free "
+"Software contributors. Some of them are probably controversial, because they "
+"introduce completely new ideas into the Free Software world. But I think it "
+"is essential for us to think beyond our current world if we want to be "
+"successful with our mission."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:118
+msgid "Sponsored development"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:124
+msgid ""
+"Today, more and more companies appreciate the importance of Free Software "
+"and contribute to Free Software projects, or even release their own "
+"completely Free Software projects. This is an opportunity for Free Software "
+"developers. We should talk to more companies and convince them to work with "
+"the Free Software world."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:126
+msgid "End-user donations"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:132
+msgid ""
+"There should be an easy way for end-users to donate money directly to "
+"developers. If a user of a popular application wants to support the "
+"developer and promote the further development of the application, donating "
+"money should be just one mouse click away. The donation system can be built "
+"into the application to make it as easy as possible to send money."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:134
+msgid "Bounties"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:143
+msgid ""
+"The idea behind bounties is that one or more users of an application can pay "
+"for the development of a specific feature. A user can list his feature "
+"request on a website and say how much he is willing to pay for the feature. "
+"Other users who also like the same feature may add some money to the feature "
+"request. At some point the developer starts to develop the feature and "
+"collects the money from the users. This bounty feature is not easy to "
+"implement. People already tried to set up a system like this and failed. But "
+"I think it can work if we do it right."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:145
+msgid "Support"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:154
+msgid ""
+"The idea is that the developer of an application sells direct support to the "
+"users of the application. For example, the users of an application buy "
+"support for, let us say, \\$5 a month and get the right to call the "
+"developer directly at specified times of the day, users may post questions "
+"to a specific email address, or the developer can even help the users via a "
+"remote desktop. I realize many developers will not like the idea that users "
+"call them and ask strange questions, but if this means that they earn enough "
+"with the support system to work full-time on their applications, then it "
+"must be a good thing."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:156
+msgid "Supporters"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:165
+msgid ""
+"This is the idea that end-users can become supporters of an application. The "
+"``Become a Supporter'' button would be directly built into the application. "
+"The user then becomes a supporter for a monthly payment of, for example \\"
+"$5, which goes directly to the developer. All the supporters are listed in "
+"the About Dialog of the application together with their photos and real "
+"names. Once a year all supporters are also invited to a special supporter "
+"party together with the developers. It is possible that a developer may be "
+"able to work full-time on an application, if enough users become supporters."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:167
+msgid "Affiliate programs"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:173
+msgid ""
+"Some applications have integrated web services and some of these web "
+"services run affiliate programs. For example, a media player can be "
+"integrated in the Amazon mp3 MusicStore or a PDF reader can be integrated in "
+"an ebook store.  Every time a user buys content via the application, the "
+"developer gets some money."
+msgstr ""
+
+#. type: paragraph{#2}
+#: business/FrankKarlitschek.tex:175
+msgid "App store for application binaries"
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:183
+msgid ""
+"Many people do not know that it is possible to sell binaries of Free "
+"Software.  The GPL only requires that you also provide the source code. So, "
+"it is perfectly legal and OK to sell nicely packaged binaries of our "
+"software. In fact, companies such as Red Hat and Novell already sell our "
+"software in their commercial distributions but the developers do not benefit "
+"from it directly. All the revenue goes to the companies and nothing to the "
+"developers. So we could enable the Free Software developers to sell nicely "
+"packaged, optimized and tested applications to the end-user. This might work "
+"especially well on Mac or Windows. I am sure a lot of users would pay \\$3 "
+"for an Amarok Windows binary, or digiKam for Mac, if all the money went "
+"directly to the developer."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:190
+msgid ""
+"Most of these ideas are not easy to implement. They require changes to our "
+"software, changes to our ways of working and changes among our users who "
+"must be encouraged to show they value the software we create by helping to "
+"fund its development."
+msgstr ""
+
+#. type: Plain text
+#: business/FrankKarlitschek.tex:195
+msgid ""
+"However, the potential benefits are huge. If we can secure revenue streams "
+"for our software we can retain our best contributors and maybe attract new "
+"ones. Our users will get a better experience with faster software "
+"development, the ability to directly influence development through bounties "
+"and better support."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:2
+msgid ""
+"Free Software is no longer just a hobby to be done in your spare time. It is "
+"time to make it a business.  \\clearpage \\clearpage \\chapterwithauthor"
+"{Carlo Daffara}{Free and Open Source-Based Business Models}"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:16
+msgid ""
+"\\authorbio{Carlo Daffara is a researcher in the field of Open Source-based "
+"business models, collaborative development of digital artifacts, and Open "
+"Source software employment in companies. He is part of the editorial review "
+"board of the International Journal of Open Source Software \\& Processes "
+"(IJOSSP) and member of the technical board of two regional Open Source "
+"competence centers, as well as member of the FSFE European Legal Network. He "
+"has been part of SC34 and JTC1 committees in the Italian branch of ISO, "
+"UNINFO; and participated in the Internet Society Public Software working "
+"group, and many other standardization-related initiatives. Previous to that, "
+"Carlo Daffara was the Italian representative at the European Working Group "
+"on Libre Software, the first EU initiative in support of Open Source and "
+"Free Software. He chaired the SME working group of the EU Task Force on "
+"Competitiveness, and the IEEE open source middleware working group of the "
+"Technical Committee on Scalable Computing. He worked as project reviewer for "
+"the EC in the field of international collaboration, software engineering, "
+"open source and distributed systems and was Principal Investigator in "
+"several EU research projects.}"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:25
+msgid ""
+"``How do you make money with Free Software?'' was a very common question "
+"just a few years ago. Today, that question has evolved into ``What are "
+"successful business strategies that can be implemented on top of FLOSS?'' "
+"The question is not as gratuitous as it may seem, as many academic "
+"researchers still write this kind of text: ``Open-source software is "
+"deliberately developed outside of market mechanisms \\dots\\ fails to "
+"contribute to the creation of value in development, as opposed to the "
+"commercial software market \\dots\\ does not generate profit, income, jobs "
+"or taxes \\dots\\ The open-source licenses on the software aim to suppress "
+"any ownership claims to the software and prevent prices from being "
+"established for it. In the end, the developed software cannot be used to "
+"generate profit.'' [Koot 03] or [Eng 10] claims that ``economists showed "
+"that real world open source collaborations rely on many different incentives "
+"such as education, signaling, and reputation.'' (without any mention of "
+"economic incentives). This purely ``social'' view of FLOSS is biased and "
+"wrong, and we will demonstrate that there are economical reasons behind the "
+"success of Free/Open Source businesses that go beyond the purely pro-bono "
+"collaborations."
+msgstr ""
+
+#. type: section{#2}
+#: business/CarloDaffara.tex:27
+msgid "FLOSS and Economic Realities"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:32
+msgid ""
+"In most areas, the use of FLOSS brings a substantial economic advantage, "
+"thanks to the shared development and maintenance costs, already described by "
+"researchers like Gosh, that estimated an average R\\&D cost reduction of 36\\"
+"%.  The large share of ``internal'' FLOSS deployments explains why some of "
+"the economic benefits are not perceived directly in the business service "
+"market."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:48
+msgid ""
+"The FLOSSIMPACT study found in 2006 that companies contributing code to "
+"FLOSS projects have in total at least 570 thousand employees and an annual "
+"revenue of 263B Euro [Gosh 06], thus making Open Source and Free Software "
+"among the most important ICT-based economic phenomenons. It is also "
+"important to recognize that a substantial percentage of this economic value "
+"is not immediately visible in the marketplace, as the majority of software "
+"is not developed with the intent of selling it (the so-called ``shrinkwrap'' "
+"software) but is developed for internal use only. As identified by the "
+"FISTERA EU thematic network in fact the majority of software is developed "
+"for internal use only:"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "Region"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "Proprietary software licenses"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid ""
+"Software services (de\\-vel\\-op\\-ment/\\-cus\\-tom\\-i\\-za\\-ti\\-on)"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "Internal development"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "EU-15"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "19\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "52\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "29\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "US"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "16\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "41\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "43\\%"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "Japan"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "N/A"
+msgstr ""
+
+#. type: tabularx
+#: business/CarloDaffara.tex:48
+msgid "32\\%"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:53
+msgid ""
+"It is clear that what we call ``the software market'' is in reality much "
+"smaller than the real market for software and services, and that 80\\% of it "
+"is invisible. We will see that FLOSS has a major part of the economic market "
+"directly through this ``internal'' development model."
+msgstr ""
+
+#. type: section{#2}
+#: business/CarloDaffara.tex:55
+msgid "Business Models and Value Proposition"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:65
+msgid ""
+"The basic idea behind business models is quite simple: I have something or "
+"can do something -- the ``value proposition'' -- and it is more economical "
+"to pay me to do or get this ``something'' instead of doing it yourself "
+"(sometimes it may even be impossible to find alternatives, as in natural or "
+"man-made monopolies, so the idea of doing it myself may not be applicable).  "
+"There are two possible sources for the value: a property (something that can "
+"be transferred) and efficiency (something that is inherent in what the "
+"company does, and how they do it). With Open Source, usually ``property'' is "
+"non-exclusive (with the exception of what is called ``Open Core'', where "
+"some part of the code is not open at all, and that will be covered later in "
+"the article). Other examples of property are trademarks, patents, licenses "
+"\\dots\\ anything that may be transferred to another entity through a "
+"contract or legal transaction.  Efficiency is the ability to perform an "
+"action with a lower cost (both tangible and intangible), and is something "
+"that follows the specialization in a work area or appears thanks to a new "
+"technology. Examples of the first are simply the decrease in time necessary "
+"to perform an action when you increase your expertise in it; the first time "
+"you install a complex system it may require a lot of effort, and this effort "
+"is reduced the more experience you have with the tasks necessary to perform "
+"the installation itself; examples of the second may be the introduction of a "
+"tool that simplifies the process (for example, through image cloning) and it "
+"introduces a huge discontinuity, a ``jump'' in the graph of efficiency "
+"versus time."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:69
+msgid ""
+"These two aspects are the basis of all the business models that we have "
+"analyzed in the past; it is possible to show that all of them fall in a "
+"continuum between properties and efficiency."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:74
+msgid ""
+"Among the results of our past research project, one thing that we found is "
+"that property-based projects tend to have lower contributions from the "
+"outside, because it requires a legal transaction to become part of the "
+"company's properties; think for example about dual licensing: for his code "
+"to become part of the product source code, an external contributor needs to "
+"sign off his rights to the code, to allow the company to sell the enterprise "
+"version alongside the open one."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:83
+msgid ""
+"On the other hand, right-handed models based purely on efficiency tends to "
+"have higher contributions and visibility, but lower monetization rates. As I "
+"wrote many times, there is no ideal business model, but a spectrum of "
+"possible models, and companies should adapt themselves to changing market "
+"conditions and adapt their model as well. Some companies start as pure "
+"efficiency based, and build an internal property with time; some others may "
+"start as property based, and move to the other side to increase "
+"contributions and reduce the engineering effort (or enlarge the user base, "
+"to create alternative ways of monetizing users)."
+msgstr ""
+
+#. type: section{#2}
+#: business/CarloDaffara.tex:85
+msgid "A Business Models Taxonomy"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:181
+msgid ""
+"The EU FLOSSMETRICS study on Free Software-based business models created, "
+"after an analysis of more than 200 companies, a taxonomy of the main "
+"business models used by Open Source companies; the main models identified in "
+"the market are:"
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Dual licensing: the same software code distributed under the GPL and a "
+"proprietary license. This model is mainly used by producers of developer-"
+"oriented tools and software, and works thanks to the strong coupling clause "
+"of the GPL, that requires derivative works or software directly linked to be "
+"covered under the same license. Companies not willing to release their own "
+"software under the GPL can obtain a proprietary license that provides an "
+"exemption from the distribution conditions of the GPL, which seems desirable "
+"to some parties. The downside of dual licensing is that external "
+"contributors must accept the same licensing regime, and this has been shown "
+"to reduce the volume of external contributions, which are limited mainly to "
+"bug fixes and small additions."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Open Core (previously called ``proprietary value-add'' or ``split Free "
+"Software/proprietary''): this model distinguishes between a basic Free "
+"Software and a proprietary version, based on the Free Software one but with "
+"the addition of proprietary plug-ins. Most companies following such a model "
+"adopt the Mozilla Public License, as it allows explicitly this form of "
+"intermixing, and allows for much greater participation from external "
+"contributions without the same requirements for copyright consolidation as "
+"in dual licensing. The model has the intrinsic downside that the Free "
+"Software product must be valuable to be attractive for the users, i.e. it "
+"should not be reduced to ``crippleware'', yet at the same time should not "
+"cannibalize the proprietary product. This balance is difficult to achieve "
+"and maintain over time; also, if the software is of large interest, "
+"developers may try to complete the missing functionality in Free Software, "
+"thus reducing the attractiveness of the proprietary version and potentially "
+"giving rise to a full Free Software competitor that will not be limited in "
+"the same way."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Product specialists: companies that created or maintain a specific software "
+"project and use a Free Software license to distribute it. The main revenues "
+"are provided from services like training and consulting and follow the "
+"original ``best code here'' and ``best knowledge here'' of the original EUWG "
+"classification [DB 00]. It leverages the assumption, commonly held, that the "
+"most knowledgeable experts on a software are those who have developed it, "
+"and this way can provide services with a limited marketing effort, by "
+"leveraging the free redistribution of the code. The downside of the model is "
+"that there is a limited barrier of entry for potential competitors, as the "
+"only investment that is needed is in the acquisition of specific skills and "
+"expertise on the software itself."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Platform providers: companies that provide selection, support, integration "
+"and services on a set of projects, collectively forming a tested and "
+"verified platform. In this sense, even GNU/Linux distributions were "
+"classified as platforms; the interesting observation is that those "
+"distributions are licensed for a significant part under Free Software "
+"licenses to maximize external contributions, and leverage copyright "
+"protection to prevent outright copying but not ``cloning'' (the removal of "
+"copyrighted material like logos and trademark to create a new "
+"product)\\footnote{Examples of Red Hat clones are CentOS and Oracle Linux.}. "
+"The main value proposition comes in the form of guaranteed quality, "
+"stability and reliability, and the certainty of support for business "
+"critical applications."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Selection/consulting companies: companies in this class are not strictly "
+"developers, but provide consulting and selection/ evaluation services on a "
+"wide range of projects, in a way that is close to the analyst role. These "
+"companies tend to have very limited impact on the communities, as the "
+"evaluation results and the evaluation process are usually a proprietary "
+"asset."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Aggregate support providers: companies that provide a one-stop support on "
+"several separate Free Software products, usually by directly employing "
+"developers or forwarding support requests to second-stage product "
+"specialists."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Legal certification and consulting: these companies do not provide any "
+"specific code activity, but provide support in checking license compliance, "
+"sometimes also providing coverage and insurance for legal attacks; some "
+"companies employ tools for verifying that code is not improperly reused "
+"across company boundaries or in an improper way."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Training and documentation: companies that offer courses, on-line and "
+"physical training, additional documentation or manuals. This is usually "
+"offered as part of a support contract, but recently several large scale "
+"training center networks started offering Free Software-specific courses."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"R\\&D cost sharing: A company or organization may need a new or improved "
+"version of a software package, and fund some consultant or software "
+"manufacturer to do the work. Later on, the resulting software is "
+"redistributed as Open Source to take advantage of the large pool of skilled "
+"developers who can debug and improve it. A good example is the Maemo "
+"platform, used by Nokia on its Mobile Internet Devices (like the N810); "
+"within Maemo, only 7.5\\% of the code is proprietary, with a reduction in "
+"costs estimated around 228M\\$ (and a reduction in time-to-market of one "
+"year). Another example is the Eclipse ecosystem, an integrated development "
+"environment (IDE) originally released as Free Software by IBM and later "
+"managed by the Eclipse Foundation. Many companies adopted Eclipse as a basis "
+"for their own product, and this way reduced the overall cost of creating a "
+"software product that provides in some way developer-oriented functionality. "
+"There is a large number of companies, universities and individuals that "
+"participate in the Eclipse ecosystem. As recently measured, IBM contributes "
+"around 46\\% of the project, with individuals accounting for 25\\%, and a "
+"large number of companies like Oracle, Borland, Actuate and many others with "
+"percentages that go from 1 to 7\\%. This is similar to the results obtained "
+"from analysis of the Linux kernel, and show that when there is a healthy and "
+"large ecosystem the shared work reduces engineering cost significantly; in "
+"[Gosh 06] it is estimated that it is possible to obtain savings in terms of "
+"software research and development of 36\\% through the use of Free Software; "
+"this is, in itself, the largest actual ``market'' for Free Software, as "
+"demonstrated by the fact that the majority of developers are using at least "
+"some Free Software within their own code (56.2\\%, as reported in [ED 05]). "
+"Another excellent example of ``coopetition'' among companies is the WebKit "
+"project, the HTML rendering engine that is at the basis of the Google Chrome "
+"browser, Apple Safari and is used in the majority of mobile devices. In the "
+"project, after an initial 1 year delay, the number of outside contributions "
+"start to become significant, and after a little more than 1 and a half years "
+"they surpass those performed by Apple by a substantial margin - thus "
+"reducing the maintenance costs and the engineering effort, thanks to the "
+"division of work among co-developers."
+msgstr ""
+
+#. type: itemize
+#: business/CarloDaffara.tex:181
+msgid ""
+"Indirect revenues: A company may decide to fund Free Software projects if "
+"those projects can create a significant revenue source for related products, "
+"not directly connected with source code or software. One of the most common "
+"cases is the writing of software needed to run hardware, for instance, "
+"operating system drivers for specific hardware. In fact, many hardware "
+"manufacturers are already distributing gratis software drivers. Some of them "
+"are already distributing some of their drivers (specially those for the "
+"Linux kernel) as Free Software. The loss-leader is a traditional commercial "
+"model, common also outside of the world of software; in this model, effort "
+"is invested in a FLOSS project to create or extend another market under "
+"different conditions. For example, hardware vendors invest in the "
+"development of software drivers for Free Software operating systems (like "
+"GNU/Linux) to extend the market of the hardware itself.  Other ancillary "
+"models are for example those of the Mozilla foundation, which obtains a non-"
+"trivial amount of money from a search engine partnership with Google (an "
+"estimated 72M\\$ in 2006), while SourceForge/OSTG receives the majority of "
+"revenues from e-commerce sales of the affiliate ThinkGeek site."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:189
+msgid ""
+"Some companies have more than one principal model, and thus are counted "
+"twice; in particular, most dual licensing companies are also selling support "
+"services, and thus are marked as both. Also, product specialists are counted "
+"only when there is a demonstrable participation of the company in the "
+"project as ``main committer''; otherwise, the number of specialists would be "
+"much greater, as some projects are the center of commercial support for many "
+"companies (good examples include OpenBravo or Zope)."
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:198
+msgid ""
+"Another relevant consideration is the fact that platform providers, while "
+"limited in number, tend to have a much larger revenue rate than both "
+"specialists or open core companies. Many researchers are trying to identify "
+"whether there is a more ``efficient'' model among all those surveyed; what "
+"we found is that the most probable future outcome will be a continuous shift "
+"across models, with a long-term consolidation of development consortia (like "
+"the Eclipse or Apache consortium) that provide strong legal infrastructure "
+"and development advantages, and product specialists that provide vertical "
+"offerings for specific markets."
+msgstr ""
+
+#. type: section{#2}
+#: business/CarloDaffara.tex:200
+msgid "Conclusions"
+msgstr ""
+
+#. type: Plain text
+#: business/CarloDaffara.tex:213
+msgid ""
+"FLOSS not only allows for sustainable, and even very large market presence "
+"(Red Hat is already quite close to 1B\\$ in annual revenues) but also many "
+"different models that are totally impossible with proprietary software. The "
+"fact that FLOSS is a non-rival good also facilitates cooperation between "
+"companies, both to increase the geographic base and to be able to engage "
+"large scale contracts that may require multiple competencies, both "
+"geographical (same product or service, different geographical areas); "
+"``vertical'' (among products)  or ``horizontal'' (among activities). This "
+"facilitation of new ecosystems is one of the reasons why FLOSS is now "
+"present in nearly all the IT infrastructures in the world, increasing value "
+"and helping companies and Public Administrations in reducing costs and "
+"collaborating together for better software."
+msgstr ""
+
+#. type: section{#2}
+#: business/CarloDaffara.tex:215
+msgid "References"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid ""
+"$[DB 00]$ Daffara, C. Barahona, J.B. Free Software/Open Source: Information "
+"Society Opportunities for Europe? working paper, \\url{http://eu.conecta.it} "
+"paper, OSSEMP workshop, Third international conference on open source. "
+"Limerick 2007"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid "$[ED 05]$ Evans Data, Open Source Vision report, 2005"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid ""
+"$[Eng 10]$ Engelhardt S. Maurer S. The New (Commercial) Open Source: Does it "
+"Really Improve Social Welfare? Goldman School of Public Policy Working Paper "
+"No. GSPP10-001, 2010"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid ""
+"$[Gar 06]$ Gartner Group, Open source going mainstream. Gartner report, 2006"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid ""
+"$[Gosh 06]$ Gosh, et al. Economic impact of FLOSS on innovation and "
+"competitiveness of the EU ICT sector.  \\url{http://bit.ly/cNwUz0}"
+msgstr ""
+
+#. type: itemize
+#: business.tex:4
+msgid ""
+"$[Koot 03]$ Kooths, S. Langenfurth, M. Kalwey, N. Open-Source Software: An "
+"Economic Assessment Technical report, Muenster Institute for Computational "
+"Economics (MICE), University of Muenster"
+msgstr ""

@@ -1,0 +1,729 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 10.documentationsupport\n"
+"POT-Creation-Date: 2014-01-06 14:48+0800\n"
+"PO-Revision-Date: 2014-01-06 18:11+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"Language-Team: open-advice-translation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+
+#. type: part{#2}
+#: documentationsupport/AtulJha.tex:2
+msgid "Documentation and Support"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:2
+msgid "\\chapterwithauthor{Atul Jha}{Life-Changer Documentation for Novices}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:6
+msgid ""
+"\\authorbio{Atul Jha has been using Free Software since 2002. He is working "
+"as an Application Specialist at CSS Corp, Chennai, India. He loves visiting "
+"colleges, meeting students and spreading the word about Free Software.}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:14
+msgid ""
+"\\noindent{}In 2002, the cyber cafe was the place to surf Internet as dial "
+"up connections were very costly. During that time, Yahoo chat was very "
+"popular and I used to visit the \\#hackers channel there. There were some "
+"crazy people there who said they would hack my password. I was very eager to "
+"know more about hacking and become one of them. The next day I went to the "
+"cyber cafe again and typed ``how to become a hacker'' on Yahoo search. The "
+"very first URL was of Eric S. Raymond. I was jumping with joy that I had the "
+"magic key."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:21
+msgid ""
+"I started reading the book and to my surprise the definition of hacker was "
+"``someone who likes solving problems and overcoming limits''. It also said "
+"``hackers build things, crackers break them.'' Alas I wanted to be a "
+"cracker, but this book brought me to the other world of hacking. I kept "
+"reading the book and encountered various new terms like GNU/Linux, mailing "
+"list, Linux user group, IRC, Python and many more."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:27
+msgid ""
+"After searching further, I was able to find a Linux user group in Delhi and "
+"got a chance to meet real hackers. I felt like I was in an alien world as "
+"they were talking about Perl, RMS, the kernel, device drivers, compilation "
+"and many other things which were going over my head."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:38
+msgid ""
+"I was in a different world. I preferred coming back home and finding some "
+"Linux distribution from somewhere. I was too scared to ask for one from "
+"them. I was nowhere near their level, a total dumb newbie. I managed to get "
+"some distribution by paying 1000 Rs to a guy who used to have a business "
+"selling distribution media. I tried many of them and was not able to get my "
+"sound working. This time I decided to visit an IRC channel from the cyber "
+"cafe. I found \\#linux-india and jumped over asking ``my sound nt wrking'', "
+"then came instructions like ``no SMS speak'' and ``RTFM''. It scared me more "
+"and took some time to figure out that RTFM meant ``read the f*** manual''."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:40
+msgid "I was terrified and preferred staying away from IRC for a few weeks."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:49
+msgid ""
+"One fine day I got an email about a monthly Linux user group meetup. I "
+"needed answers for my many questions. I met Karunakar there and he asked me "
+"to bring my computer to his office as he had the whole Debian repository "
+"available there. Debian was new for me, but I was satisfied with the fact "
+"that finally I will be able to play music on Linux. The next day I was in "
+"his office after carrying my computer on the over-crowded bus -- it was fun. "
+"In a few hours, Debian was up and running on my system. He also gave me a "
+"few books for beginners and a command reference."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AtulJha.tex:59
+msgid ""
+"The next day again in the cyber cafe, I read another of Eric S. Raymond's "
+"essays called \\textit{How To Ask Questions The Smart Way}. I was still "
+"visiting the \\#hackers channel on Yahoo chat where I made a very good "
+"friend, Krish, who suggested I buy a book called \\textit{Linux Command "
+"Reference}. After spending some time with those books and looking things up "
+"at tldp.org I was a newbie Linux user. I never looked back. I also attended "
+"a Linux conference where I met a few hackers from Yahoo and I was really "
+"inspired after attending their talk. Later after a few years I had a chance "
+"to meet Richard Stallman who is more like a god for many people in Free "
+"Software community."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:2
+msgid ""
+"I would admit that the documentation of Eric S. Raymond changed my life and "
+"that of many others for sure. After all these years in the Free Software "
+"community, I have realized documentation is the key for participation of "
+"newbies in this awesome Open Source community. My 1\\$ advice to all "
+"developers would be: please document even the smallest work you do as the "
+"world is full of newbies who would love to understand it. My blog has a wide "
+"range of postings, from simple ones like enabling the spell checker in "
+"OpenOffice and ones about installing Django in a virtual environment.  "
+"\\clearpage \\clearpage \\chapterwithauthor{Rich Bowen}{Good Manners Matter}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:8
+msgid ""
+"\\authorbio{Rich Bowen has been working on Free/Open Source Software for "
+"about 15 years.  Most of this time has been spent on the Apache HTTP Server, "
+"but he has also worked on Perl, PHP, and a variety of web applications. He "
+"is the author of Apache Cookbook, The Definitive Guide to Apache mod"
+"\\_rewrite, and a variety of other books, and makes frequent appearances at "
+"various technology conferences.}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:13
+msgid ""
+"\\noindent{}I started working on the Apache HTTP Server documentation "
+"project in September of 2000. At least, that is when I made my first commit "
+"to the docs. Prior to that, I had submitted a few patches via email, and "
+"someone else had committed them."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:16
+msgid ""
+"Since that time, I have made a little over a thousand changes to the Apache "
+"HTTP Server docs, along with just a handful of changes to the server code "
+"itself."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:22
+msgid ""
+"People get involved in Free/Open Source Software for a lot of different "
+"reasons.  Some are trying to make a name for themselves. Most are trying to "
+"``scratch an itch'', as the saying goes -- trying to get the software to do "
+"something that it does not currently do, or create a new piece of software "
+"to fill a need that they have."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:28
+msgid ""
+"I got involved in software documentation because I had been roped into "
+"helping write a book, and the existing documentation was pretty awful. So, "
+"in order to make the book coherent, I had to talk with various people on the "
+"project to help make sense of the documentation. In the process of writing "
+"the book, I made the documentation better, purely to make my work easier."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:34
+msgid ""
+"Around that same time, Larry Wall, the creator of the Perl programming "
+"language, was promoting the idea that the three primary virtues of a "
+"programmer were laziness, impatience and hubris. Larry was making very valid "
+"points, and Larry has a sense of humor. A significant portion of the "
+"programmer community, however, take his words as license to be jerks."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:39
+msgid ""
+"What I have learned over my years in Open Source documentation is that the "
+"three primary virtues of a documentation specialist, and, more generally, of "
+"customer support, are laziness, patience, and humility. And that the over-"
+"arching virtue that ties these all together is respect."
+msgstr ""
+
+#. type: section{#2}
+#: documentationsupport/RichBowen.tex:41
+msgid "Laziness"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:48
+msgid ""
+"We write documentation so that we do not have to answer the same questions "
+"every day for the rest of our lives. If the documentation is inadequate, "
+"people will have difficulty using the software. While this may be a recipe "
+"for a lucrative consulting business, it is also a recipe for a short-lived "
+"software project, as people will give up in frustration and move on to "
+"something that they do not have to spend hours figuring out."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:50
+msgid "Thus, laziness is the first virtue of a documentation writer."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:57
+msgid ""
+"When a customer asks a question, we should answer that question thoroughly.  "
+"Exhaustively, even. We should then record that answer for posterity. We "
+"should illuminate it with examples, and, if possible, diagrams and "
+"illustrations. We should make sure that the prose is clear, grammatically "
+"correct, and eloquent.  We should then add this to the documentation in a "
+"place that is easy to find, and copiously cross referenced from everywhere "
+"that someone might look for it."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:62
+msgid ""
+"The next time someone asks this same question, we can answer them with a "
+"pointer to the answer. And questions that they may have after reading what "
+"has already been written should be the source of enhancements and "
+"annotations to what has already been written."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:65
+msgid ""
+"This is the true laziness. Laziness does not mean merely shirking work. It "
+"means doing the work so well that it never has to be done again."
+msgstr ""
+
+#. type: section{#2}
+#: documentationsupport/RichBowen.tex:72
+msgid "Patience"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:72
+msgid ""
+"There is a tendency in the technical documentation world to be impatient and "
+"belligerent. The sources of this impatience are numerous. Some people feel "
+"that, since they had to work hard to figure this stuff out, you should too. "
+"Many of us in the technical world are self-taught, and we have very little "
+"patience for people who come after us and want a quick road to success."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:75
+msgid ""
+"I like to refer to this as the ``get off my lawn'' attitude. It is not very "
+"helpful."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:79
+msgid ""
+"If you cannot be patient with the customer, then you should not be involved "
+"in customer support. If you find yourself getting angry when someone does "
+"not get it, you should perhaps let someone else take the question."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:85
+msgid ""
+"Of course, that is very easy to say, and a lot harder to do. If you find "
+"yourself in the position of being an expert on a particular subject, people "
+"are inevitably going to come to you with their questions.  You are obliged "
+"to be patient, but how do you go about achieving this? That comes with "
+"humility."
+msgstr ""
+
+#. type: section{#2}
+#: documentationsupport/RichBowen.tex:93
+msgid "Humility"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:93
+msgid ""
+"I had been doing technical support, particularly on mailing lists, for about "
+"two years, when I first started attending technical conferences. Those first "
+"few years were a lot of fun. Idiots would come onto a mailing list, and ask "
+"a stupid question that a thousand other losers had asked before them. If "
+"they had taken even two minutes to just look, they would have found all the "
+"places the question had been answered before. But they were too lazy and "
+"dumb to do that."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:95
+msgid "Then I attended a conference, and discovered a few things."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:105
+msgid ""
+"First, I discovered that the people asking these questions were people. They "
+"were not merely a block of monospaced black text on a white background. They "
+"were individuals. They had kids. They had hobbies. They knew so much more "
+"than I did about a whole range of things. I met brilliant people for whom "
+"technology was a tool to accomplish something non-technical. They wanted to "
+"share their recipes with other chefs. They wanted to help children in west "
+"Africa learn how to read. They were passionate about wine, and wanted to "
+"learn more. They were, in short, smarter than I am, and my arrogance was the "
+"only thing between them and further success."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:113
+msgid ""
+"When I returned from that first conference, I saw the users mailing list in "
+"an entirely different light. These were no longer idiots asking stupid "
+"questions.  These were people who needed just a little bit of my help so "
+"that they could get a task done, but, for the most part, their passions were "
+"not technology.  Technology was just a tool. So if they did not spend hours "
+"reading last year’s mailing list archives, and chose instead to ask the "
+"question afresh, that was understandable."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:118
+msgid ""
+"And, surely, if on any given day it is irritating to have to help them, the "
+"polite thing to do is to step back and let someone else handle the question, "
+"rather than telling them what an imbecile they are. And, too, to remember "
+"all of the times I have had to ask the stupid questions."
+msgstr ""
+
+#. type: section{#2}
+#: documentationsupport/RichBowen.tex:124
+msgid "Politeness and Respect"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:124
+msgid ""
+"In the end, this all comes down to politeness and respect. Although I have "
+"talked mainly here about technical support, the documentation is simply a "
+"static form of technical support. It answers the questions that you expect "
+"people to have, and it provides these answers in a semi-permanent form for "
+"reference."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:131
+msgid ""
+"When writing this documentation, you should attempt to strike the balance "
+"between assuming that your reader is an idiot, and assuming that they should "
+"already know everything. At the one end, you are telling them to make sure "
+"their computer is plugged in. At the other end you are using words like "
+"``simply'' and ``just'' to make it sound like every task is trivial, leaving "
+"the reader feeling that they are probably not quite up to the task."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:137
+msgid ""
+"This involves having a great deal of respect and empathy for your reader, "
+"and endeavoring to remember what it was like to be in the beginner and "
+"intermediate stages of learning a new software package. Examples of bad "
+"documentation are so prevalent, however, that this should not be a terribly "
+"difficult memory to rekindle. Chances are that you have felt that way within "
+"the last week."
+msgstr ""
+
+#. type: section{#2}
+#: documentationsupport/RichBowen.tex:143
+msgid "I wish ..."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/RichBowen.tex:143
+msgid ""
+"I wish that when I started working on Open Source documentation I had been "
+"less arrogant. I look back at some of the things that I have said on "
+"publicly-archived mailing lists, forever enshrined on the Internet, and am "
+"ashamed that I could be that rude."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:2
+msgid ""
+"The greatest human virtue is politeness. All other virtues flow from it. If "
+"you cannot be polite, then all of the things that you accomplish amount to "
+"little.  \\clearpage \\clearpage \\chapterwithauthor{Anne Gentle}"
+"{Documentation and My Former Self}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:13
+msgid ""
+"\\authorbio{Anne Gentle is the fanatical technical writer and community "
+"documentation coordinator at Rackspace for OpenStack, an open source cloud "
+"computing project. Prior to joining OpenStack, Anne worked as a community "
+"publishing consultant, providing strategic direction for professional "
+"writers who want to produce online content with wikis with user-generated "
+"pages and comments. Her enthusiasm for community methods for documentation "
+"prompted her to write a book about using social publishing techniques for "
+"technical documentation titled Conversation and Community: The Social Web "
+"for Documentation. She also volunteers as a documentation maintainer for "
+"FLOSS Manuals, which provides open source documentation for open source "
+"projects.}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:19
+msgid ""
+"\\noindent{}An intriguing premise -- spill my guts about what I wish I knew "
+"about open source and documentation. Rather than tell you what I wish you "
+"knew about open source and documentation, I must tell you what I wish my "
+"former self knew. The request evokes a sense of regret or remorse or even "
+"horrified notions of ``What was I thinking?''"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:35
+msgid ""
+"In my case, my former self was just five years younger than now, a thirty-"
+"something established professional. In contrast, others may recall their "
+"first experiences with open source as a teenager. Jono Bacon in his book, "
+"\\textit{Art of Community}, recounts standing in front of an apartment door "
+"with his heart pounding, about to meet someone he had only talked to online "
+"through an open source community. I have experienced that first in-person "
+"meeting with people I have only met online, but my first serious foray into "
+"the world of open source documentation came when I responded to an emailed "
+"request for help. The email was from a former coworker, asking for "
+"documentation help on the XO laptop, the charter project for One Laptop Per "
+"Child. I pondered the perceived opportunity, talking to my friends and "
+"spouse, wondering if it would be a good chance to experiment with new doc "
+"techniques and try something I had never done before, wiki-based "
+"documentation. Since that first experimentation, I have joined OpenStack, an "
+"open source project for cloud computing software, working full time on "
+"community documentation and support efforts."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:52
+msgid ""
+"I immediately think of the many contradictions I have found along the way. I "
+"have uncovered surprising points and counterpoints for each observation. For "
+"example, documentation absolutely matters for support, education, adoption, "
+"yet, an open source community will march on despite a lack of documentation "
+"or completely flawed docs. Another seeming juxtaposition of values is that "
+"documentation should be a good onboarding task, a starting point for new "
+"volunteers, yet new community members know so little that they can not "
+"possibly write or even edit effectively, nor are newbies familiar with the "
+"various audiences served by doc. Word on the street lately is that "
+"``developers should write developer docs'' because they know the audience "
+"well and can serve others like themselves best. In my experience, new, fresh "
+"eyes are welcome to the project and some people are able to write down and "
+"share with others those fresh, empathetic eyes. You do not want to create a "
+"``newbies-only'' culture around docs, though, because it is important that "
+"the key technical community members support doc efforts with their "
+"contributions and encourage others to do so."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:64
+msgid ""
+"A bit of a dirty little secret for documentation related to open source "
+"projects is that the lines drawn between official docs and unofficial doc "
+"projects are blurred at best. I wish I had known that documentation efforts "
+"get forked all the time, and new web sites can sprout up where there were "
+"none. Sprawling docs do not offer the most efficient way for people to learn "
+"about the project or software, but a meandering walk through a large set of "
+"web documentation might be more telling to those who want to read between "
+"the lines and interpret what is going on in the community through the "
+"documentation. Lots of forking and multiple audiences served may mean that "
+"the product is complex and serves many.  It also can mean that no strong "
+"core documentation ethos exists in the community, so unorchestrated efforts "
+"are the norm."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/AnneGentle.tex:79
+msgid ""
+"I wish when I started that I had some ability to gather the ``social "
+"weather'' of an online community. When you walk into a restaurant with white "
+"tablecloths and couples dining and a low-level volume of conversations, the "
+"visual and auditory information you receive sets the ambiance and gives you "
+"certain clues about what to expect from your dining experience. You can "
+"translate this concept of social weather to online communities as well. An "
+"open source community gives certain clues in their mailing lists, for "
+"example. A list landing page prefixed with a lot of rules and policy around "
+"posting will be heavy in governance. A mailing list that has multiple posts "
+"emphasizing that ``there are no dumb questions'' is more approachable for "
+"new doc writers. I also wish I knew of a way to not only do a content audit "
+"-- a listing of the content available for the open source project -- but "
+"also to do a community audit -- a listing of the influential members in the "
+"open source community, be they contributors or otherwise."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:2
+msgid ""
+"Lastly, an observation about open source and doc that I have enjoyed "
+"validating is the concept that documentation can occur in ``sprints'' -- in "
+"short bursts of energy with a focused audience and outline and resulting in "
+"a known set of documentation. I was so happy to hear at a talk at SXSW "
+"Interactive that sprints are perfectly acceptable for online collaboration "
+"and you could expect lags in energy level, and that is okay. Software "
+"documentation is often fast and furious in the winding-down-days of a "
+"release cycle, and that is acceptable in open source, community-based "
+"documentation. You can be strategic and coordinated and still offer a high-"
+"energy event around documentation. These are exciting times in open source, "
+"and my former self felt it! It is a good thing you can keep learning and "
+"growing your former self into your current self with the collection of "
+"advice to tote along with you.  \\clearpage \\clearpage \\chapterwithauthor"
+"{Shaun McCance}{Stop Worrying and Love the Crowd}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:9
+msgid ""
+"\\authorbio{Shaun McCance has been involved in GNOME documentation since "
+"2003 as a writer, community leader, and tool developer. He has spent most of "
+"that time wondering how to get more people to write better documentation, "
+"with some success along the way. He offers his experience in community "
+"documentation through his consulting company, Syllogist.}"
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:15
+msgid ""
+"\\noindent{}Something big happened as I was preparing to write this: GNOME 3 "
+"was released.  This was the first major GNOME release in nine years. "
+"Everything was different, and all of the existing documentation had to be "
+"rewritten. At the same time, we were changing the way we write "
+"documentation. We had thrown away our old manuals and started fresh with "
+"dynamic, topic-oriented help using Mallard."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:21
+msgid ""
+"A few weeks before the release, a group of us got together to work on the "
+"documentation. We worked all day, planning, writing, and revising. We wrote "
+"hundreds of pages against a moving target of late-cycle software changes. We "
+"had people contributing remotely, submitting new pages and correcting "
+"existing content. It was the most productive I had ever seen our "
+"documentation team."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:26
+msgid ""
+"What did we finally get right? A lot of factors came together, and I could "
+"write an entire book about all the nuances of Open Source documentation.  "
+"But the most important thing I did was get out of the way and let others do "
+"the work. I learned to delegate, and to delegate the right way."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:32
+msgid ""
+"Rewind eight years. I began to get involved with GNOME documentation in "
+"2003.  I did not have any real experience as a technical writer at the time. "
+"My day job had me working on publications tools, and I started working on "
+"the tools and help viewer used for GNOME documentation. It was not long "
+"before I was pulled into writing."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:38
+msgid ""
+"In those days, much of our documentation was handled by professional tech "
+"writers inside Sun. They would take on a manual, write it, review it, and "
+"commit it to our CVS repository. We could all look at it after the fact, "
+"learn from it, and make corrections to it. But there was no concerted effort "
+"to involve people in the writing process."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:46
+msgid ""
+"It is not that the Sun writers were trying to be protective or hide things "
+"behind closed doors. These were professional tech writers. They knew how to "
+"do their job. They were good at it. Other people could take on other "
+"manuals, but they would write their assignments the way they knew how.  "
+"Running each page by a group of untrained contributors, however "
+"enthusiastic, is inviting the very worst kind of bikeshedding\\footnote{\\url"
+"{https://secure.wikimedia.org/wiktionary/en/wiki/bikeshedding}} imaginable. "
+"It is just not productive."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:51
+msgid ""
+"Inevitably, the winds shifted inside Sun and their tech writers were "
+"assigned to other projects. That left us without our most prolific and "
+"knowledgeable writers. Worse than that, we were left with no community, "
+"nobody to pick up the pieces."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:58
+msgid ""
+"There are ideas and processes that are standard in the corporate world.  I "
+"have worked in the corporate world. I do not think anybody questions these "
+"ideas. People do their job. They take assignments and finish them.  They ask "
+"others for reviews, but they do not farm out their work to newcomers and "
+"less experienced writers. The best writers will probably write the most."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:63
+msgid ""
+"These are all really obvious ideas, and they fail miserably in a community-"
+"based project. You will never develop a community of contributors if you do "
+"everything yourself. In a software project, you might get contributors who "
+"are skilled and persistent enough to contribute. In documentation, that "
+"almost never happens."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:70
+msgid ""
+"Most people who try to contribute to documentation do not do it because they "
+"want to be tech writers, or even because they love to write. They do it "
+"because they want to contribute, and documentation is the only way they "
+"think they know how. They do not know how to code. They are not good at "
+"graphic design. They are not fluent enough in another language to "
+"translate.  But they know how to write."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:77
+msgid ""
+"This is where professional writers roll their eyes. The fact that you are "
+"literate does not mean you can write effective user documentation. It is not "
+"just about putting words on paper. You need to understand your users, what "
+"they know, what they want, where they are looking. You need to know how to "
+"present information in a way they will understand, and where to put it so "
+"they will actually find it."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:81
+msgid ""
+"Tech writers will tell you that tech writing is not something just anybody "
+"can do. They are right. And that is exactly why the most important thing "
+"professional writers can do for the community is not write."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:87
+msgid ""
+"The key to building a successful documentation community is to let others "
+"make the decisions, do the work, and own the results. It is not enough to "
+"just give them busy work. The only way they will care enough to stick around "
+"is if they are personally invested. A sense of ownership is a powerful "
+"motivator."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:93
+msgid ""
+"But if you only get inexperienced writers, and you hand all the work over to "
+"them, how can you ensure you create quality documentation? Uncontrolled "
+"crowd-sourcing does not create good results. The role of an experienced "
+"writer in a community is as a teacher and mentor.  You have to teach them to "
+"write."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:101
+msgid ""
+"Start by involving people early in the planning. Always plan from the bottom "
+"up. Top-down planning is not conducive to collaboration. It is hard to "
+"involve people in crafting a high-level overview when not everybody has the "
+"same sense of what goes into that overview. But people can think of the "
+"pieces. They can think about individual topics to write, tasks people "
+"perform, problems people have, questions people ask. They can look at forums "
+"and mailing lists to see what users ask."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:106
+msgid ""
+"Write a few pages yourself. It gives people something to imitate. Then dish "
+"out everything else. Let other people own topics, or entire groups of "
+"topics. Make it clear what information they need to provide, but let them "
+"write. People will learn by doing."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:112
+msgid ""
+"Be constantly available to help them out and answer questions. At least half "
+"the time I spend on documentation is spent answering questions so that other "
+"people can get work done. When people submit drafts, review the drafts and "
+"discuss critiques and corrections with them. Do not just make the "
+"corrections yourself."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport/ShaunMcCance.tex:118
+msgid ""
+"This still leaves you handling the big picture. People are filling in parts "
+"of the puzzle, but you are still putting it together. As people get more "
+"experienced, they will naturally take bigger and bigger pieces.  Encourage "
+"people to get more involved. Give them more to do. Get them to help you help "
+"more writers. The community will run itself."
+msgstr ""
+
+#. type: Plain text
+#: documentationsupport.tex:5
+msgid ""
+"Eight years later, GNOME has managed to create a documentation team that "
+"runs itself, deals with problems, makes decisions, produces great "
+"documentation, and constantly brings in new contributors. Anybody can join "
+"in and make a difference, and that is the key to a successful Open Source "
+"community."
+msgstr ""
