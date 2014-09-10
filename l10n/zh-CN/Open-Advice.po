@@ -25,7 +25,7 @@ msgstr "开源建议书"
 #. type: newcommand{#4}
 #: Open-Advice.tex:29
 msgid "FOSS: What We Wish We Had Known When We Started"
-msgstr ""
+msgstr "自由开源软件：投入之后才知道的那些"
 
 #. type: newcommand{#4}
 #: Open-Advice.tex:29
