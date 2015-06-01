@@ -19,8 +19,8 @@ COVER 	= "frontcover.jpg"
 ####### Helpers #######
 
 %.pdf: %.tex
-	pdflatex $<
-	pdflatex $<
+	xelatex $<
+	xelatex $<
 
 %.html:	%.tex
 	htlatex $< "xhtml,fn-in"

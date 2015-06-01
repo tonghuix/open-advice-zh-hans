@@ -1,14 +1,26 @@
-\documentclass[a5paper,DIV=12,BCOR=9mm,headsepline,headings=small,cleardoubleempty,10pt]{scrbook}
+\documentclass[a5paper,DIV=12,BCOR=9mm,headsepline,headings=small,cleardoubleempty,10pt,hyperref,UTF8]{scrbook}
 \usepackage{scrpage2}
 \usepackage{Open-Advice}
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp}
-\usepackage{CJKutf8,CJKnumb,CJKspace}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{tabularx}
 \usepackage{indentfirst}
 %\usepackage[english]{babel}
+
+\usepackage[CJKspace]{xeCJK}
+
+\setCJKmainfont
+    [
+      BoldFont   = WenQuanYi Micro Hei,
+      ItalicFont = AR PL KaitiM GB,
+    ]
+    {AR PL SungtiL GB}
+\setCJKsansfont{WenQuanYi Zen Hei}
+\setCJKmonofont{WenQuanYi Micro Hei Mono}
+
+
 \usepackage[raiselinks=true,
 bookmarks=true,
 bookmarksopenlevel=1,
@@ -72,9 +84,6 @@ pdfborder={0 0 0.5}
 \setlength{\emergencystretch}{0.25em}
 \settowidth{\parindent}{2em}
 \begin{document}
-\begin{CJK}{UTF8}{gbsn}
-\CJKindent
-\CJKtilde
 
 \ifusinght
 \else
@@ -105,5 +114,4 @@ pdfborder={0 0 0.5}
 \input{legalpolicy}
 \input{closingwords}
 \backmatter
-\end{CJK}
 \end{document}
